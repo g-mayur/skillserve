@@ -5,7 +5,7 @@ body {
     background-color: var(--white);
     font-family: var(--primary-font);
     height: 100vh;
-    color: var(--text-color);
+    color: var(--medium-black);
 }
 :root {
     --white: #ffffff;
@@ -16,6 +16,7 @@ body {
     --navy-blue: #000080;
     --blue: #0B69C7;
     --pink: #FF3777;
+    --light-pink:#FDF1EC;
     --skyblue: #03A9F4;
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
@@ -50,12 +51,13 @@ a{
 }
 ol, ul {
     padding-left: 0;
+    margin: 0;
 }
 .cs__paragraph-text{
   color: var(--medium-black);
   font-weight: 400;
   font-size: 24px;
-  line-height: 42px;
+  line-height: 36px;
 }
 .cs__tag{
     background-color: #FDECE6;
@@ -63,7 +65,7 @@ ol, ul {
     color: var(--medium-black);
     border-radius: 100px;
 }
-.cs__fill-btn {
+.cs__fill-btn,.cs__fillwhite-btn {
     color: var(--white) !important;
     font-size: 18px;
     line-height: 16px;
@@ -74,6 +76,7 @@ ol, ul {
     transition: all 0.2s ease-in-out;
     border-radius: 100px;
     text-decoration: unset;
+    display: inline-block;
 }
 .cs__fill-btn span {
     display: inline-block;
@@ -81,15 +84,8 @@ ol, ul {
 }
 .cs__fillwhite-btn{
     color:  var(--orange) !important;
-    font-size: 18px;
-    line-height: 16px;
-    font-weight: 600;
     background-color: var(--white);
-    padding: 10px 30px;
     border: 1px solid var(--white);
-    transition: all 0.2s ease-in-out;
-    border-radius: 100px;
-    text-decoration: unset;
 }
 .cs__subtitle{
     color: var(--orange);
@@ -98,16 +94,29 @@ ol, ul {
     font-weight: 500;
     text-transform: capitalize;
 }
+.cs__fillwhite-btn img {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(71%) saturate(1924%) hue-rotate(344deg) brightness(96%) contrast(93%);
+}
 /* common: Style End */
-/* Responsive : Style Start */
-@media (min-width: 1400px) {
+/* Responsive: Style Start */
+@media (max-width: 991px) {
     .container {
-        max-width: 1312px;
+        max-width: 100%;
+        padding: 0 40px;
+        width: 100%;
     }
 }
-@media (min-width: 1700px) {
+@media (max-width: 767px) {
     .container {
-        max-width: 1650px;
+        padding: 0 20px;
+    }
+    .cs__paragraph-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .h2, h2 {
+        font-size: 36px;
+        line-height: 42px;
     }
 }
-/* Responsive : Style End */
+/* Responsive: Style End */
