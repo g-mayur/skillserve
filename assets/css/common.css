@@ -1,0 +1,113 @@
+/* common: Style start */
+body {
+    position: relative;
+    font-weight: 400;
+    background-color: var(--white);
+    font-family: var(--primary-font);
+    height: 100vh;
+    color: var(--text-color);
+}
+:root {
+    --white: #ffffff;
+    --orange: #ED632B;
+    --medium-black: #222222;
+    --black: #000000;
+    --gray:#B4B4B4;
+    --navy-blue: #000080;
+    --blue: #0B69C7;
+    --pink: #FF3777;
+    --skyblue: #03A9F4;
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
+}
+.h1,h1{
+    font-size: 52px;
+}
+.h2,h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: var(--medium-black);
+    text-transform: capitalize;
+}
+.h3,h3{
+    font-size: 36px;
+}
+.h4,h4{
+    font-size: 32px;
+}
+.h5,h5{
+    font-size: 28px;
+}
+.h6,h6{
+    font-size: 26px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: unset;
+}
+ol, ul {
+    padding-left: 0;
+}
+.cs__paragraph-text{
+  color: var(--medium-black);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+}
+.cs__tag{
+    background-color: #FDECE6;
+    padding: 5px 18px;
+    color: var(--medium-black);
+    border-radius: 100px;
+}
+.cs__fill-btn {
+    color: var(--white) !important;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+    background-color: var(--orange);
+    padding: 10px 30px;
+    border: 1px solid var(--orange);
+    transition: all 0.2s ease-in-out;
+    border-radius: 100px;
+    text-decoration: unset;
+}
+.cs__fill-btn span {
+    display: inline-block;
+    padding-right: 10px;
+}
+.cs__fillwhite-btn{
+    color:  var(--orange) !important;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+    background-color: var(--white);
+    padding: 10px 30px;
+    border: 1px solid var(--white);
+    transition: all 0.2s ease-in-out;
+    border-radius: 100px;
+    text-decoration: unset;
+}
+.cs__subtitle{
+    color: var(--orange);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* common: Style End */
+/* Responsive : Style Start */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1312px;
+    }
+}
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1650px;
+    }
+}
+/* Responsive : Style End */

@@ -1,0 +1,39 @@
+footer {
+    background-color: var(--orange);
+    border-radius: 40px 40px 0 0;
+    position: sticky;
+    top: 100%;
+}
+.cs__footer-menu {
+    padding: 60px 0;
+}
+.cs__copyright-sec {
+    background-color: var(--medium-black);
+}
+.cs__copyright-sec p {
+    font-size: 20px;
+    padding: 16px 0;
+}
+.cs__footer-menu li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 36px;
+}
+.cs__footer-menu > div:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255,0.2);
+}
+.cs__footer-menu > div {
+   padding-left: 26px;
+}
+.cs__footer-menu h6 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.cs__footer-menu li {
+    padding: 5px 0;
+}
+.cs__copyright-sec p a {
+    font-weight: 600;
+}

@@ -1,0 +1,562 @@
+/* hero section css start */
+.cl__hero-sec {
+    padding: 13.43% 0;
+    margin-top: 136px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cl__hero-content{
+    position: relative;
+    z-index: 0;
+}
+.cl__outline-btn svg {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.cl__hero-content h1 {
+    max-width: 50%;
+}
+.cl__hero-content p {
+    color: var(--white);
+    font-size: 26px;
+    line-height: 40px;
+    max-width: 49%;
+    margin: 16px 0 34px;
+}
+.cl__price-block .cl__icon-block {
+    width: auto;
+    margin: unset;
+    text-align: left;
+    height: auto;
+    line-height: normal;
+}
+/* responsive css start */
+@media (max-width: 1650px){
+    .cl__hero-sec {
+        margin-top: 90px;
+    }
+    .cl__hero-content h1 {
+        max-width: 63%;
+    }
+    .cl__hero-content p {
+        max-width: 60%;
+    }
+}
+@media (max-width:1366px){
+    .cl__hero-content h1 {
+        max-width: 73%;
+    }
+}
+@media (max-width:991px){
+    .cl__hero-content h1 {
+        max-width: 100%;
+    }
+    .cl__hero-sec {
+        margin-top: 82px;
+    }
+}
+@media(max-width:767px){
+    .cl__hero-content p{
+        font-size: 20px;
+        line-height: 32px;
+        max-width: 100%;
+    }
+}
+/* responsive css end */
+/* hero section css end */
+/* tracker section start */
+.cl__track-inner {
+    max-width: 72%;
+    margin: 0 auto;
+}
+.cl__track-inner > .cl__track-inner:first-child {
+    background-color: var(--blue);
+    padding: 38px 36px;
+}
+.cl__track-inner > .cl__price-block:last-child {
+    background-color: var(--skyblue);
+    padding: 38px 36px;
+}
+.cl__track-inner input {
+    width: calc(100% - 176px);
+}
+.cl__track-inner h3 {
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: "Onest", sans-serif;
+    font-size: 28px;
+}
+.cl__price-block:before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.30);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1px;
+    height: 57%;
+    top: 55px;
+}
+.cl__price-block {
+    position: relative;
+}
+.cl__price-block .col-lg-6:nth-child(2) {
+    padding-left: 36px;
+}
+/* responsive css start */
+@media (max-width:1650px){
+    .cl__track-inner {
+        max-width: 89.8%;
+    }
+}
+@media (max-width: 1366px){
+    .cl__track-inner h3 {
+        font-size: 24px;
+    }
+}
+@media (max-width:1199px){
+    .cl__price-block .col-lg-6:nth-child(2) {
+        padding-left: 120px;
+    }
+}
+@media (max-width:991px){
+    .cl__price-block .col-lg-6:nth-child(2) {
+        padding-left: 65px;
+    }
+    .cl__track-sec .cl__fill-btn {
+        padding: 10px 44px;
+        font-size: 20px;
+    }
+}
+@media(max-width:767px){
+    .cl__track-inner input {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .cl__track-sec .container {
+        padding: 0;
+    }
+    .cl__track-inner .cl__track-inner{
+        padding: 26px 12px !important;
+    }
+    .cl__track-inner {
+        max-width: 100%;
+    }
+    .cl__track-inner h3 {
+        font-size: 18px;
+    }
+    .cl__price-block .cl__icon-block svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+/* responsive css end */
+/* tracker section end */
+/* Excellent Medical Professionals With Significant Experience section style start */
+.cl__icon-block {
+    background-color: var(--skyblue);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cl__exmedical-sec .cl__icon-block {
+    background-color: var(--blue);
+}
+.cl__medical-inner > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cl__medical-content h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--blue);
+    text-transform: capitalize;
+    margin-bottom: 4px;
+}
+.cl__medical-content p {
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.cl__medical-inner .cl__medical-content {
+    margin-left: 16px;
+    width: calc(100% - 124px);
+}
+.cl__medical-inner {
+    padding: 30px 0;
+}
+.cl__medical-servic {
+    padding-top: 18px;
+}
+.cl__exmedical-sec {
+    padding: 120px 0 0;
+}
+.cl__exmedical-sec .cl__img-block {
+    margin-right: 40px;
+}
+.cl__medical-servics .col-lg-6:nth-last-child(-n+2) .cl__medical-inner {
+    padding-bottom: 0;
+}
+/* responsive css start */
+@media (max-width:1650px){
+    .cl__medical-content h4 {
+        font-size: 30px;
+    }
+    .cl__icon-block {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .cl__medical-inner svg {
+        width: 55px;
+    }
+    .cl__medical-content p {
+        font-size: 20px;
+    }
+    .cl__medical-inner {
+        padding: 24px 0;
+    }
+}
+@media (max-width:1366px){
+    .cl__medical-content p {
+        font-size: 17px;
+    }
+    .cl__medical-content h4 {
+        font-size: 24px;
+    }
+    .cl__medical-inner {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 991px){
+    .cl__exmedical-sec .cl__img-block {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .cl__exmedical-sec {
+        padding: 70px 0 0;
+    }
+}
+@media (max-width:767px){
+    .cl__medical-inner {
+        padding: 14px 0 !important;
+    }
+    .cl__medical-inner svg {
+        width: 44px;
+    }
+}
+/* responsive css end */
+/* Excellent Medical Professionals With Significant Experience section style end */
+/* brand section css start */
+.cl__brand-sec .cl__brand-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.cl__brand-sec .cl__brand-block {
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+.cl__brand-sec {
+    padding: 50px 0;
+    margin: 120px 0;
+}
+.cl__brand-sec .cl__brand-img {
+    border-right: 1px solid var(--skyblue);
+    padding: 36px 12px;
+}
+.cl__brand-sec .cl__brand-img:last-child{
+    border-right: 0;
+}
+.cl__shipsolution-sec h4 {
+    color: var(--blue); 
+    font-size: 30px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.cl__shipsolution-content h2 {
+    margin-bottom: 0;
+}
+/* responsive css start */
+@media (max-width:1366px){
+    .cl__brand-sec .cl__brand-block{
+        height: 120px;
+    }
+}
+@media (max-width:1199px){
+    .cl__shipsolution-content {
+        padding-left: 12px;
+        padding-top: 20px;
+    }
+}
+@media (max-width:991px){
+    .cl__brand-sec .cl__brand-img:first-child, .cl__brand-sec .cl__brand-img:nth-child(2) {
+        border-bottom: 1px solid var(--skyblue);
+    }
+    .cl__brand-sec .cl__brand-img:first-child, .cl__brand-sec .cl__brand-img:nth-child(3) {
+        border-right: 1px solid var(--skyblue);
+    }
+    .cl__brand-sec .cl__brand-img {
+        border-right: 0;
+    }
+    .cl__shipsolution-sec h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cl__brand-sec {
+        margin: 70px 0;
+    }
+}
+@media (max-width:767px){
+    .cl__brand-sec .cl__brand-img:first-child, .cl__brand-sec .cl__brand-img:nth-child(3) {
+        border-right: 0;
+    }
+    .cl__brand-sec .cl__brand-img {
+        border-bottom: 1px solid var(--skyblue);
+    }
+    .cl__brand-sec .cl__brand-img:last-child {
+        border-bottom: 0;
+    }
+}
+/* responsive css end */
+/* brand section css end */
+/* sit At Home We will section css start */
+.cl__sithomeimg-block img {
+    border-radius: 10px;
+}
+.cl__sithomeimg-block {
+    width: 94%;
+    float: right;
+}
+.cl__sithome-sec h2 span {
+    width: 100%;
+    display: inline-block;
+}
+.cl__sithome-content h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--blue);
+    text-transform: capitalize;
+}
+.cl__sithome-info .cl__sithome-content {
+    max-width: calc(100% - 50px);
+    flex: 0 0 calc(100% - 50px);
+    padding-left: 16px;
+}
+.cl__sithome-info .cl__img-block {
+    max-width: 50px;
+    flex: 0 0 50px;
+}
+.cl__sithome-info .cl__sithome-content p {
+    max-width: 85%;
+}
+.cl__sithome-sec {
+    padding: 0 0 120px;
+}
+/* responsive css start */
+@media (max-width:991px){
+    .cl__sithomeimg-block{
+        width: 100%;
+        float: unset;
+        margin-top: 20px;
+    }
+    .cl__sithome-sec{
+        padding: 0 0 70px;
+    }
+}
+/* responsive css end */
+/* sit At Home We will section css end */
+/* effortless shipping solutions section css start */
+.cl__shipsolution-sec {
+    padding: 72px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cl__shipsolution-sec .cl__shopsol-block:last-child, 
+.cl__shipsolution-sec .cl__shopsol-block:nth-child(3) {
+    border-right: 0;
+}
+.cl__shipsolution-sec .cl__shopsol-block {
+    border-right: 1px solid #95E2F5;
+    padding: 42px 24px;
+}
+.cl__shipsolution-sec .cl__shopsol-block:nth-child(-n+3) {
+    border-bottom: 1px solid #95E2F5;
+}
+.cl__shipsolution-sec h2 span {
+    width: 100%;
+    display: inline-block;
+}
+.cl__shipsolution-content {
+    padding-left: 36px;
+}
+/* responsive css start */
+@media(max-width:1650px){
+    .cl__shipsolution-sec h4 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+}
+@media (max-width:1366px){
+    .cl__shipsolution-sec .cl__shopsol-block {
+        padding: 30px 20px;
+    }
+}
+@media (max-width:767px){
+    .cl__shipsolution-sec .cl__shopsol-block{
+        border-bottom: 1px solid #95E2F5;
+        border-right: 0;
+    }
+    .cl__shipsolution-sec .cl__shopsol-block:last-child{
+        border-bottom:0;
+    }
+    .cl__shipsolution-sec .cl__shopsol-block svg {
+        width: 50px;
+    }
+    .cl__shipsolution-sec {
+        padding: 36px 0;
+    }
+}
+/* responsive css end */
+/* effortless shipping solutions section css end */
+/* Customer experiences  section css start */
+.cl__inspiretrust-box .cl__img-block {
+    border: 2px solid #1B6098;
+    border-radius: 10px;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-right: 16px;
+}
+.cl__inspiretrust-box .cl__img-block img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.cl__custexp-info .cl__info h4 {
+    color: var(--blue);
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.cl__custexp-info .cl__info p {
+    margin: 0;
+    color: #8C8C8C;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cl__cust-desc {
+    margin-top: 24px;
+}
+.cl__cust-qoute {
+    top: 0;
+    right: 0;
+    background-color: var(--white);
+    width: 84px;
+    height: 84px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid var(--blue);
+    position: absolute;
+}
+.cl__inspiretrust-box  {
+    background-color: var(--light-skyblue);
+    border-radius: 10px 150px 10px 10px;
+    padding: 36px;
+    position: relative;
+}
+.cl__cust-exp {
+    margin-top: 70px;
+    z-index: 99;
+}
+.cl__cust-exp {
+    background-color: var(--light-skyblue);
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    padding: 12% 0;
+}
+.cl__cust-exp .cl__rightimg-block {
+    position: absolute;
+    right: 0;
+    width: 48.6%;
+    z-index: 9;
+    padding: 0;
+}
+.cl__cust-exp .cl__rightimg-block img {
+    border-radius: 10px 0 0 10px;
+}
+.cl__cust-exp h2 {
+    max-width: 60%;
+}
+.cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(2) {
+    margin-bottom: 36px;
+}
+.cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(4),
+.cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(6) {
+    margin-top: -59px;
+}
+.cl__inspiretrust-inner {
+    margin-top: 45px;
+}
+.cl__inspiretrust-sec h2 {
+    max-width: 40%;
+    margin: 0 auto;
+}
+.cl__inspiretrust-sec {
+    padding: 120px 0;
+}
+/* Customer experiences  section css end */
+/* responsive css start */
+@media(max-width:1366px){
+    .cl__cust-qoute {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .cl__cust-qoute svg {
+        width: 28px;
+    }
+    .cl__inspiretrust-box {
+        border-radius: 10px 100px 10px 10px;
+    }
+    .cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(4), .cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(6) {
+        margin-top: -82px;
+    }
+}
+@media (max-width:991px){
+    .cl__inspiretrust-sec h2{
+        max-width: 100%;
+    }
+    .cl__inspiretrust-desc {
+        margin-bottom: 24px;
+    }
+    .cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(4), .cl__inspiretrust-inner .cl__inspiretrust-desc:nth-child(6) {
+        margin-top: 0;
+    }
+    .cl__inspiretrust-sec {
+        padding: 70px 0;
+    }
+}
+/* respoinsive css end */
