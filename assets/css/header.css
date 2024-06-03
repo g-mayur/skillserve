@@ -62,8 +62,88 @@
 .navbar-toggler:focus {
     box-shadow: unset;
 }
+/* Dropdown : Style Start*/
+.dropdown-menu {
+    width: 100%;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    display: flex !important;
+    transform: translateY(25px);
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+    border: 0;
+}
+.dropdown-menu.cs__open-dropdown {
+    transform: translateY(13px);
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu .nav-pills {
+    background-color: #FCE8DF;
+}
+.cs__tech-list {
+    max-width: 72%;
+}
+header .dropdown-menu button {
+    width: 100%;
+    text-align: left;
+    padding: 20px 30px;
+    color: var(--black) !important;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.dropdown-menu .nav-item-title{
+    text-align: left;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header .dropdown-menu button.active {
+    background-color: #ffffff !important;
+    font-weight: 700;
+}
+header .dropdown-menu .tab-content {
+    padding: 30px 60px;
+}
+.tab-content p{
+    max-width: 80%;
+}
+.tab-content p, .tab-content li {
+    font-size: 20px;
+    line-height: 32px;
+}
+.tab-content li {
+    position: relative;
+    font-weight: 500;
+    padding: 8px 0 8px 26px;
+}
+.tab-content p {
+    margin-bottom: 18px;
+}
+.tab-content li:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 5px solid var(--orange);
+    border-radius: 100px;
+    left: 0;
+    top: 16px;
+}
+/* Dropdown : Style End */
+header .container{
+    position: relative;
+}
 header {
     padding: 6px 0;
+    font-family: var(--secondary-font);
 }
 /* Responsive : Style Start */
 @media (max-width:1440px){

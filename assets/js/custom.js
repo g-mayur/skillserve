@@ -6,12 +6,15 @@ $(document).ready(function () {
     $("body").toggleClass("cs__menu-open");
   });
 
+  $(".nav-link.dropdown-toggle").click(function () {
+    $(".dropdown-menu").toggleClass("cs__open-dropdown");
+  });
   // Responsive header menu JS end
 
   // Hero section slider start
 
   var swiper = new Swiper(".mySwiper.cs__hero-slider", {
-    direction: "vertical",
+    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

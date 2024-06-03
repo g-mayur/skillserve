@@ -122,4 +122,17 @@
     font-weight: 600;
     margin: 12px 0 0;
 }
+.cs__service-block {
+    padding: 40px 32px;
+    border-bottom: 1px solid #E4D9D4;
+}
+.cs__service-block:nth-child(odd) {
+    border-right: 1px solid #E4D9D4;
+}
+.cs__service-block:nth-last-child(-n+2) {
+    border-bottom: 0;
+}
+.cs__featured-services .cs__paragraph-text {
+    max-width: 96%;
+}
 /* Featured Services: Style End */
