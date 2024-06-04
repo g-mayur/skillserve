@@ -35,7 +35,7 @@ footer {
     padding: 5px 0;
 }
 .cs__footer-menu li span{
-    width: calc(100% - 30px);
+    width: calc(100% - 35px);
     display: inline-block;
     vertical-align: top;
 }
@@ -52,6 +52,11 @@ footer {
     }
     .cs__footer-menu h6 img {
         display: none;
+    }
+}
+@media (max-width:1199px){
+    .cs__footer-menu > div {
+        padding-left: 12px;
     }
 }
 @media (max-width: 991px){
@@ -76,7 +81,6 @@ footer {
     }
     .cs__footer-menu h6 {
         font-size: 20px;
-        margin: 0;
     }
     .cs__footer-menu li a {
         font-size: 16px;
