@@ -24,18 +24,26 @@ $(".dropdown-menu").on("click", function (event) {
   event.stopPropagation();
 });
   
-  // Responsive header menu JS end
+// Responsive header menu JS end
 
-  // Hero section slider start
+// Hero section slider start
 
   var swiper = new Swiper(".mySwiper.cs__hero-slider", {
     spaceBetween: 30,
+    speed: 1000,
+    effect: 'fade',
+    centeredSlides: true,
+    fadeEffect: { crossFade: true },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    autoplay: {
+      delay: 2000,
+    },
+
   });
 
-    // Hero section slider end
+// Hero section slider end
 
 });

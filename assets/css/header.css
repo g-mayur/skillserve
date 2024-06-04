@@ -31,7 +31,7 @@
     top: -1px;
 }
 .cs__open-dropdown+.navbar-nav .dropdown-toggle::after {
-    transform: rotate(-180deg) !important;
+    transform: rotate(-180deg);
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(1233%) hue-rotate(344deg) brightness(96%) contrast(93%);
     transition: all 0.5s ease-in-out;
 }
