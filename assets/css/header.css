@@ -91,18 +91,20 @@
 header .dropdown-menu button {
     width: 100%;
     text-align: left;
-    padding: 20px 30px;
+    padding: 30px 30px;
     color: var(--black) !important;
     font-weight: 500;
     font-size: 22px;
     text-transform: uppercase;
+    line-height: 16px;
 }
-.dropdown-menu .nav-item-title{
+.dropdown-menu .nav-item-title {
     text-align: left;
-    padding: 20px 30px;
+    padding: 40px 30px;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 16px;
 }
 header .dropdown-menu button.active {
     background-color: #ffffff !important;
@@ -121,7 +123,13 @@ header .dropdown-menu .tab-content {
 .tab-content li {
     position: relative;
     font-weight: 500;
-    padding: 8px 0 8px 26px;
+    padding: 0 0 0 26px;
+    color: var(--black);
+    width: 100%;
+}
+.tab-content .cs__eng-list li{
+    max-width: 31%;
+    flex: 0 0 31%;
 }
 .tab-content p {
     margin-bottom: 18px;
@@ -135,7 +143,26 @@ header .dropdown-menu .tab-content {
     border: 5px solid var(--orange);
     border-radius: 100px;
     left: 0;
-    top: 16px;
+    top: 8px;
+}
+.cs__tech-list h6 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.cs__scale-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+}
+.cs__scale-list li {
+    grid-column: 1;
+}
+.cs__scale-list li:last-child {
+    grid-column: 2;
+    grid-row: 1 / span 5;
+}
+.tab-content ul {
+    gap: 24px;
 }
 /* Dropdown : Style End */
 header .container{

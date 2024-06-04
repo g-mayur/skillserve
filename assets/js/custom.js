@@ -6,9 +6,24 @@ $(document).ready(function () {
     $("body").toggleClass("cs__menu-open");
   });
 
-  $(".nav-link.dropdown-toggle").click(function () {
-    $(".dropdown-menu").toggleClass("cs__open-dropdown");
-  });
+// Toggle the dropdown when the button is clicked
+$(".nav-link.dropdown-toggle").click(function (event) {
+  $(".dropdown-menu").toggleClass("cs__open-dropdown");
+  event.stopPropagation();
+});
+
+// Close the dropdown when clicking outside of it
+$(document).on("click", function (event) {
+  if (!$(event.target).closest(".dropdown-menu, .nav-link.dropdown-toggle").length) {
+      $(".dropdown-menu").removeClass("cs__open-dropdown");
+  }
+});
+
+// Prevent the dropdown from closing when clicking inside it
+$(".dropdown-menu").on("click", function (event) {
+  event.stopPropagation();
+});
+  
   // Responsive header menu JS end
 
   // Hero section slider start
