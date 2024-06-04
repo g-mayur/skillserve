@@ -13,7 +13,7 @@
 }
 .cs__hero-borromsec {
     position: absolute;
-    bottom: -175px;
+    bottom: -195px;
     width: 100%;
 }
 .swiper-pagination-vertical {
@@ -42,10 +42,26 @@
 .swiper-vertical>.swiper-wrapper {
     flex-direction: unset;
 }
+.cs__hero-wrap .swiper-pagination{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    left: auto;
+    height: 100%;
+    gap: 10px;
+    top: 10%;
+    right: 30px !important;
+}
 /* Responsive : Style Start */
 @media (max-width:1199px){
     .cs__hero-borromsec {
         bottom: -108px;
+    }
+}
+@media (max-width:991px){
+    .cs__hero-wrap {
+        margin-bottom: 32px;
     }
 }
 @media (max-width:767px){
@@ -56,13 +72,26 @@
 /* Responsive : Style End */
 /* Hero Section: Style End */
 
-/* Agency: Style End */
+/* Agency: Style Start */
 .cs__agency-dec {
     background-size: 100%;
     background-position: 100% -5%;
     background-repeat: no-repeat;
     padding: 0 0 60px;
 }
+.cs__agency-dec h2 {
+    max-width: 70%;
+}
+.cs__agency-dec p {
+    max-width: 85%;
+}
+@media (max-width:991px){
+    .cs__agency-dec h2, .cs__agency-dec p {
+        max-width: 100%;
+    }
+}
+/* Agency: Style End */
+/* Company Details Section: Style Start */
 .cs__details-block h3 {
     display: inline-block;
     vertical-align: middle;
@@ -106,10 +135,11 @@
     right: 0;
     bottom: 0;
 }
+/* Company Details Section: Style End */
+/* Responsive : Style Start */
 /* Responsive : Style End */
-/* Responsive : Style End */
-/* Agency: Style End */
-/* Featured Services: Style End */
+
+/* Featured Services: Style Start */
 .cs__featured-services {
     background-color: var(--light-pink);
     background-position: center;
@@ -124,7 +154,7 @@
     margin: 12px 0 0;
 }
 .cs__service-block {
-    padding: 40px 32px;
+    padding: 32px;
     border-bottom: 1px solid #E4D9D4;
 }
 .cs__service-block:nth-child(odd) {
@@ -137,3 +167,19 @@
     max-width: 96%;
 }
 /* Featured Services: Style End */
+
+/* Technologies Section: Style Start */
+.cs__technologies-block button {
+    font-size: 26px;
+    color: var(--black);
+    padding: 14px 53px;
+}
+.cs__technologies-block .nav-tabs .nav-link {
+    border: 0;
+    margin: 0;
+}
+.cs__technologies-block .nav-tabs {
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: center;
+}
+/* Technologies Section: Style End */

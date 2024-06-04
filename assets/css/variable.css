@@ -93,6 +93,8 @@ ol, ul {
     line-height: 28px;
     font-weight: 500;
     text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
 }
 .cs__fillwhite-btn img {
     filter: brightness(0) saturate(100%) invert(46%) sepia(71%) saturate(1924%) hue-rotate(344deg) brightness(96%) contrast(93%);
