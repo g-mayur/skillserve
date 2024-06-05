@@ -158,7 +158,46 @@
     position: relative;
     z-index: 1;
 }
+.cs__details-block .cs__img-block img {
+    width: 100%;
+    height: 100%;
+}
+.cs__details-block .cs__img-block {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+}
+.cs__details-block {
+    position: relative;
+    padding-left: 65px;
+}
+.cs__company-inner > div:first-child  .cs__img-block {
+    left: 140px;
+}
+.cs__company-inner > div:first-child .cs__details-block {
+    padding-left: 42px;
+}
 /* Responsive : Style Start */
+@media (max-width: 1399px){
+    .cs__company-inner > div:first-child  .cs__img-block {
+        left: 110px;
+    }
+    .cs__details-block .cs__img-block {
+        left: 70px;
+    }
+}
+@media (max-width: 1199px){
+    .cs__details-block .cs__img-block {
+        left: 38px;
+    }
+    .cs__details-block {
+        padding-left: 55px;
+    }
+    .cs__company-inner > div:first-child  .cs__img-block {
+        left: 80px;
+    }
+}
 @media(max-width:1024px){
     .cs__company-details p {
         font-size: 24px;
@@ -171,10 +210,6 @@
     }
 }
 @media (max-width:991px){
-    .cs__details-block h3 {
-        width: 100%;
-        margin: 4px 0 0;
-    }
     .cs__company-details p {
         margin: 0;
     }
@@ -191,6 +226,19 @@
     }
     .cs__company-details {
         padding: 32px 0;
+    }
+    .cs__details-block .cs__img-block{
+        position: unset;
+    }
+    .cs__details-block {
+        padding-left: 0 !important;
+    }
+    .cs__counter-block {
+        width: 100%;
+        margin: 4px 0 0;
+    }
+    .cs__details-block h3{
+        margin: 0;
     }
 }
 @media (max-width:767px){
@@ -522,3 +570,249 @@
 }
 /* Responsive: Style End */
 /* testimonial Section: Style End */
+
+/* Portfolio Section: Style Start */
+.cs__profile-sec {
+    padding: 60px 0;
+}
+.cs__portfolio-tab .nav-tabs {
+    border-bottom: 0;
+}
+.cs__portfolio-tab .nav-tabs .nav-link {
+    border: 0;
+    margin: 0;
+}
+.cs__portfolio-tab .nav-tabs {
+    justify-content: space-between;
+    background-color: var(--medium-black);
+    width: 45.14%;
+    margin: 0 auto;
+    border-radius: 100px;
+    padding: 16px 26px;
+}
+.cs__portfolio-tab .nav-tabs a {
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--white);
+    border-radius: 100px;
+    padding: 5px 50px;
+    text-align: center;
+}
+.cs__portfolio-tab .nav-tabs a.active {
+    background-color: var(--orange);
+    font-weight: 600;
+    color: var(--white);
+}
+.cs__portfolio-block img {
+    border-radius: 20px;
+}
+.cs__portfolio-tab .tab-content {
+    margin-top: 30px;
+}
+.cs__portfolio-block {
+    margin: 15px 3px;
+}
+.cs__portfolio-tab .tab-content .cs__fill-btn {
+    margin: 30px 0 0;
+}
+/* Responsive : Style Start */
+@media (max-width: 1399px){
+    .cs__portfolio-tab .nav-tabs {
+        width: 50%;
+    }
+}
+@media (max-width: 1199px){
+    .cs__portfolio-tab .nav-tabs {
+        width: 60%;
+    }
+}
+@media (max-width:991px){
+    .cs__portfolio-tab .nav-tabs a {
+        font-size: 20px;
+        padding: 5px 40px;
+    }
+    .cs__portfolio-tab .nav-tabs {
+        width: 70%;
+        padding: 12px 22px;
+    }
+}
+@media (max-width:767px){
+    .cs__portfolio-tab .nav-tabs a {
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+    .cs__portfolio-tab .nav-tabs {
+        width: 100%;
+        padding: 12px;
+    }
+    .cs__portfolio-tab .tab-content {
+        margin-top: 20px;
+    }
+    .cs__portfolio-tab .tab-content .cs__fill-btn {
+        margin: 12px 0 0;
+    }
+    .cs__profile-sec {
+        padding: 40px 0;
+    }
+}
+@media (max-width:360px){
+    .cs__portfolio-tab .nav-tabs a {
+        font-size: 16px;
+        padding: 5px 22px;
+    }
+}
+/* Responsive : Style End */
+/* Portfolio Section: Style End */
+
+/* Contact : Block Start */
+.cs__contact-sec:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.cs__contact-sec {
+    padding: 60px 0;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 100px;
+}
+.cs__contact-info,.cs__contact-form {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.cs__contact-info h6 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+}
+
+.cs__contact-info .cs__img-block {
+    background-color: var(--orange);
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.cs__contact-info  .cs__desc {
+    width: calc(100% - 60px);
+    padding: 0 0 0 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cs__contact-info .cs__desc p {
+    color: var(--medium-black);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    max-width: 75%;
+    margin: 0;
+}
+.cs__contact-info {
+    padding: 30px 30px 16px;
+}
+.cs__contact-info .cs__title-wrap {
+    margin: 0 0 20px;
+}
+
+.cs__contact-info > div {
+    margin: 14px 0;
+}
+.cs__phone-block .cs__desc p {
+    vertical-align: middle;
+    line-height: 45px;
+}
+.cs__contact-form h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cs__contact-form label {
+    color: #38414A;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 8px;
+    width: 100%;
+}
+
+.cs__contact-form label span {
+    color: #D80027;
+}
+
+.cs__contact-form input, .cs__contact-form textarea {
+    border: 1px solid #D6D6D6;
+    height: 44px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 8px;
+    color: var(--medium-black);
+    text-align: left;
+}
+.cs__contact-form input::placeholder{
+    color: #D2D2D2;
+}
+.cs__contact-form textarea {
+    height: auto;
+    color: #D2D2D2;
+    padding: 8px;
+}
+.cs__contact-info:first-child {
+    margin: 0 0 30px;
+}
+.cs__contact-form .cs__input-wrap {
+    margin: 15px 0;
+    display: inline-block;
+    width: 100%;
+}
+.cs__contact-link a {
+    color: var(--orange);
+}
+.cs__contact-link {
+    margin: 30px 0 0;
+    font-size: 30px;
+    font-weight: 500;
+    word-break: break-all;
+}
+/* Responsive : Style Start */
+@media (max-width: 1399px){
+    .cs__contact-info .cs__desc p {
+        max-width: 100%;
+    }
+}
+@media (max-width:1199px){
+    .cs__contact-info .cs__desc p {
+        font-size: 15px;
+    }
+}
+@media (max-width:991px){
+    .cs__contact-form {
+        margin: 30px 0 0;
+    }
+    .cs__contact-link {
+        font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    .cs__contact-form .cs__input-wrap .cs__input-block {
+        margin: 10px 0;
+    }
+}
+/* Responsive : Style End *?
+/* Contact : Block End */
