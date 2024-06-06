@@ -221,6 +221,60 @@ header .container{
 header {
     padding: 14px 0;
     font-family: var(--secondary-font);
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateZ(0);
+    -webkit-transition: background .3s cubic-bezier(.25,.46,.45,.94);
+    -moz-transition: background .3s cubic-bezier(.25, .46, .45, .94);
+    transition: background .3s cubic-bezier(.25,.46,.45,.94);
+    width: 100%;
+    z-index: 10;
+}
+@keyframes slide-down {
+    0% {
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+    to {
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0)
+    }
+}
+
+.slide-down {
+    animation: slide-down .7s;
+    will-change: transform;
+    z-index: 99
+}
+
+.slideOutUp {
+    animation: slideOutUp .7s;
+    will-change: transform
+}
+
+.cs__animated-header {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    will-change: transform
 }
 /* Responsive : Style Start */
 @media (max-width:1440px){
@@ -295,9 +349,10 @@ header {
         padding: 20px 0;
         height: calc(100vh - 84px);
         overflow-y: auto;
-        transform: translateX(-970px);
+        transform: translateX(-100%);
         visibility: hidden;
-        display: block !important;
+        display: block;
+        opacity: 0;
     }
     .dropdown-toggle::after {
         position: absolute;
@@ -404,6 +459,12 @@ header {
     }
     .navbar-nav .nav-item {
         padding: 6px 20px;
+    }
+}
+@media (max-width:360px){
+    .cs__header-btn .cs__fill-btn {
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
 /* Responsive : Style End */
