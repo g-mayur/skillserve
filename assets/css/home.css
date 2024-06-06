@@ -72,6 +72,15 @@
     .cs__hero-wrap .swiper-pagination{
         display: none;
     }
+    .cs__hero-wrap .cs__img-block img {
+        max-width: 450px;
+    }
+    .cs__hero-wrap .cs__img-block {
+        text-align: center;
+    }
+    .cs__hero-sec h2{
+        font-size: 32px;
+    }
 }
 @media (max-width:767px){
     .cs__hero-borromsec {
@@ -107,6 +116,9 @@
 @media (max-width:991px){
     .cs__agency-dec {
         padding: 26px 0 40px;
+    }
+    .cs__agency-dec .cs__img-block img {
+        max-width: 500px;
     }
 }
 /* Agency: Style End */
@@ -998,6 +1010,17 @@
     padding-left: 10px;
     padding-right: 0;
 }
+@media (max-width:991px){
+    .cs__top-button .cs__fill-btn span {
+        display: none;
+    }
+    .cs__top-button .cs__fill-btn {
+        padding: 14px;
+    }
+    .cs__scroll-down.cs__top-button {
+        right: 20px;
+    }
+}
 /* Top button : Style End */
 
 /* Social Block : Style Strat */
@@ -1059,4 +1082,5 @@
 .cs__linkedin{
     background-color: #0B69C7;
 }
+
 /* Social Block : Style End */
