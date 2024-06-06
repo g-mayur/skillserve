@@ -866,7 +866,8 @@
     color: var(--medium-black);
     text-align: left;
 }
-.cs__contact-form input::placeholder{
+.cs__contact-form input::placeholder,
+.cs__contact-form textarea::placeholder{
     color: #D2D2D2;
 }
 .cs__contact-form textarea {
@@ -1002,19 +1003,28 @@
 /* Social Block : Style Strat */
 .cs__social-sec {
     position: fixed;
-    top: 58%;
+    top: 50%;
     left: 0;
+    z-index: 9;
+    transform: translateY(-50%) !important;
 }
-.cs__socail-block {
+.cs__social-block {
     padding: 10px 16px;
     border-radius: 0 100px 100px 0;
     font-size: 18px;
     transition: all 1s;
-    transform: translateX(-67%);
     justify-content: flex-end;
-    margin: 10px 0;
+    margin: 10px 0 0 -140px;
 }
-.cs__socail-block p {
+/* }
+.cs__social-block:hover{
+    transition: all 1s;
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+} */
+
+.cs__social-block p {
     color: #ffffff;
     font-weight: 600;
     margin: 0;
@@ -1030,14 +1040,10 @@
     line-height: 44px;
     margin: 0 0 0 16px;
 }
-.cs__socail-block:hover {
-    transition: all 1s;
-    transform: translateX(0);
-}
-.cs__socail-block:hover .cs__social-icon img {
+.cs__social-block:hover .cs__social-icon img {
     transition: all 1s;
 }
-.cs__socail-block:hover .cs__social-icon img {
+.cs__social-block:hover .cs__social-icon img {
     transform: rotate(360deg);
     transition: all 1s;
 }

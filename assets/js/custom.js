@@ -47,6 +47,7 @@ $(document).ready(function () {
     watchSlidesProgress: true,
     slidesPerView: 3,
     spaceBetween: 30,
+    speed:2000,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -55,6 +56,9 @@ $(document).ready(function () {
     pagination: {
       el: ".swiper-paginationtest",
       clickable: true,
+    },
+    autoplay: {
+      delay: 2000,
     },
     breakpoints: {
       320: {

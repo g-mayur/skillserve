@@ -6,6 +6,7 @@ body {
     font-family: var(--primary-font);
     height: 100vh;
     color: var(--medium-black);
+    overflow-x: hidden;
 }
 :root {
     --white: #ffffff;
@@ -77,6 +78,15 @@ ol, ul {
     border-radius: 100px;
     text-decoration: unset;
     display: inline-block;
+}
+.cs__fill-btn:hover {
+    background-color: var(--medium-black);
+    border-color: var(--medium-black);
+    transition: all 0.2s ease-in-out;
+    color: var(--white) !important;
+}
+.cs__fill-btn:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(101%) contrast(103%);
 }
 .cs__fill-btn span {
     display: inline-block;

@@ -441,7 +441,7 @@ header {
 }
 @media (max-width: 767px){
     .cs__logo img {
-        max-width: 100%;
+        max-width: 85%;
         object-fit: contain;
     }
     .cs__logo {
