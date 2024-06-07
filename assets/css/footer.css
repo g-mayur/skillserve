@@ -34,13 +34,14 @@ footer {
 .cs__footer-menu li {
     padding: 5px 0;
 }
-.cs__footer-menu li span{
-    width: calc(100% - 35px);
-    display: inline-block;
-    vertical-align: top;
-}
 .cs__copyright-sec p a {
     font-weight: 600;
+}
+.cs__footer-menu li a img {
+    transition: all 0.5s ease;
+}
+.cs__footer-menu li a:hover img {
+    transform: rotate(45deg);
 }
 /* Responsive : Style Start */
 @media (min-width:768px){
