@@ -286,12 +286,12 @@ header.cs__animated-header.slide-down {
     box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 6%);
 }
 /* Responsive : Style Start */
-@media (max-width:1440px){
+@media (max-width:1440.98px){
     .navbar-nav .nav-item {
         padding: 0 4px;
     }
 }
-@media (max-width:1399px){
+@media (max-width:1399.98px){
     /* Dropdown : Style Start */
     .cs__tech-list {
         max-width: 85%;
@@ -307,19 +307,19 @@ header.cs__animated-header.slide-down {
     }
     /* Dropdown : Style End */
 }
-@media (min-width:992px) and (max-width:1199px){
+@media (min-width:992px) and (max-width:1199.98px){
     .navbar-nav .nav-link{
         font-size: 14px;
     }
 }
-@media (min-width:768.99px) and (max-width:1199px){
+@media (min-width:768px) and (max-width:1199.98px){
     .cs__header-btn .cs__fill-btn {
         font-size: 16px;
         line-height: 23px;
         padding: 10px 16px;
     }
 }
-@media (max-width:1199px){
+@media (max-width:1199.98px){
 
     .dropdown-menu .nav-item-title {
         font-size: 23px;
@@ -328,7 +328,7 @@ header.cs__animated-header.slide-down {
         font-size: 18px;
     }
 }
-@media (max-width:991px){
+@media (max-width:991.98px){
     header {
         padding: 6px 0;
     }
@@ -451,7 +451,7 @@ header.cs__animated-header.slide-down {
     }
     /* accordion css end */
 }
-@media (max-width: 767px){
+@media (max-width: 767.98px){
     .cs__logo img {
         max-width: 85%;
         object-fit: contain;
@@ -473,7 +473,7 @@ header.cs__animated-header.slide-down {
         padding: 6px 20px;
     }
 }
-@media (max-width:360px){
+@media (max-width:360.98px){
     .cs__header-btn .cs__fill-btn {
         font-size: 12px;
         padding: 6px 12px;
