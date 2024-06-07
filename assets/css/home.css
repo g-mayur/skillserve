@@ -8,8 +8,11 @@
     position: relative;
     padding: 62px 0 0;
 }
+.cs__hero-sec h2{
+    font-weight: 600;
+}
 .cs__hero-sec p {
-    max-width: 93%;
+    max-width: 100%;
 }
 .cs__hero-borromsec {
     position: absolute;
@@ -80,11 +83,15 @@
     }
     .cs__hero-sec h2{
         font-size: 32px;
+        line-height: 40px;
     }
 }
 @media (max-width:767px){
     .cs__hero-borromsec {
         bottom: -62px;
+    }
+    .cs__hero-sec {
+        padding: 30px 0 0;
     }
 }
 @media (max-width: 360px){
@@ -315,7 +322,7 @@
         font-size: 18px;
     }
     .cs__featured-services {
-        padding: 60px 0 20px;
+        padding: 40px 0 24px;
     }
 }
 @media (max-width:767px){
@@ -465,6 +472,9 @@
         padding: 14px 24px;
         font-size: 22px;
     }
+    .cs__technologies-sec{
+        padding: 40px 0;
+    }
 }
 @media (max-width:767px){
      .cs__technologies-block .cs__tech-block {
@@ -487,12 +497,20 @@
         padding: 40px 0;
         overflow: hidden;
     }
+    .cs__tech-logowrap .cs__img-block {
+        width: 100px;
+        height: 100px;
+    }
 }
 /* Responsive: Style End */
 /* Technologies Section: Style End */
 /* testimonial Section: Style Start */
 .cs__testimonial-sec .container {
     position: relative;
+}
+.cs__testimonial-sec .cs__paragraph-text {
+    max-width: 92%;
+    margin: 0 auto;
 }
 .cs__testimonial-slider {
     padding: 70px 11px 45px;
@@ -550,13 +568,18 @@
 .cs__testimonial-sec .swiper-button-prev {
     left: -45px;
 }
-.cs__testimonial-sec .swiper-button-next, .swiper-button-prev {
+.cs__testimonial-sec .swiper-button-next,.cs__testimonial-sec  .swiper-button-prev {
     background-color: var(--medium-black);
     width: 44px;
     height: 44px;
     border-radius: 100%;
     position: absolute;
     top: 67%;
+    transition: all 0.2s ease-in-out;
+}
+.cs__testimonial-sec .swiper-button-next:hover,.cs__testimonial-sec  .swiper-button-prev:hover{
+    background-color: var(--orange);
+    transition: all 0.2s ease-in-out;
 }
 .cs__testimonial-sec .swiper-button-next:after, .cs__testimonial-sec .swiper-button-prev:after {
     color: #ffffff;
@@ -589,6 +612,19 @@
     border-color: var(--orange);
 }
 /* Responsive: Style Start */
+@media (max-width:1650px){
+    .cs__testimonial-sec .swiper-button-next {
+        right: -28px;
+    }
+    .cs__testimonial-sec .swiper-button-prev {
+        left: -28px;
+    }
+}
+@media (max-width:1399px){
+    .cs__testimonial-inner {
+        padding: 20px 20px 115px;
+    }
+}
 @media (max-width: 1250px){
     .cs__testimonial-sec .swiper-button-next {
         right: -20px;
@@ -605,6 +641,9 @@
     .cs__testimonial-sec .swiper-button-next, .swiper-button-prev {
         top: 62%;
     }
+    .cs__testimonial-sec .cs__paragraph-text {
+        max-width: 100%;
+    }
 }
 @media (max-width: 991px){
     .cs__testimonial-inner {
@@ -616,6 +655,9 @@
     .cs__testimonial-sec .cs__paragraph-text{
         max-width: 100%;
     }
+    .cs__testimonial-sec{
+        padding: 40px 0;
+    }
 }
 @media (max-width: 767px){
     .cs__testimonial-slider {
@@ -624,6 +666,16 @@
     .cs__client-img {
         width: 100px;
         height: 100px;
+    }
+    .cs__testimonial-inner p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width:360px){
+    .cs__testimonial-inner {
+        padding: 20px 10px 140px;
     }
 }
 /* Responsive: Style End */
@@ -665,7 +717,7 @@
     border-radius: 20px;
 }
 .cs__portfolio-tab .tab-content {
-    margin-top: 30px;
+    margin-top: 18px;
 }
 .cs__protfolio-inner {
     position: relative;
@@ -723,7 +775,7 @@
     max-width: 40px;
 }
 .cs__portfolio-tab .tab-content .cs__fill-btn {
-    margin: 30px 0 0;
+    margin: 18px 0 0;
 }
 /* Responsive : Style Start */
 @media (max-width:1199px){
@@ -738,6 +790,9 @@
     }
     .cs__portfolio-tab .nav-tabs {
         padding: 12px 22px;
+    }
+    .cs__profile-sec {
+        padding: 40px 0;
     }
 }
 @media (max-width:767px){
@@ -842,7 +897,7 @@
     padding: 30px 30px 16px;
 }
 .cs__contact-info .cs__title-wrap {
-    margin: 0 0 20px;
+    margin: 0 0 24px;
 }
 
 .cs__contact-info > div {
@@ -914,6 +969,7 @@
 @media (max-width:1199px){
     .cs__contact-info .cs__desc p {
         font-size: 15px;
+        line-height: 32px;
     }
 }
 @media (max-width:991px){
@@ -924,7 +980,8 @@
         margin: 30px 0 0;
     }
     .cs__contact-link {
-        font-size: 20px;
+        font-size: 18px;
+        line-height: 26px;
     }
     .cs__contact-info{
         height: 100%;
@@ -945,6 +1002,9 @@
     }
     .cs__contact-form .cs__input-wrap {
         margin: 8px 0;
+    }
+    .cs__contact-sec {
+        padding: 40px 0;
     }
 }
 @media (max-width:767px){
@@ -972,7 +1032,7 @@
     max-width: 100%;
 }
 .cs__award-sec {
-    padding: 65px 0;
+    padding: 30px 0;
 }
 .cs__award-wrap {
     padding: 0 24px;
@@ -988,8 +1048,8 @@
 
 /* Top Button : Style Strat */
 .cs__top-button .cs__fill-btn {
-    background-color: var(--black);
-    border-color: var(--black);
+    background-color: var(--orange);
+    border-color: var(--orange);
     font-weight: 400;
 }
 .cs__top-button {
@@ -1011,6 +1071,9 @@
     padding-left: 10px;
     padding-right: 0;
 }
+.cs__top-button .cs__fill-btn:before {
+    background-color: var(--medium-black);
+}
 @media (max-width:991px){
     .cs__top-button .cs__fill-btn span {
         display: none;
@@ -1029,7 +1092,7 @@
     position: fixed;
     top: 50%;
     left: 0;
-    z-index: 9;
+    z-index: 7;
     transform: translateY(-50%) !important;
 }
 .cs__social-block {

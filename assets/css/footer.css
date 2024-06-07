@@ -12,7 +12,7 @@ footer {
 }
 .cs__copyright-sec p {
     font-size: 20px;
-    padding: 16px 0;
+    padding: 14px 0;
 }
 .cs__footer-menu li a {
     font-size: 20px;
@@ -36,12 +36,18 @@ footer {
 }
 .cs__copyright-sec p a {
     font-weight: 600;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
 }
 .cs__footer-menu li a img {
     transition: all 0.5s ease;
 }
 .cs__footer-menu li a:hover img {
     transform: rotate(45deg);
+}
+.cs__copyright-sec p a:hover {
+    color: var(--orange);
+    transition: 0.2s ease-in-out;
 }
 /* Responsive : Style Start */
 @media (min-width:768px){

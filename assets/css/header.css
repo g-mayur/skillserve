@@ -49,16 +49,16 @@
 .navbar-toggler  .line:nth-child(2) {
     margin: 6px 0;
 }
-.navbar-toggler[aria-expanded="true"] .line:first-child {
+.cs__menu-open .navbar-toggler .line:first-child {
     -moz-transform: rotate(45deg) translate(2px, 7px);
         -ms-transform: rotate(45deg) translate(2px, 7px);
         -webkit-transform: rotate(45deg) translate(2px, 7px);
         transform: rotate(45deg) translate(2px, 7px);
 }
-.navbar-toggler[aria-expanded="true"] .line:nth-child(2){
+.cs__menu-open .navbar-toggler .line:nth-child(2){
   opacity: 0;
 }
-.navbar-toggler[aria-expanded="true"] .line:last-child {
+.cs__menu-open .navbar-toggler .line:last-child {
     -moz-transform: rotate(-45deg) translate(4px, -10px);
         -ms-transform: rotate(-45deg) translate(4px, -10px);
         -webkit-transform: rotate(-45deg) translate(4px, -10px);
@@ -171,6 +171,12 @@ header .dropdown-menu .tab-content {
     border-radius: 100px;
     left: 0;
     top: 8px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+.tab-content li:hover:before {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
 }
 .cs__tech-list h6 {
     font-size: 20px;
@@ -261,7 +267,7 @@ header {
 .slide-down {
     animation: slide-down .7s;
     will-change: transform;
-    z-index: 99
+    z-index: 8;
 }
 
 .slideOutUp {
@@ -306,12 +312,15 @@ header.cs__animated-header.slide-down {
         font-size: 14px;
     }
 }
-@media (max-width:1199px){
+@media (min-width:768.99px) and (max-width:1199px){
     .cs__header-btn .cs__fill-btn {
         font-size: 16px;
         line-height: 23px;
-        padding: 6px 16px;
+        padding: 10px 16px;
     }
+}
+@media (max-width:1199px){
+
     .dropdown-menu .nav-item-title {
         font-size: 23px;
     }
@@ -348,7 +357,7 @@ header.cs__animated-header.slide-down {
         top: 84px;
         transition: .5s ease-in-out;
         width: 100%;
-        z-index: 99;
+        z-index: 9999;
         padding: 20px 0;
         height: calc(100vh - 84px);
         overflow-y: auto;
