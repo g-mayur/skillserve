@@ -101,6 +101,7 @@
     background-position: 100% -5%;
     background-repeat: no-repeat;
     padding: 26px 0 80px;
+    overflow: hidden;
 }
 .cs__agency-dec h2 {
     max-width: 85%;
@@ -1038,15 +1039,14 @@
     transition: all 1s;
     justify-content: flex-end;
     margin: 10px 0 0 -140px;
+    transform: translateX(0px);
 }
-/* }
-.cs__social-block:hover{
+.cs__social-block:hover {
+    transform: translateX(132px);
     transition: all 1s;
-    transform: translateX(0);
-    opacity: 1;
     visibility: visible;
-} */
-
+    opacity: 1;
+}
 .cs__social-block p {
     color: #ffffff;
     font-weight: 600;

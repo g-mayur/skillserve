@@ -276,6 +276,9 @@ header {
     animation-fill-mode: both;
     will-change: transform
 }
+header.cs__animated-header.slide-down {
+    box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 6%);
+}
 /* Responsive : Style Start */
 @media (max-width:1440px){
     .navbar-nav .nav-item {
