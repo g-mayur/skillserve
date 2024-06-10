@@ -1046,6 +1046,11 @@
         padding: 0;
     }
 }
+@media (max-width:991.98px){
+    .cs__award-sec {
+        padding: 40px 0;
+    }
+}
 /* Responsive : Style End */
 /* Award Block: Style End */
 
