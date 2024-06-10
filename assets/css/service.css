@@ -1,0 +1,185 @@
+/* Hero Section: Style Start*/
+.cs__hero-wrap{
+    position: relative;
+    margin-bottom: 200px;
+    background-color: var(--light-pink);
+}
+.cs__hero-sec {
+    position: relative;
+    padding: 62px 0 60px;
+    z-index: 2;
+    overflow: hidden;
+}
+.cs__hexa-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.cs__hero-sec h2{
+    font-weight: 600;
+}
+.cs__hero-sec p {
+    max-width: 100%;
+}
+.cs__hero-borromsec {
+    position: absolute;
+    bottom: -195px;
+    width: 100%;
+}
+/* Responsive : Style Start */
+@media (max-width:1650px){
+    .cs__hexa-img img {
+        max-width: 95%;
+    }
+}
+@media (max-width:1199.98px){
+    .cs__hero-borromsec {
+        bottom: -108px;
+    }
+    .cs__hero-sec p {
+        max-width: 100%;
+    }
+    .cs__hero-wrap {
+        margin-bottom: 140px;
+    }
+}
+@media (max-width:991.98px){
+    .cs__hero-wrap {
+        margin-bottom: 32px;
+    }
+    .cs__hero-wrap .cs__img-block img {
+        max-width: 450px;
+    }
+    .cs__hero-wrap .cs__img-block {
+        text-align: center;
+    }
+    .cs__hero-sec h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .cs__hero-sec .row {
+        flex-direction: column-reverse;
+    }
+    .cs__hexa-img img {
+        max-width: 80%;
+    }
+    .cs__hexa-img {
+        top: auto;
+        bottom: 0;
+    }
+}
+@media (max-width:767.98px){
+    .cs__hexa-img img {
+        max-width: 100%;
+    }
+    .cs__hero-borromsec {
+        bottom: -62px;
+    }
+    .cs__hero-sec {
+        padding: 30px 0 0;
+    }
+}
+@media (max-width: 360.98px){
+    .cs__hero-borromsec {
+        bottom: -52px;
+    }
+}
+/* Responsive : Style End */
+/* Hero Section: Style End */
+
+/* For Your Business : Style Start */
+.cs__business-sec {
+    position: relative;
+    border-bottom: 1.5px solid #DEDEDE;
+    padding: 30px 0;
+}
+.cs__partner-block {
+    background-color: var(--medium-black);
+    padding: 15px 40px;
+}
+.cs__topimg-block {
+    position: absolute;
+    top: -155px;
+    z-index: -1;
+}
+.cs__topimg-block img {
+    opacity: 0.02;
+}
+.cs__business-sec p {
+    max-width: 93%;
+}
+.cs__business-details{
+    overflow: hidden;
+}
+@media (max-width:991.98px){
+    .cs__business-sec p {
+        max-width: 100%;
+    }
+    .cs__business-sec {
+        padding: 90px 0 30px;
+    }
+    .cs__topimg-block {
+        top: -10px;
+    }
+}
+@media (max-width:767.98px){
+    .cs__partner-block {
+        padding: 15px 20px;
+    }
+}
+/* For Your Business : Style End */
+
+/* DevOps Consulting : Style Start */
+.cs__consulting-sec {
+    padding: 60px 0;
+}
+.cs__consulting-inner .cs__img-block{
+    position: relative;
+}
+.cs__consulting-inner .cs__img-block:before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/consulting-servive-bg.png);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.cs__consulting-inner .cs__img-block:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/consulting-servive-bg.png);
+    left: -70%;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cs__consulting-desc h4 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.cs__consulting-desc p {
+    font-size: 22px;
+    line-height: 40px;
+}
+.cs__consulting-desc {
+    position: relative;
+}
+.cs__consulting-desc .cs__service-no {
+    position: absolute;
+    left: 0;
+    top: -150px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 267px;
+    color: rgba(237, 99, 43, 0.12);
+}
+.cs__consulting-inner {
+    padding: 60px 0 0;
+}
+/* DevOps Consulting : Style End */
