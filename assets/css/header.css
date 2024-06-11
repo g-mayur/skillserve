@@ -35,6 +35,9 @@
     filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(1233%) hue-rotate(344deg) brightness(96%) contrast(93%);
     transition: all 0.5s ease-in-out;
 }
+.navbar-nav .nav-link.active.dropdown-toggle::after{
+    filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(1233%) hue-rotate(344deg) brightness(96%) contrast(93%);
+}
 .navbar-toggler  .line {
     background-color: #2f3436;
     display: block;
@@ -391,7 +394,7 @@ header.cs__animated-header.slide-down {
         padding-right: 0;
     }
     /* accordion css start */
-    .accordion-item button {
+    header .accordion-item button {
         padding: 4px 0;
         color: var(--medium-black);
         text-transform: uppercase;
@@ -399,28 +402,28 @@ header.cs__animated-header.slide-down {
         font-size: 15px;
         background-color: transparent;
     }
-    .accordion-item {
+    header .accordion-item {
         border-bottom: 1px solid rgba(0,0,0,.125) !important;
         border: 0;
         background-color: transparent;
     }
-    .accordion-item:last-child {
+   header .accordion-item:last-child {
         border-bottom: 0 !important;
     }
-    .accordion-body {
+   header .accordion-body {
         background-color: #FCE8DF;
         padding: 4px 16px;
         border-radius: 4px;
         margin: 0 0 16px;
     }
-    .accordion-button:not(.collapsed)::after{
+   header .accordion-button:not(.collapsed)::after{
         filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(1233%) hue-rotate(344deg) brightness(96%) contrast(93%);
     }
-    .accordion-body li {
+    header .accordion-body li {
         padding: 8px 0 8px 18px;
         position: relative;
     }
-    .accordion-body li a {
+    header .accordion-body li a {
         color: var(--medium-black);
         font-size: 15px;
         font-weight: 500;
@@ -432,7 +435,7 @@ header.cs__animated-header.slide-down {
     .cs__tech-list > div:first-child {
         margin: 0 0 16px;
     }
-    .accordion-body li:before {
+    header .accordion-body li:before {
         content: '';
         width: 10px;
         height: 10px;
@@ -443,7 +446,7 @@ header.cs__animated-header.slide-down {
         left: 0;
         top: 16px;
     }
-    .accordion-button::after {
+    header .accordion-button::after {
         background-image: url(../images/down-arrow.svg) !important;
         width: 16px;
         height: 10px;

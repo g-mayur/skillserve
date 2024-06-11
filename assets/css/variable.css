@@ -58,7 +58,7 @@ ol, ul {
   color: var(--medium-black);
   font-weight: 400;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 42px;
 }
 .cs__tag{
     background-color: #FDECE6;
@@ -125,6 +125,22 @@ ol, ul {
 }
 .cs__fillwhite-btn img {
     filter: brightness(0) saturate(100%) invert(46%) sepia(71%) saturate(1924%) hue-rotate(344deg) brightness(96%) contrast(93%);
+}
+.cs__outlint-btn {
+    color: var(--medium-black);
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid var(--medium-black);
+    border-radius: 100px;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+.cs__outlint-btn:hover {
+    background-color: var(--medium-black);
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
 }
 main {
     padding: 100px 0 0;
