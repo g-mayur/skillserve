@@ -272,6 +272,7 @@ background: #dddddd;
     .cs__blog-desc .cs__paragraph-text {
         font-size: 16px;
         line-height: 26px;
+        height: auto;
     }
     .cs__blog-footer {
         padding: 15px 20px 70px;
@@ -290,23 +291,24 @@ background: #dddddd;
         font-size: 22px;
     }
     .cs__bloglist-sec .nav-tabs li:nth-child(3) {
-        min-width: 143px;
+        min-width: 145px;
     }
     .cs__bloglist-sec .nav-tabs li:nth-child(4) {
-        min-width: 264px;
+        min-width: 270px;
     }
     .cs__bloglist-sec .nav-tabs li:nth-child(6) {
-        min-width: 177px;
+        min-width: 182px;
     }
     .cs__bloglist-sec .nav-tabs li:nth-child(7) {
-        min-width: 241px;
+        min-width: 250px;
     }
     .cs__bloglist-sec .nav-tabs li:nth-child(8) {
-        min-width: 206px;
+        min-width: 212px;
     }
     .cs__bloglist-sec .nav-tabs {
         gap: 16px;
     }
+   
 }
 @media(max-width:767px){
    .cs__bloglist-sec  .tab-content .row > div {
