@@ -557,18 +557,6 @@
     font-weight: 600;
     margin: 26px 0;
 }
-.cs__project-sec .cs__fill-btn {
-    background-color: var(--white);
-}
-.cs__project-sec .cs__fill-btn:hover{
-    color: var(--medium-black) !important;
-    transition: all 0.2s ease-in-out;
-}
-.cs__project-sec .cs__fill-btn:hover img{
-    filter: brightness(0) saturate(100%) invert(10%) sepia(24%) saturate(63%) hue-rotate(314deg) brightness(98%) contrast(92%);
-    transition: all 0.2s ease-in-out;
-}
-
 /* Responsive : Style Start */
 @media (max-width: 991.98px){
     .cs__project-sec p {
@@ -651,6 +639,7 @@
     position: absolute;
     top: 67%;
     transition: all 0.2s ease-in-out;
+    z-index: 1;
 }
 .cs__testimonial-sec .swiper-button-next:hover,.cs__testimonial-sec  .swiper-button-prev:hover{
     background-color: var(--orange);

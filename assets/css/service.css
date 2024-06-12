@@ -100,7 +100,7 @@
 }
 .cs__topimg-block {
     position: absolute;
-    top: -176px;
+    top: -315px;
     z-index: -1;
     left: 0;
     right: 0;
@@ -141,19 +141,27 @@
     position: relative;
     overflow: hidden;
 }
-.cs__consulting-inner .cs__img-block {
-    position: absolute;
-    left: -27%;
-    right: auto;
-    top: 56%;
-    transform: translateY(-50%);
-}
 .cs__consulting-inner > div:nth-child(even) .cs__img-block{
-    left: auto;
-    right: -34%;
+    text-align: right;
 }
-.cs__consulting-inner .cs__img-block img {
-    max-width: 87%;
+.cs__consulting-inner .cs__img-block:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/consulting-servive-bg.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    top: -14px;
+}
+.cs__consulting-inner .cs__img-block {
+    position: relative;
+}
+.cs__consulting-inner > div:nth-child(even) .cs__img-block:before {
+    left: auto;
+    right: 0;
+    transform: rotate(179deg);
 }
 .cs__consulting-desc h4 {
     font-size: 34px;
@@ -178,44 +186,45 @@
     color: rgba(237, 99, 43, 0.12);
 }
 .cs__consulting-inner {
-    padding: 120px 0 0;
+    padding: 100px 0 0;
 }
 .cs__consulting-inner > div {
-    margin: 0 0 180px;
+    margin: 0 0 120px;
     position: relative;
+}
+.cs__consulting-inner > div:last-child {
+    margin-bottom: 0;
 }
 .cs__consulting-inner > div:nth-child(even) {
     flex-direction: row-reverse;
 }
+.cs__servicebg-img {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    opacity: 0.5;
+}
 /* Responsive css start */
-@media (max-width:1440px){
+@media (min-width:1199.98px) and (max-width:1536.98px){
     .cs__consulting-inner .cs__img-block {
-        left: -12%;
+        position: absolute;
+        left: -25%;
+        top: -256px;
+        bottom: auto;
+    }
+    .cs__consulting-inner > div {
+        margin: 0 0 180px;
     }
     .cs__consulting-inner > div:nth-child(even) .cs__img-block {
         left: auto;
-        right: -20%;
-    }
-}
-@media (max-width:1399.98px){
-    .cs__consulting-inner .cs__img-block {
-        left: -16%;
-    }
-    .cs__consulting-inner > div:nth-child(even) .cs__img-block {
-        left: auto;
-        right: -26%;
-    }
-}
-@media (max-width:1199.98px){
-    .cs__consulting-inner .cs__img-block img {
-        max-width: 80%;
+        right: -25%;
     }
 }
 @media (max-width: 991.98px){
     .cs__consulting-inner .cs__img-block {
-        position: static;
-        transform: unset;
         text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
     }
     .cs__consulting-inner > div {
         margin: 0 0 40px;
@@ -238,6 +247,9 @@
     .cs__consulting-desc p {
         font-size: 16px;
         line-height: 26px;
+    }
+    .cs__consulting-inner .cs__img-block {
+        max-width: 100%;
     }
 }
 /* Responsive css end */
@@ -399,9 +411,6 @@
     .cs__consulting-desc .cs__service-no {
         font-size: 128px;
     }
-    .cs__consulting-inner .cs__img-block img {
-        max-width: 100%;
-    }
 }
 /* Responsive css end */
 /* Our DevOps Solutions: Style End */
@@ -478,6 +487,7 @@
     position: absolute;
     top: 67%;
     transition: all 0.2s ease-in-out;
+    z-index: 1;
 }
 .cs__testimonial-sec .swiper-button-next:hover,.cs__testimonial-sec  .swiper-button-prev:hover{
     background-color: var(--orange);
@@ -591,12 +601,17 @@
     padding: 32px 0 0;
 }
 .cs__faq-sec .accordion-button {
-    padding: 22px 40px 22px 0;
+    padding: 18px 0;
+}
+.cs__faq-sec .accordion-button h6 {
+    padding-right: 40px;
     height: auto;
     color: var(--black);
     font-size: 24px;
     line-height: 36px;
     text-transform: unset;
+    margin-bottom: 0;
+    font-weight: 400;
 }
 .cs__faq-sec .accordion-button::after {
     background-image: url(../images/plus.svg);
@@ -604,9 +619,6 @@
     height: 32px;
     background-size: 32px;
     transition: all 0.2s ease-in-out;
-    position: absolute;
-    right: 0;
-    top: 34px;
 }
 .cs__faq-sec .accordion-button:not(.collapsed)::after{
     transform: unset;
@@ -625,7 +637,7 @@
     background-color: #fff;
     border-bottom: 1px solid #C2C2C2;
 }
-.cs__faq-sec .accordion-button[aria-expanded="true"] {
+.cs__faq-sec .accordion-button[aria-expanded="true"] h6 {
     color: var(--orange);
     font-weight: 600;
 }
@@ -654,7 +666,7 @@
         font-size: 16px;
         line-height: 26px;
     }
-    .cs__faq-sec .accordion-button{
+    .cs__faq-sec .accordion-button h6{
         font-size: 20px;
         line-height: 32px;
     }

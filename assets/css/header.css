@@ -299,13 +299,13 @@ header.cs__animated-header.slide-down {
     .cs__tech-list {
         max-width: 85%;
     }
-    .tab-content ul {
+   header .tab-content ul {
         gap: 14px;
     }
-    .tab-content p{
+   header .tab-content p{
         font-size: 18px;
     }
-    .tab-content li{
+   header .tab-content li{
         font-size: 16px;
     }
     /* Dropdown : Style End */

@@ -290,46 +290,52 @@
 
      <!-- Blog List Section: Block Start -->
      <section class="cs__bloglist-sec">
-        <div class="cs__bloglist-block">
+        <div class="cs__bloglist-block" data-aos="fade-up">
             <div class="container">
-                <ul class="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+                      <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend" type="button" role="tab" aria-controls="profile" aria-selected="false">Ecommerce</button>
+                      <button class="nav-link" id="ecommerce-tab" data-bs-toggle="tab" data-bs-target="#ecommerce" type="button" role="tab" aria-controls="profile" aria-selected="false">Ecommerce</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="database-tab" data-bs-toggle="tab" data-bs-target="#database" type="button" role="tab" aria-controls="contact" aria-selected="false">Front End</button>
+                      <button class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend" type="button" role="tab" aria-controls="contact" aria-selected="false">Front End</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="infrastructure-tab" data-bs-toggle="tab" data-bs-target="#infrastructure" type="button" role="tab" aria-controls="contact" aria-selected="false">Mobile Development</button>
+                      <button class="nav-link" id="mobiledevelopment-tab" data-bs-toggle="tab" data-bs-target="#mobiledevelopment" type="button" role="tab" aria-controls="contact" aria-selected="false">Mobile Development</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="infrastructure-tab" data-bs-toggle="tab" data-bs-target="#infrastructure" type="button" role="tab" aria-controls="contact" aria-selected="false">PHP</button>
+                      <button class="nav-link" id="php-tab" data-bs-toggle="tab" data-bs-target="#php" type="button" role="tab" aria-controls="contact" aria-selected="false">PHP</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="infrastructure-tab" data-bs-toggle="tab" data-bs-target="#infrastructure" type="button" role="tab" aria-controls="contact" aria-selected="false">Social Corner</button>
+                      <button class="nav-link" id="socialcorner-tab" data-bs-toggle="tab" data-bs-target="#socialcorner" type="button" role="tab" aria-controls="contact" aria-selected="false">Social Corner</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="webdevelopment-tab" data-bs-toggle="tab" data-bs-target="#webdevelopment" type="button" role="tab" aria-controls="contact" aria-selected="false">Web Development</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="websitedesign-tab" data-bs-toggle="tab" data-bs-target="#websitedesign" type="button" role="tab" aria-controls="contact" aria-selected="false">Website Design</button>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="container">
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                     <div class="row">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog1.png" alt="blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
                                         <span>Technology</span>
                                         <span>Artificial Intelligence</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -341,7 +347,7 @@
                                 </div>
                                 <div class="cs__blog-desc">
                                     <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -356,18 +362,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
                                         <span>Technology</span>
-                                        <span>Artificial Intelligence</span>
+                                        <span>Enterprise Solutions</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -378,8 +384,8 @@
                                     </div>
                                 </div>
                                 <div class="cs__blog-desc">
-                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -394,18 +400,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog3.png" alt="Blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
-                                        <span>Technology</span>
-                                        <span>Artificial Intelligence</span>
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Business</span>
+                                        <span>Outsourcing</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -416,8 +422,8 @@
                                     </div>
                                 </div>
                                 <div class="cs__blog-desc">
-                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <h6>When is the Best Time to Outsource On-Demand Developers?</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -432,18 +438,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
                                         <span>Technology</span>
-                                        <span>Artificial Intelligence</span>
+                                        <span>Web Development</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -454,8 +460,8 @@
                                     </div>
                                 </div>
                                 <div class="cs__blog-desc">
-                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -470,18 +476,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
-                                        <span>Technology</span>
-                                        <span>Artificial Intelligence</span>
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -492,8 +498,8 @@
                                     </div>
                                 </div>
                                 <div class="cs__blog-desc">
-                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -508,18 +514,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
                             <div class="cs__blog-inner">
                                 <div class="cs__img-block">
-                                    <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
+                                    <img src="assets/images/blog6.png" alt="Blog" width="100%" height="100%">
                                 </div>
                                <div class="cs__blog-wrapper">
-                                <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                    <div class="cs__blog-tag d-flex align-items-center">
-                                        <span>Technology</span>
-                                        <span>Artificial Intelligence</span>
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>DevOps</span>
                                     </div>
-                                    <div class="cs__blog-social d-flex align-items-center justify-content-between">
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
                                         <div class="cs__share-btn">
                                             <img src="assets/images/share.svg" alt="Share" width="24" height="24">
                                         </div>
@@ -530,8 +535,8 @@
                                     </div>
                                 </div>
                                 <div class="cs__blog-desc">
-                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
+                                    <h6>DevOps: Introduction, Lifecycle, Tools, and Engineers</h6>
+                                    <p class="cs__paragraph-text mb-0">What is DevOps? History Of DevOps How does DevOps work? – The complete DevOps lifecycle What are the Benefits of DevOps? What are DevOps Tools and DevOps Toolchain? Which...</p>
                                 </div>
                                </div>
                                 <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
@@ -548,241 +553,909 @@
                         </div>
                     </div> 
                     <div class="cs__blogload-btn mt-4 text-center">
-                        <a href="#" class="cs__outlint-btn">Load More</a>
+                        <a href="#" class="cs__outlint-btn" data-aos="zoom-in">Load More</a>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="backend-tab">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                <div class="tab-pane fade" id="ecommerce" role="tabpanel" aria-labelledby="ecommerce-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog3.png" alt="Blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Business</span>
+                                        <span>Outsourcing</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>When is the Best Time to Outsource On-Demand Developers?</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Web Development</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog6.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>DevOps: Introduction, Lifecycle, Tools, and Engineers</h6>
+                                    <p class="cs__paragraph-text mb-0">What is DevOps? History Of DevOps How does DevOps work? – The complete DevOps lifecycle What are the Benefits of DevOps? What are DevOps Tools and DevOps Toolchain? Which...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div class="tab-pane fade" id="database" role="tabpanel" aria-labelledby="database-tab">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                <div class="tab-pane fade" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Web Development</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Enterprise Solutions</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div class="tab-pane fade" id="infrastructure" role="tabpanel" aria-labelledby="infrastructure-tab">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                <div class="tab-pane fade" id="mobiledevelopment" role="tabpanel" aria-labelledby="mobiledevelopment-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list">
-                        <div class="cs__blog-inner">
-                            <div class="cs__img-block">
-                                <img src="assets/images/blog1.png" alt="arrow-right" width="100%" height="100%">
-                            </div>
-                           <div class="cs__blog-wrapper">
-                            <div class="cs__blog-top d-flex align-items-center justify-content-between">
-                                <div class="cs__blog-tag d-flex align-items-center">
-                                    <span>Technology</span>
-                                    <span>Artificial Intelligence</span>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
                                 </div>
-                                <div class="cs__blog-social d-flex align-items-center justify-content-between">
-                                    <div class="cs__share-btn">
-                                        <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Enterprise Solutions</span>
                                     </div>
-                                    <div class="cs__cmt-block">
-                                        <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
-                                        <span>2</span>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cs__blog-desc">
-                                <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
-                                <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media, but...</p>
-                            </div>
-                           </div>
-                            <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
-                            <div class="cs__blog-footer d-flex align-items-center">
-                                <div class="d-flex align-items-center cs__author">
-                                    <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
-                                    <p class="mb-0">Raj Naik</p>
+                                <div class="cs__blog-desc">
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
                                 </div>
-                                <div class="cs__blog-date">
-                                    <p>April 18, 2022</p>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="php" role="tabpanel" aria-labelledby="php-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Enterprise Solutions</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog3.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Business</span>
+                                        <span>Outsourcing</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>When is the Best Time to Outsource On-Demand Developers?</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="socialcorner" role="tabpanel" aria-labelledby="socialcorner-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Web Development</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog6.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>DevOps: Introduction, Lifecycle, Tools, and Engineers</h6>
+                                    <p class="cs__paragraph-text mb-0">What is DevOps? History Of DevOps How does DevOps work? – The complete DevOps lifecycle What are the Benefits of DevOps? What are DevOps Tools and DevOps Toolchain? Which...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="webdevelopment" role="tabpanel" aria-labelledby="webdevelopment-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Web Development</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Enterprise Solutions</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="websitedesign" role="tabpanel" aria-labelledby="websitedesign-tab">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog1.png" alt="blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Artificial Intelligence</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Understanding The ChatGPT: How It Works, Risks and Benefits</h6>
+                                    <p class="cs__paragraph-text mb-0">You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media You’ve probably heard of ChatGPT- an AI-based tool for organizations looking to serve their customer with excellent user experiences. Globally, ChatGPT has gone viral on social media</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog2.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Enterprise Solutions</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>How to Develop Enterprise Apps Rapidly With Low-Code Development?</h6>
+                                    <p class="cs__paragraph-text mb-0">What Is Low-Code Development? Why Does Low-code Matter? Low-code software development is appropriate for what type of business? Benefits Of Low-Code Development Popular Low-Code...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog3.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Business</span>
+                                        <span>Outsourcing</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>When is the Best Time to Outsource On-Demand Developers?</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog4.png" alt="blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Technology</span>
+                                        <span>Web Development</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Web Application Development: A Complete Guide</h6>
+                                    <p class="cs__paragraph-text mb-0">It is always exciting to start a new software project or website. In contrast, the idea that these projects should be completed successfully and within set deadlines and budgets are more...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog5.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>Mobile App Development</span>
+                                        <span>Hybrid App</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>Hybrid App Development – All You Need to Know in 2022</h6>
+                                    <p class="cs__paragraph-text mb-0">Planning to build a mobile app for your business, you must consider hybrid app development in 2022. Building mobile applications using a hybrid app development approach can be a perfect choice as...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cs__blog-list" data-aos="fade-up">
+                            <div class="cs__blog-inner">
+                                <div class="cs__img-block">
+                                    <img src="assets/images/blog6.png" alt="Blog" width="100%" height="100%">
+                                </div>
+                               <div class="cs__blog-wrapper">
+                                <div class="cs__blog-top d-flex align-items-center justify-content-between flex-wrap">
+                                    <div class="cs__blog-tag col-xxl-9 col-xl-9 col-lg-9 col-sm-12  d-flex align-items-center flex-wrap">
+                                        <span>DevOps</span>
+                                    </div>
+                                    <div class="cs__blog-social d-flex col-xxl-3 col-xl-3 col-lg-3 col-sm-12 align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                                        <div class="cs__share-btn">
+                                            <img src="assets/images/share.svg" alt="Share" width="24" height="24">
+                                        </div>
+                                        <div class="cs__cmt-block">
+                                            <img src="assets/images/comment.svg" alt="Comment" width="30" height="30">
+                                            <span>2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cs__blog-desc">
+                                    <h6>DevOps: Introduction, Lifecycle, Tools, and Engineers</h6>
+                                    <p class="cs__paragraph-text mb-0">What is DevOps? History Of DevOps How does DevOps work? – The complete DevOps lifecycle What are the Benefits of DevOps? What are DevOps Tools and DevOps Toolchain? Which...</p>
+                                </div>
+                               </div>
+                                <a href="javascript:void(0)" class="cs__fill-btn aos-init aos-animate" data-aos="zoom-in"><span>Read More</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                                <div class="cs__blog-footer d-flex align-items-center">
+                                    <div class="d-flex align-items-center cs__author">
+                                        <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
+                                        <p class="mb-0">Raj Naik</p>
+                                    </div>
+                                    <div class="cs__blog-date">
+                                        <p>April 18, 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="cs__blogload-btn mt-4 text-center">
+                        <a href="#" class="cs__outlint-btn" data-aos="zoom-in">Load More</a>
                     </div>
                 </div>
             </div>
@@ -882,7 +1555,7 @@
   <!-- Top Button : Block End -->
 
   <!-- social icon : Block Start -->
-  <!-- <div class="cs__social-sec">
+  <div class="cs__social-sec">
     <a href="javascript:void(0)" class="cs__social-block cs__facebook d-flex align-items-center">     
       <p>Facebook</p>
       <div class="cs__social-icon">
@@ -907,7 +1580,7 @@
         <img src="assets/images/linkedn.svg" alt="linkedn" width="24" height="24">
       </div>
     </a>
-  </div> -->
+  </div>
   <!-- social icon : Block End -->
 
 
