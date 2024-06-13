@@ -34,7 +34,7 @@ body {
 }
 .h3,h3{
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 42px;
 }
 .h4,h4{
@@ -113,7 +113,6 @@ ol, ul {
     transform: translate3d(0, -100%, 0);
 }
 .cs__fill-btn span {
-    display: inline-block;
     padding-right: 10px;
     position: relative;
 }
@@ -202,8 +201,8 @@ main {
         line-height: 26px;
     }
     .h2, h2 {
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 32px;
+        line-height: 40px;
     }
 }
 /* Responsive: Style End */
@@ -308,5 +307,27 @@ main {
 }
 .cs__linkedin{
     background-color: #0B69C7;
+}
+@media (max-width:767.98px){
+    .cs__social-block {
+        padding: 6px 12px;
+        font-size: 16px;
+        margin: 8px 0 0 -112px;
+    }
+    .cs__social-icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 12px;
+    }
+    .cs__social-icon img {
+        max-width: 18px;
+    }
+    .cs__social-block p {
+        font-size: 18px;
+    }
+    .cs__social-block:hover {
+        transform: translateX(112px);
+    }
 }
 /* Social Block : Style End */
