@@ -61,6 +61,19 @@ main {
     background-color: #FEFAF9;
     margin: 60px 0;
 }
+.cs__lowcode-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 8px;
+    border: 1px solid rgba(34, 34, 34, 0.3);
+    border-radius: 10px;
+    height: 100%;
+}
+.cs__lowcode-inner h3 {
+    font-size: 30px;
+}
 @media (min-width:991px){
     .custom-gap-30 {
         gap: 30px;
@@ -71,3 +84,47 @@ main {
         gap: 20px;
     }
 }
+
+/* Blog Details Second variation : Style Start */
+.cs__left-block ol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 15px 15px 40px;
+    gap: 18px;
+    background: #222222;
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    height: 100%;
+    justify-content: space-between;
+}
+.cs__left-block ol li {
+    list-style: number;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 26px;
+}
+.cs__right-block {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.cs__right-block::-webkit-scrollbar {
+    display: none;
+}
+.cs__left-block ol li.active {
+    color: var(--orange) !important;
+}
+.cs__lowcode-banifitlist{
+    padding-left: 55px;
+}
+.cs__lowcode-banifitlist li{
+    list-style-type: lower-alpha;
+}
+.cs__lowcode-v2sec .cs__lowcode-inner {
+    border: 0;
+    padding: 0;
+}
+/* Blog Details Second variation : Style End */

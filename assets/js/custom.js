@@ -47,7 +47,7 @@ $(document).ready(function () {
     watchSlidesProgress: true,
     slidesPerView: 3,
     spaceBetween: 30,
-    speed:2000,
+    speed: 2000,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -130,6 +130,44 @@ $(document).ready(function () {
     return false;
   });
   // Top button Js end
-  
+
+  // Blog details scroll JS start
+     // Scroll to content and add 'active' class when clicking on the list item
+     $(".cs__left-block li").click(function () {
+      var target = $(this).data("target");
+      var offset = $(target).offset().top - $(".cs__right-block").offset().top + $(".cs__right-block").scrollTop();
+
+      // Remove active class from all list items and add to the clicked one
+      $(".cs__left-block li").removeClass("active");
+      $(this).addClass("active");
+
+      // Scroll the right panel to the corresponding section
+      $(".cs__right-block").animate({
+          scrollTop: offset
+      }, 1000);
+  });
+
+  // Intersection Observer to add 'active' class to the corresponding list item on scroll
+  const observerOptions = {
+      root: document.querySelector('.cs__right-block'),
+      rootMargin: '0px',
+      threshold: 0.5
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              const id = entry.target.id;
+              $(".cs__left-block li").removeClass("active");
+              $('.cs__left-block li[data-target="#' + id + '"]').addClass("active");
+          }
+      });
+  }, observerOptions);
+
+  // Observe each content section
+  $('.cs__content-section').each(function () {
+      observer.observe(this);
+  });
+  // Blog details scroll JS End
 
 });

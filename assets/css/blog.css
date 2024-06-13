@@ -141,6 +141,7 @@ background: #dddddd;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     position: relative;
+    display: inline-block;
 }
 .cs__blog-inner .cs__img-block img {
     width: 100%;
@@ -181,6 +182,7 @@ background: #dddddd;
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--black);
 }
 .cs__blog-desc {
     padding: 8px 0 0;
@@ -230,6 +232,7 @@ background: #dddddd;
     right: 0;
     border-radius: 20px 0 0 0;
     bottom: 0;
+    border: 0;
 }
 .cs__bloglist-sec .cs__blog-list {
     margin: 20px 0;
@@ -310,12 +313,7 @@ background: #dddddd;
     }
    
 }
-@media(max-width:767px){
-   .cs__bloglist-sec  .tab-content .row > div {
-        width: 50%;
-    }
-}
-@media (max-width:600px){
+@media (max-width:600.98px){
     .cs__bloglist-sec  .tab-content .row > div {
         width: 100%;
     }
