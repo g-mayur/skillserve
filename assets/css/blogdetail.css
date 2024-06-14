@@ -127,4 +127,20 @@ main {
     border: 0;
     padding: 0;
 }
+.cs__platformcode-sec p:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 5px solid var(--medium-black);
+    border-radius: 100px;
+    left: 0;
+    top: 10px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+.cs__platformcode-sec p {
+    padding-left: 35px;
+}
 /* Blog Details Second variation : Style End */

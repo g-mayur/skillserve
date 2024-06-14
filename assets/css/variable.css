@@ -22,10 +22,7 @@ body {
     --primary-font: "Montserrat", sans-serif;
     --secondary-font: "Open Sans", sans-serif;
 }
-.h1,h1{
-    font-size: 52px;
-}
-.h2,h2{
+.h2,h2,.h1,h1{
     font-size: 48px;
     font-weight: 700;
     line-height: 62px;
@@ -39,9 +36,13 @@ body {
 }
 .h4,h4{
     font-size: 32px;
+    line-height: 56px;
+    font-weight: 600;
 }
 .h5,h5{
     font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
 }
 .h6,h6{
     font-size: 26px;
@@ -196,13 +197,21 @@ main {
     .container {
         padding: 0 20px;
     }
-    .cs__paragraph-text {
+    .cs__mobile-content{
         font-size: 16px;
         line-height: 26px;
     }
-    .h2, h2 {
+    .h2, h2, .h1, h1 {
         font-size: 32px;
         line-height: 40px;
+    }
+    .h4,h4{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .h5, h5 {
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 /* Responsive: Style End */
@@ -310,7 +319,7 @@ main {
 }
 @media (max-width:767.98px){
     .cs__social-block {
-        padding: 6px 12px;
+        padding: 6px 10px;
         font-size: 16px;
         margin: 8px 0 0 -112px;
     }

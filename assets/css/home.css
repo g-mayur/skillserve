@@ -13,6 +13,7 @@
 }
 .cs__hero-sec p {
     max-width: 100%;
+    line-height: 36px;
 }
 .cs__hero-borromsec {
     position: absolute;
@@ -92,6 +93,9 @@
     }
     .cs__hero-sec {
         padding: 30px 0 0;
+    }
+    .cs__hero-sec p{
+        line-height: 26px;
     }
 }
 @media (max-width: 360.98px){
@@ -910,10 +914,6 @@
 
 .cs__contact-info > div {
     margin: 15px 0;
-}
-.cs__phone-block .cs__desc p {
-    vertical-align: middle;
-    line-height: 45px;
 }
 .cs__contact-form h4 {
     font-size: 28px;
