@@ -21,6 +21,7 @@
 }
 .cs__hero-sec p {
     max-width: 100%;
+    line-height: 36px;
 }
 .cs__hero-borromsec {
     position: absolute;
@@ -78,6 +79,9 @@
     }
     .cs__hero-sec {
         padding: 30px 0 0;
+    }
+    .cs__hero-sec p {
+        line-height: 26px;
     }
 }
 @media (max-width: 360.98px){
@@ -233,7 +237,7 @@
         margin: 26px 0 0;
     }
     .cs__consulting-inner {
-        padding: 40px 0 0;
+        padding: 40px 0;
     }
     .cs__consulting-sec {
         padding: 40px 0 0;
@@ -297,8 +301,6 @@
 }
 .cs__soluation-inner h4 {
     color: var(--orange);
-    font-weight: 600;
-    line-height: 56px;
 }
 .cs__soluation-inner p {
     font-size: 22px;
