@@ -201,6 +201,9 @@
 .cs__blogdetails-topsec .cs__author {
     border-right: 2px solid #38414A;
 }
+.cs__blogdetails-topsec h2 {
+    color: var(--orange);
+}
 /* Blog Details Second variation : Style End */
 /* Responsive block : Style Strat */
 @media (max-width:991.98px){
