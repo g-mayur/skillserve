@@ -1,6 +1,3 @@
-main {
-    padding: 100px 0 0;
-}
 .cs__blogdetails-topsec{
     background: linear-gradient(180deg, rgba(237, 99, 43, 0.19) 0%, rgba(237, 99, 43, 0) 100%);
     padding: 60px 0;
@@ -84,7 +81,6 @@ main {
         gap: 20px;
     }
 }
-
 /* Blog Details Second variation : Style Start */
 .cs__left-block ol {
     display: flex;
@@ -116,6 +112,7 @@ main {
 }
 .cs__left-block ol li.active {
     color: var(--orange) !important;
+    font-weight: 600;
 }
 .cs__lowcode-banifitlist{
     padding-left: 55px;
@@ -133,14 +130,99 @@ main {
     height: 20px;
     position: absolute;
     background-color: #ffffff;
-    border: 5px solid var(--medium-black);
+    border: 6px solid var(--medium-black);
     border-radius: 100px;
     left: 0;
-    top: 10px;
+    top: 11px;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
 }
 .cs__platformcode-sec p {
-    padding-left: 35px;
+    padding-left: 32px;
+    position: relative;
+}
+.cs__teamup-sec {
+    background-color: var(--medium-black);
+    padding: 30px;
+}
+.cs__lowcodeapp-block span {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 42px;
+    color: #E6E6E6;
+    z-index: -1;
+}
+.cs__microsoft-inner h4 {
+    color: var(--orange);
+}
+.cs__microsoft-inner p {
+    color: var(--black);
+    font-size: 22px;
+    line-height: 44px;
+}
+.cs__microsoft-wrap .cs__microsoft-inner:nth-child(odd) {
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
+}
+.cs__microsoft-wrap .cs__microsoft-inner {
+    padding: 10px 30px;
+}
+.cs__microsoft-wrap .cs__microsoft-inner:nth-child(even) {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
+}
+.cs__microsoft-sec img {
+    border-radius: 15px;
+}
+.cs__conclusion-block {
+    padding: 30px;
+    background: #FDE8DF;
+    border: 4px solid #ED632B;
+    border-radius: 15px;
+}
+.cs__conclusion-block .cs__img-block {
+    background: #FDE8DF;
+    border: 4px solid var(--orange);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 114px;
+    position: absolute;
+    right: 36px;
+    top: -57px;
+    z-index: 0;
+}
+.cs__blogdetails-topsec .cs__author {
+    border-right: 2px solid #38414A;
 }
 /* Blog Details Second variation : Style End */
+/* Responsive block : Style Strat */
+@media (max-width:991.98px){
+    .cs__right-block {
+        height: auto;
+        overflow-y: unset;
+    }
+    .cs__teamup-sec {
+        padding: 20px;
+    }
+}
+@media (max-width: 767.98px){
+    .cs__microsoft-inner p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .cs__lowcode-inner h3,.cs__microsoft-inner h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .cs__microsoft-wrap .cs__microsoft-inner {
+        padding: 10px 12px;
+    }
+}
+/* Responsive block : Style End */
