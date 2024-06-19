@@ -89,21 +89,7 @@ background: transparent
 .cs__bloglist-sec .nav-tabs::-webkit-scrollbar-thumb {
 background: #dddddd;
 }
-.cs__bloglist-sec .nav-tabs li:nth-child(3){
-    min-width: 165px;
-}
-.cs__bloglist-sec .nav-tabs li:nth-child(4){
-    min-width: 322px;
-}
-.cs__bloglist-sec .nav-tabs li:nth-child(6){
-    min-width: 215px;
-}
-.cs__bloglist-sec .nav-tabs li:nth-child(7){
-    min-width: 290px;
-}
-.cs__bloglist-sec .nav-tabs li:nth-child(8){
-    min-width: 245px;
-}
+
 .cs__bloglist-sec .nav-tabs .nav-link {
     border: 0;
     margin: 0;
@@ -111,9 +97,10 @@ background: #dddddd;
     position: relative;
 }
 .cs__bloglist-sec button {
-    font-size: 26px;
+    font-size: 20px;
     color: var(--black);
-    padding: 10px 20;
+    padding: 10px 20px;
+    white-space: nowrap;
 }
 .cs__bloglist-sec .nav-tabs .nav-link.active {
     color: var(--orange);
@@ -293,21 +280,7 @@ background: #dddddd;
     .cs__bloglist-sec button{
         font-size: 22px;
     }
-    .cs__bloglist-sec .nav-tabs li:nth-child(3) {
-        min-width: 145px;
-    }
-    .cs__bloglist-sec .nav-tabs li:nth-child(4) {
-        min-width: 270px;
-    }
-    .cs__bloglist-sec .nav-tabs li:nth-child(6) {
-        min-width: 182px;
-    }
-    .cs__bloglist-sec .nav-tabs li:nth-child(7) {
-        min-width: 250px;
-    }
-    .cs__bloglist-sec .nav-tabs li:nth-child(8) {
-        min-width: 212px;
-    }
+   
     .cs__bloglist-sec .nav-tabs {
         gap: 16px;
     }

@@ -284,9 +284,12 @@
 }
 /* Blog Details Second variation : Style End */
 /* Responsive block : Style Strat */
-@media (max-width: 1399px){
+@media (max-width: 1650px){
     .cs__left-block ol {
         gap: 10px;
+    }
+    .cs__left-block ol li{
+        font-size: 16px;
     }
 }
 @media (max-width:991.98px){
