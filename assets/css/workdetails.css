@@ -1,0 +1,524 @@
+/* Hero Section: Style Start*/
+.cs__hero-wrap {
+    position: relative;
+    background: linear-gradient(180deg, rgba(237, 99, 43, 0.19) 0%, rgba(237, 99, 43, 0) 100%);
+}
+.cs__hero-sec {
+    position: relative;
+    padding: 62px 0 60px;
+    z-index: 2;
+    overflow: hidden;
+}
+.cs__hero-sec h2{
+    font-weight: 600;
+}
+.cs__hero-sec p {
+    max-width: 100%;
+    line-height: 36px;
+}
+.cs__hero-borromsec {
+    position: absolute;
+    bottom: -195px;
+    width: 100%;
+}
+/* Responsive : Style Start */
+@media (max-width:1650px){
+    .cs__hexa-img img {
+        max-width: 95%;
+    }
+}
+@media (max-width:1199.98px){
+    .cs__hero-borromsec {
+        bottom: -108px;
+    }
+    .cs__hero-sec p {
+        max-width: 100%;
+    }
+}
+@media (max-width:991.98px){
+    .cs__hero-wrap .cs__img-block img {
+        max-width: 450px;
+    }
+    .cs__hero-wrap .cs__img-block {
+        text-align: center;
+    }
+    .cs__hero-sec h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .cs__hero-sec .row {
+        flex-direction: column-reverse;
+    }
+    .cs__hexa-img img {
+        max-width: 80%;
+    }
+    .cs__hexa-img {
+        top: auto;
+        bottom: 0;
+    }
+}
+@media (max-width:767.98px){
+    .cs__hexa-img img {
+        max-width: 100%;
+    }
+    .cs__hero-borromsec {
+        bottom: -62px;
+    }
+    .cs__hero-sec {
+        padding: 30px 0 0;
+    }
+    .cs__hero-sec p {
+        line-height: 26px;
+    }
+}
+@media (max-width: 360.98px){
+    .cs__hero-borromsec {
+        bottom: -52px;
+    }
+}
+/* Responsive : Style End */
+/* Hero Section: Style End */
+/* Service Block : Style Start */
+.cs__service-block {
+    padding: 30px;
+    background: rgba(237, 99, 43, 0.1);
+    border-radius: 0px 8px 8px 0px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
+}
+.cs__service-block p {
+    color: var(--black);
+    font-size: 22px;
+    line-height: 44px;
+    font-weight: 600;
+}
+.cs__service-block h4 {
+    color: var(--orange);
+}
+/* responsive : Style Start */
+@media(max-width:1399px){
+    .cs__service-block{
+        padding: 24px;
+    }
+}
+@media (max-width: 1199px){
+    .cs__service-block p{
+        font-size: 18px;
+    }
+    .cs__service-block img {
+        max-width: 40px;
+    }
+    .cs__service-block h4 {
+        font-size: 30px;
+    }
+    .cs__service-block p {
+        margin-top: 0 !important;
+    }
+}
+@media (max-width:767px){
+    .cs__service-block h4 {
+        font-size: 24px;
+    }
+}
+/* responsive : Style End */
+/* Service Block : Style End */
+
+/* For Your Business : Style Start */
+.cs__business-sec {
+    position: relative;
+    border-bottom: 1.5px solid #DEDEDE;
+    padding: 36px 0 60px;
+    overflow: hidden;
+}
+.cs__partner-block {
+    background-color: var(--medium-black);
+    padding: 15px 40px;
+}
+.cs__topimg-block {
+    position: absolute;
+    top: -315px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+}
+.cs__topimg-block img {
+    opacity: 0.02;
+}
+.cs__business-sec p {
+    max-width: 93%;
+}
+.cs__business-details{
+    overflow: hidden;
+}
+.cs__business-sec:before, .cs__business-sec:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 160px 240px 160px;
+    border-color: transparent transparent rgba(237, 99, 43, 0.05) transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    bottom: 0;
+    left: -95px;
+}
+.cs__business-sec:after {
+    top: 50px;
+    right: -95px;
+    left: auto;
+    bottom: auto;
+}
+@media (max-width:991.98px){
+    .cs__business-sec p {
+        max-width: 100%;
+    }
+    .cs__business-sec {
+        padding: 90px 0 30px;
+    }
+    .cs__topimg-block {
+        top: -10px;
+    }
+}
+@media (max-width:767.98px){
+    .cs__partner-block {
+        padding: 15px 20px;
+    }
+    .cs__business-sec {
+        padding: 0 0 10px;
+    }
+}
+/* For Your Business : Style End */
+/* DevOps Consulting : Style Start */
+.cs__consulting-desc p.cs__titlesub-text {
+    padding: 0;
+}
+.cs__consulting-desc p.cs__titlesub-text:before {
+    content: none;
+}
+.cs__consulting-sec {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+.cs__consulting-inner > div:nth-child(odd) .cs__img-block{
+    text-align: right;
+}
+.cs__consulting-inner .cs__img-block:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/consulting-servive-bg.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    top: -14px;
+}
+.cs__consulting-inner .cs__img-block {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.cs__consulting-inner .cs__img-block img {
+    object-fit: contain;
+    max-width: 500px;
+}
+.cs__consulting-inner > div:nth-child(even) img {
+    margin-left: 110px;
+}
+.cs__consulting-inner > div:nth-child(odd) img {
+    margin-right: 110px;
+}
+.cs__consulting-inner > div:nth-child(odd) .cs__img-block:before {
+    left: auto;
+    right: 0;
+    transform: rotate(179deg);
+}
+.cs__consulting-desc h4 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.cs__consulting-desc p {
+    font-size: 22px;
+    line-height: 40px;
+    position: relative;
+    padding: 0 0 0 30px;
+}
+.cs__consulting-desc p:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 5px solid var(--medium-black);
+    border-radius: 100px;
+    left: 0;
+    top: 11px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+.cs__consulting-desc {
+    position: relative;
+}
+.cs__consulting-desc .cs__service-no {
+    position: absolute;
+    left: 0;
+    top: -150px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 267px;
+    color: rgba(237, 99, 43, 0.12);
+}
+.cs__consulting-inner > div {
+    margin: 0 0 80px;
+    position: relative;
+}
+.cs__consulting-inner > div:last-child {
+    margin-bottom: 0;
+}
+.cs__consulting-inner > div:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.cs__servicebg-img {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    opacity: 0.5;
+}
+/* Responsive css start */
+@media (min-width:1199.98px) and (max-width:1536.98px){
+    .cs__consulting-inner .cs__img-block {
+        position: absolute;
+        left: -25%;
+        top: -256px;
+        bottom: auto;
+    }
+    .cs__consulting-inner > div {
+        margin: 0 0 180px;
+    }
+    .cs__consulting-inner > div:nth-child(odd) .cs__img-block {
+        left: auto;
+        right: -25%;
+    }
+}
+@media (max-width:1199px){
+    .cs__consulting-inner > div:nth-child(even) img {
+        margin-left: 0;
+    }
+    .cs__consulting-inner > div:nth-child(odd) img {
+        margin-right: 0;
+    }
+}
+@media (max-width: 991.98px){
+    .cs__consulting-inner .cs__img-block {
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .cs__consulting-inner > div {
+        margin: 0 0 40px;
+    }
+    .cs__consulting-desc {
+        margin: 26px 0 0;
+    }
+    .cs__consulting-inner {
+        padding: 20px 0;
+    }
+    .cs__consulting-sec {
+        padding: 40px 0 0;
+    }
+    .cs__consulting-desc .cs__service-no {
+        top: -125px;
+        font-size: 150px;
+    }
+    .cs__consulting-inner .cs__img-block{
+        height: auto;
+    }
+}
+@media (max-width:767.98px){
+    .cs__consulting-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .cs__consulting-inner .cs__img-block {
+        max-width: 100%;
+    }
+}
+/* Responsive css end */
+/* DevOps Consulting : Style End */
+/* Soluation Block : Style Start */
+.cs__solution-sec {
+    background-color: var(--medium-black);
+    padding: 60px 0;
+    position: relative;
+}
+.cs__solution-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.15 !important;
+}
+/* responsive : Style start */
+@media (max-width:991px){
+    .cs__solution-sec {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 767px){
+    .cs__solution-bg {
+        bottom: auto;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%) !important;
+    }
+}
+/* responsive : Style End */
+/* Soluation Block : Style End */
+/* Result Block : Style Start */
+.cs__result-sec {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.cs__result-sec .cs__img-block:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/consulting-servive-bg.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: auto;
+    top: -14px;
+    right: -130px;
+    transform: rotate(179deg);
+    z-index: -1;
+}
+.cs__result-sec .cs__img-block{
+    position: relative;
+}
+@media (max-width:991px){
+    .cs__result-sec {
+        padding: 40px 0;
+    }
+}
+@media (max-width:767px){
+    .cs__result-sec .cs__img-block:before {
+        content: none;
+    }
+}
+/* Result Block : Style End */
+/* Project Section: Style Start */
+.cs__project-sec {
+    background-color: var(--medium-black);
+    padding: 30px 0;
+    margin: 0 0 60px;
+}
+.cs__project-sec p {
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 600;
+    margin: 26px 0;
+}
+/* Responsive : Style Start */
+@media (max-width: 991.98px){
+    .cs__project-sec p {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .cs__project-sec{
+        margin: 0 0 40px;
+    }
+}
+/* Responisve : Style End */
+/* Project Section: Style End */
+/* Portfolio Section: Style Start */
+
+.cs__portfolio-block img {
+    border-radius: 20px;
+}
+.cs__protfolio-inner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+}
+.cs__protfolio-inner:before {
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #222222 67.19%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(433px);
+    visibility: hidden;
+}
+.cs__protfolio-inner:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out;
+}
+.cs__portfolio-tab .tab-content .row > div{
+    margin: 12px 0;
+}
+.cs__portfolio-txt {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0 30px;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(45px);
+    visibility: hidden;
+    opacity: 0;
+}
+.cs__protfolio-inner:hover .cs__portfolio-txt {
+    transform: translateY(-30px);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+.cs__portfolio-txt h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.cs__portfolio-txt img{
+    max-width: 40px;
+}
+.cs__portfolio-tab > div {
+    margin: 12px 0;
+}
+.cs__profile-sec{
+    padding: 0 0 48px;
+}
+/* Responsive : Style Start */
+@media (max-width:991.98px){
+    .cs__profile-sec {
+        padding: 0 0 20px;
+    }
+}
+@media (max-width:767.98px){
+    .cs__portfolio-txt h4 {
+        font-size: 20px;
+    }
+    .cs__portfolio-txt{
+        padding: 0 16px;
+    }
+    .cs__protfolio-inner:hover .cs__portfolio-txt {
+        transform: translateY(-16px);
+    }
+    .cs__portfolio-txt img {
+        max-width: 32px;
+    }
+}
+/* Responsive : Style End */
+/* Portfolio Section: Style End */

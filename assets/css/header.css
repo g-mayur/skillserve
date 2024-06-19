@@ -148,23 +148,23 @@ header .dropdown-menu .tab-content {
     font-size: 20px;
     line-height: 32px;
 }
-.tab-content li {
+header .tab-content li {
     position: relative;
     padding: 0 0 0 26px;
     width: 100%;
 }
-.tab-content li a{
+header .tab-content li a{
     color: var(--black);
     font-weight: 500;
 }
-.tab-content .cs__eng-list li{
+header .tab-content .cs__eng-list li{
     max-width: 31%;
     flex: 0 0 31%;
 }
 .dropdown-menu .tab-content p {
     margin-bottom: 18px;
 }
-.tab-content li:before {
+header .tab-content li:before {
     content: '';
     width: 16px;
     height: 16px;
@@ -177,7 +177,7 @@ header .dropdown-menu .tab-content {
     transform: scale(1);
     transition: all 0.5s ease-in-out;
 }
-.tab-content li:hover:before {
+header .tab-content li:hover:before {
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
