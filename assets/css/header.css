@@ -347,7 +347,7 @@ header.cs__animated-header.slide-down {
         top: 26px;
     }
     .cs__logo {
-        padding-left: 45px;
+        margin-left: 45px;
     }
     .cs__menu-block {
         background-color: #fff;
@@ -456,11 +456,11 @@ header.cs__animated-header.slide-down {
 }
 @media (max-width: 767.98px){
     .cs__logo img {
-        max-width: 85%;
+        max-width: 78%;
         object-fit: contain;
     }
     .cs__logo {
-        max-width: 50%;
+        max-width: 40%;
     }
     .cs__header-btn .cs__fill-btn {
         font-size: 14px;

@@ -9,7 +9,6 @@
     font-size: 16px;
     border-radius: 100px;
     padding: 8px 18px;
-    text-transform: capitalize;
 }
 .cs__blog-footer {
     gap: 16px;
@@ -40,7 +39,6 @@
 .cs__blogdetails-img {
     border-radius: 15px;
     border-left: 6px solid var(--orange);
-    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -139,9 +137,6 @@
     gap: 18px;
     background: #222222;
     border-radius: 15px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     height: 100%;
     justify-content: space-between;
 }
@@ -191,7 +186,6 @@
 }
 .cs__platformcode-sec p {
     padding-left: 32px;
-    position: relative;
 }
 .cs__teamup-sec {
     background-color: var(--medium-black);
@@ -338,6 +332,14 @@
     }
     .cs__microsoft-wrap .cs__microsoft-inner {
         padding: 10px 12px;
+        
+    }
+    .cs__microsoft-wrap .cs__microsoft-inner:nth-child(even), .cs__microsoft-wrap > div:nth-child(even) .cs__microsoft-inner {
+        border-left-width: 5px;
+        border-left-style: solid;
+        border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
+        border-radius: 0 10px 10px 0;
+        border-right: 0;
     }
     .cs__conclusion-block .cs__img-block {
         width: 90px;
@@ -359,6 +361,12 @@
     .cs__microsoft-v1 .cs__microsoft-wrap .cs__microsoft-inner{
         max-width: 100%;
         padding: 16px;
+    }
+    .cs__platformcode-sec p:before {
+        width: 16px;
+        height: 16px;
+        border: 4px solid var(--medium-black);
+        top: 5px;
     }
 }
 /* Responsive block : Style End */
