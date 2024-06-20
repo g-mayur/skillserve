@@ -204,36 +204,10 @@
 .cs__consulting-inner > div:nth-child(odd) .cs__img-block{
     text-align: right;
 }
-.cs__consulting-inner .cs__img-block:before {
-    content: '';
-    position: absolute;
-    background-image: url(../images/consulting-servive-bg.png);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 0;
-    top: -14px;
-}
-.cs__consulting-inner .cs__img-block {
+.cs__consulting-inner .cs__img-block{
     position: relative;
     height: 500px;
     width: 100%;
-}
-.cs__consulting-inner .cs__img-block img {
-    object-fit: contain;
-    max-width: 500px;
-}
-.cs__consulting-inner > div:nth-child(even) img {
-    margin-left: 110px;
-}
-.cs__consulting-inner > div:nth-child(odd) img {
-    margin-right: 110px;
-}
-.cs__consulting-inner > div:nth-child(odd) .cs__img-block:before {
-    left: auto;
-    right: 0;
-    transform: rotate(179deg);
 }
 .cs__consulting-desc h4 {
     font-size: 34px;
@@ -288,35 +262,32 @@
     top: 70px;
     opacity: 0.5;
 }
-/* Responsive css start */
-@media (min-width:1199.98px) and (max-width:1536.98px){
-    .cs__consulting-inner .cs__img-block {
-        position: absolute;
-        left: -25%;
-        top: -256px;
-        bottom: auto;
-    }
-    .cs__consulting-inner > div {
-        margin: 0 0 180px;
-    }
-    .cs__consulting-inner > div:nth-child(odd) .cs__img-block {
-        left: auto;
-        right: -25%;
-    }
+.cs__consulting-inner .cs__img-block img {
+    max-width: 450px;
+    object-fit: contain;
 }
-@media (max-width:1199px){
-    .cs__consulting-inner > div:nth-child(even) img {
-        margin-left: 0;
-    }
-    .cs__consulting-inner > div:nth-child(odd) img {
-        margin-right: 0;
-    }
+.cs__bg-images {
+    height: 100%;
+    z-index: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cs__consulting-inner > div:nth-child(odd)  .cs__bg-images{
+    background-image: url(../images/onsulting-servive-bg-left.png);
+    background-position: center right;
+}
+.cs__consulting-inner > div:nth-child(even)  .cs__bg-images{
+    background-image: url(../images/onsulting-servive-bg-right.png);
+    background-position: center left;
+}
+/* Responsive css start */
+@media (max-width: 1199px){
 }
 @media (max-width: 991.98px){
     .cs__consulting-inner .cs__img-block {
-        text-align: center;
-        max-width: 80%;
         margin: 0 auto;
+        text-align: center !important;
     }
     .cs__consulting-inner > div {
         margin: 0 0 40px;
@@ -334,8 +305,8 @@
         top: -125px;
         font-size: 150px;
     }
-    .cs__consulting-inner .cs__img-block{
-        height: auto;
+    .cs__bg-images {
+        background-position: center center !important;
     }
 }
 @media (max-width:767.98px){
@@ -344,7 +315,10 @@
         line-height: 26px;
     }
     .cs__consulting-inner .cs__img-block {
-        max-width: 100%;
+        height: 350px;
+    }
+    .cs__consulting-desc p:before{
+        top: 5px;
     }
 }
 /* Responsive css end */
@@ -382,29 +356,30 @@
     padding: 60px 0;
     overflow: hidden;
 }
-.cs__result-sec .cs__img-block:before {
-    content: '';
-    position: absolute;
-    background-image: url(../images/consulting-servive-bg.png);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: auto;
-    top: -14px;
-    right: -130px;
-    transform: rotate(179deg);
-    z-index: -1;
-}
 .cs__result-sec .cs__img-block{
     position: relative;
 }
-@media (max-width:991px){
+.cs__result-sec .cs__bg-images {
+    height: 100%;
+    z-index: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/onsulting-servive-bg-left.png);
+    background-position: center right;
+}
+.cs__result-sec .cs__img-block img {
+    max-width: 450px;
+}
+@media (max-width:991.98px){
     .cs__result-sec {
         padding: 40px 0;
     }
+    .cs__result-sec .cs__img-block {
+        text-align: center;
+    }
 }
-@media (max-width:767px){
+@media (max-width:767.98px){
     .cs__result-sec .cs__img-block:before {
         content: none;
     }

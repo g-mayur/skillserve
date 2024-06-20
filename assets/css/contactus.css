@@ -1,12 +1,10 @@
 /* Hero Section: Style Start*/
 .cs__hero-wrap {
-    position: relative;
     margin-bottom: 200px;
 }
 
 .cs__hero-sec {
     background-color: var(--orange);
-    position: relative;
     padding: 62px 0 0;
     z-index: 1;
     overflow: hidden;
@@ -99,7 +97,6 @@
 .cs__map-block {
     overflow: hidden;
     padding-bottom: 36.55%;
-    position: relative;
     height: 0;
     margin: 30px 0 0;
 }
@@ -175,8 +172,6 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
-    display: inline-block;
-    vertical-align: middle;
     margin: 0 0 0 10px;
 }
 
@@ -193,8 +188,6 @@
 .cs__contact-info  .cs__desc {
     width: calc(100% - 60px);
     padding: 0 0 0 16px;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .cs__contact-info .cs__desc p {
@@ -256,7 +249,6 @@
 }
 .cs__contact-form .cs__input-wrap {
     margin: 15px 0;
-    display: inline-block;
     width: 100%;
 }
 .cs__contact-link a {
