@@ -463,8 +463,8 @@ header.cs__animated-header.slide-down {
         max-width: 40%;
     }
     .cs__header-btn .cs__fill-btn {
-        font-size: 14px;
-        padding: 10px 14px;
+        font-size: 15px;
+        padding: 12px 14px;
     }
      .navbar-toggler {
         left: 20px;
@@ -478,8 +478,8 @@ header.cs__animated-header.slide-down {
 }
 @media (max-width:360.98px){
     .cs__header-btn .cs__fill-btn {
-        font-size: 12px;
-        padding: 6px 12px;
+        font-size: 14px;
+        padding: 12px;
     }
 }
 /* Responsive : Style End */

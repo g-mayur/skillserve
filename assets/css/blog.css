@@ -281,6 +281,9 @@ background: #dddddd;
    
 }
 @media (max-width:600.98px){
+    .cs__blog-social{
+        width: 100%;
+    }
     .cs__bloglist-sec  .tab-content .row > div {
         width: 100%;
     }
