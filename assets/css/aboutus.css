@@ -76,7 +76,7 @@
 }
 .cs__partner-block {
     background-color: var(--medium-black);
-    padding: 15px 40px;
+    padding: 15px 0;
 }
 .cs__who-wrap {
     padding: 26px 0 60px;
@@ -106,7 +106,7 @@
 }
 @media (max-width:767.98px){
     .cs__partner-block {
-        padding: 15px 20px;
+        padding: 15px 0;
     }
 }
 /* Who We Are : Style End */
@@ -258,12 +258,9 @@
 /* Core Values : Style End */
 /* Company Details Section: Style Start */
 .cs__details-block h3,.cs__details-block span {
-    display: inline-block;
-    vertical-align: middle;
     font-size: 56px;
     font-weight: 700;
     margin: 0 0 0 16px;
-    width: fit-content;
 }
 .cs__details-block span{
     margin: 0;
@@ -325,10 +322,10 @@
     line-height: 68px;
 }
 .cs__company-inner > div:first-child  .cs__img-block {
-    left: 140px;
+    left: 132px;
 }
 .cs__company-inner > div:first-child .cs__details-block {
-    padding-left: 42px;
+    padding-left: 68px; 
 }
 /* Responsive : Style Start */
 @media (max-width: 1399.98px){
@@ -547,8 +544,8 @@
     padding: 30px 0;
 }
 .cs__project-sec p {
-    font-size: 36px;
-    line-height: 58px;
+    font-size: 30px;
+    line-height: 48px;
     font-weight: 600;
     margin: 26px 0;
 }
@@ -583,12 +580,14 @@
     width: 120px;
     height: 120px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     position: relative;
     text-align: center;
     margin: -75px auto 0;
 }
 .cs__client-img img {
     border-radius: 100%;
+    -webkit-border-radius:100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -605,6 +604,7 @@
 .cs__client-info {
     background-color: var(--orange);
     border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -631,6 +631,7 @@
     width: 44px;
     height: 44px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     position: absolute;
     top: 67%;
     transition: all 0.2s ease-in-out;
@@ -762,6 +763,7 @@
 .cs__contact-info,.cs__contact-form {
     background-color: var(--white);
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     padding: 30px;
 }
 
@@ -781,6 +783,7 @@
     line-height: 44px;
     text-align: center;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     display: inline-block;
 }
 
@@ -830,6 +833,7 @@
     height: 44px;
     width: 100%;
     border-radius: 4px;
+    -webkit-border-radius:4px;
     padding: 0 8px;
     color: var(--medium-black);
     text-align: left;

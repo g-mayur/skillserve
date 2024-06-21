@@ -5,8 +5,9 @@
 }
 .cs__hero-sec {
     background-color: var(--orange);
-    position: relative;
     padding: 62px 0 0;
+    z-index: 1;
+    overflow: hidden;
 }
 .cs__hero-sec h2{
     font-weight: 600;
@@ -19,40 +20,6 @@
     position: absolute;
     bottom: -195px;
     width: 100%;
-}
-.swiper-pagination-vertical {
-    right: 30px !important;
-}
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-.swiper-pagination .swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-    margin: 5px 0;
-    display: inline-block;
-    border: 2px solid #F39B77;
-    background-color: transparent;
-    opacity: 1;
-}
-.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #ffffff;
-    border-color: #ffffff;
-}
-.swiper-vertical>.swiper-wrapper {
-    flex-direction: unset;
-}
-.cs__hero-wrap .swiper-pagination{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: auto;
-    left: auto;
-    height: 100%;
-    gap: 10px;
-    top: 10%;
-    right: 30px !important;
 }
 /* Responsive : Style Start */
 @media (max-width:1199.98px){
@@ -70,12 +37,6 @@
     .cs__hero-wrap {
         margin-bottom: 32px;
     }
-    .cs__hero-slider .swiper-slide .row {
-        flex-direction: column-reverse;
-    }
-    .cs__hero-wrap .swiper-pagination{
-        display: none;
-    }
     .cs__hero-wrap .cs__img-block img {
         max-width: 450px;
     }
@@ -85,6 +46,9 @@
     .cs__hero-sec h2{
         font-size: 32px;
         line-height: 40px;
+    }
+    .cs__hero-sec .row {
+        flex-direction: column-reverse;
     }
 }
 @media (max-width:767.98px){
@@ -114,12 +78,6 @@
     padding: 26px 0 80px;
     overflow: hidden;
 }
-.cs__agency-dec h2 {
-    max-width: 85%;
-}
-.cs__agency-dec p {
-    max-width: 97%;
-}
 @media (max-width:1399.98px){
     .cs__agency-dec h2, .cs__agency-dec p {
         max-width: 100%;
@@ -139,12 +97,9 @@
 /* Agency: Style End */
 /* Company Details Section: Style Start */
 .cs__details-block h3,.cs__details-block span {
-    display: inline-block;
-    vertical-align: middle;
     font-size: 56px;
     font-weight: 700;
     margin: 0 0 0 16px;
-    width: fit-content;
 }
 .cs__details-block span{
     margin: 0;
@@ -206,10 +161,10 @@
     line-height: 68px;
 }
 .cs__company-inner > div:first-child  .cs__img-block {
-    left: 140px;
+    left: 132px;
 }
 .cs__company-inner > div:first-child .cs__details-block {
-    padding-left: 42px;
+    padding-left: 68px; 
 }
 /* Responsive : Style Start */
 @media (max-width: 1399.98px){
@@ -300,7 +255,7 @@
     margin: 12px 0 0;
 }
 .cs__service-block {
-    padding: 32px;
+    padding: 32px 20px;
     border-bottom: 1px solid #E4D9D4;
 }
 .cs__service-block:nth-child(odd) {
@@ -308,9 +263,6 @@
 }
 .cs__service-block:nth-last-child(-n+2) {
     border-bottom: 0;
-}
-.cs__featured-services .cs__paragraph-text {
-    max-width: 96%;
 }
 /* responsive css start */
 @media (max-width:991.98px){
@@ -322,9 +274,6 @@
     }
     .cs__service-block:nth-last-child(-n+3) {
         border-bottom: 0;
-    }
-    .cs__service-block {
-        padding: 32px 22px;
     }
     .cs__service-block p {
         font-size: 18px;
@@ -530,12 +479,14 @@
     width: 120px;
     height: 120px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     position: relative;
     text-align: center;
     margin: -75px auto 0;
 }
 .cs__client-img img {
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -552,6 +503,7 @@
 .cs__client-info {
     background-color: var(--orange);
     border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -578,6 +530,7 @@
     width: 44px;
     height: 44px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     position: absolute;
     top: 67%;
     transition: all 0.2s ease-in-out;
@@ -698,6 +651,7 @@
 .cs__portfolio-tab .nav-tabs {
     background-color: var(--medium-black);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     padding: 16px 26px;
 }
 .cs__portfolio-tab .nav-tabs .nav-link {
@@ -706,6 +660,7 @@
     font-weight: 400;
     color: var(--white);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     padding: 5px 50px;
     text-align: center;
 }
@@ -716,6 +671,7 @@
 }
 .cs__portfolio-block img {
     border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 .cs__portfolio-tab .tab-content {
     margin-top: 18px;
@@ -723,6 +679,7 @@
 .cs__protfolio-inner {
     overflow: hidden;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 .cs__protfolio-inner:before {
     content: '';
@@ -731,6 +688,7 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    -webkit-border-radius 20px;
     top: 0;
     left: 0;
     right: 0;
@@ -854,6 +812,7 @@
 .cs__contact-info,.cs__contact-form {
     background-color: var(--white);
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     padding: 30px;
 }
 
@@ -871,6 +830,7 @@
     line-height: 44px;
     text-align: center;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
 }
 
 .cs__contact-info  .cs__desc {
@@ -919,6 +879,7 @@
     height: 44px;
     width: 100%;
     border-radius: 4px;
+    -webkit-border-radius: 4px;
     padding: 0 8px;
     color: var(--medium-black);
     text-align: left;

@@ -67,6 +67,7 @@ ol, ul {
     padding: 5px 18px;
     color: var(--medium-black);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
 }
 .cs__fill-btn,.cs__fillwhite-btn {
     color: var(--white) !important;
@@ -77,6 +78,7 @@ ol, ul {
     padding: 15px 30px;
     transition: all 0.2s ease-in-out !important;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     text-decoration: unset;
     overflow: hidden;
 }
@@ -210,6 +212,12 @@ main {
         font-size: 24px;
         line-height: 30px;
     }
+    .cs__fill-btn, .cs__fillwhite-btn {
+        padding: 15px 20px;
+    }
+    .cs__outlint-btn {
+        padding: 14px 38px;
+    }
 }
 /* Responsive: Style End */
 /* Top Button : Style Strat */
@@ -220,7 +228,7 @@ main {
 }
 .cs__top-button {
     position: fixed;
-    right: 0;
+    right: -40px;
     bottom: 85px;
     transform: rotate(270deg);
     transition: all 0.5s ease-in-out;
@@ -267,6 +275,7 @@ main {
 .cs__social-block {
     padding: 10px 16px;
     border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
     font-size: 18px;
     transition: all 1s;
     justify-content: flex-end;
@@ -289,6 +298,7 @@ main {
 .cs__social-icon {
     background-color: #ffffff;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     width: 44px;
     height: 44px;
     text-align: center;
