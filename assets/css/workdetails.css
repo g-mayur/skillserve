@@ -83,6 +83,7 @@
     padding: 30px;
     background: rgba(237, 99, 43, 0.1);
     border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
     border-left-width: 5px;
     border-left-style: solid;
     border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
@@ -187,6 +188,9 @@
     .cs__business-sec {
         padding: 0 0 10px;
     }
+    .cs__business-sec:before, .cs__business-sec:after {
+        border-width: 0 120px 170px 120px;
+    }
 }
 /* For Your Business : Style End */
 /* DevOps Consulting : Style Start */
@@ -228,6 +232,7 @@
     background-color: #ffffff;
     border: 5px solid var(--medium-black);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     left: 0;
     top: 11px;
     transform: scale(1);
@@ -392,8 +397,8 @@
     margin: 0 0 60px;
 }
 .cs__project-sec p {
-    font-size: 36px;
-    line-height: 58px;
+    font-size: 30px;
+    line-height: 48px;
     font-weight: 600;
     margin: 26px 0;
 }
@@ -413,11 +418,13 @@
 
 .cs__portfolio-block img {
     border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 .cs__protfolio-inner {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     display: inline-block;
 }
 .cs__protfolio-inner:before {
@@ -427,6 +434,7 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     top: 0;
     left: 0;
     right: 0;

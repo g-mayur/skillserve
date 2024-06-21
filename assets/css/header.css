@@ -99,6 +99,7 @@
     background-color: #ffffff;
     box-shadow: rgba(100, 100, 111, 0.1) -6px -7px 16px -2px;
     border-radius: 6px;
+    -webkit-border-radius: 6px;
     transform: rotate(45deg);
 }
 .dropdown-menu.cs__open-dropdown {
@@ -172,6 +173,7 @@ header .tab-content li:before {
     background-color: #ffffff;
     border: 5px solid var(--orange);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     left: 0;
     top: 8px;
     transform: scale(1);
@@ -288,6 +290,9 @@ header {
 header.cs__animated-header.slide-down {
     box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 6%);
 }
+.cs__header-btn .cs__fill-btn{
+    vertical-align: middle;
+}
 /* Responsive : Style Start */
 @media (max-width:1440.98px){
     .navbar-nav .nav-item {
@@ -353,6 +358,7 @@ header.cs__animated-header.slide-down {
         background-color: #fff;
         border: 1px solid #e9ebec;
         border-radius: 0;
+        -webkit-border-radius: 0;
         box-shadow: 0 8px 10px rgba(2, 32, 71, .1), 0 0 1px rgba(2, 32, 71, .08);
         left: 0;
         position: fixed;
@@ -414,6 +420,7 @@ header.cs__animated-header.slide-down {
         background-color: #FCE8DF;
         padding: 4px 16px;
         border-radius: 4px;
+        -webkit-border-radius: 4px;
         margin: 0 0 16px;
     }
    header .accordion-button:not(.collapsed)::after{
@@ -443,6 +450,7 @@ header.cs__animated-header.slide-down {
         background-color: #ffffff;
         border: 3px solid var(--orange);
         border-radius: 100px;
+        -webkit-border-radius: 100px;
         left: 0;
         top: 16px;
     }
@@ -478,8 +486,8 @@ header.cs__animated-header.slide-down {
 }
 @media (max-width:360.98px){
     .cs__header-btn .cs__fill-btn {
-        font-size: 14px;
-        padding: 12px;
+        font-size: 13px;
+        padding: 10px;
     }
 }
 /* Responsive : Style End */

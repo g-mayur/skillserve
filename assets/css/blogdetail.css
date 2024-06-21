@@ -8,6 +8,7 @@
     font-weight: 500;
     font-size: 16px;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     padding: 8px 18px;
 }
 .cs__blog-footer {
@@ -25,6 +26,7 @@
 }
 .cs__blog-footer img {
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     margin-right: 8px;
 }
 .cs__blog-tag {
@@ -35,9 +37,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+    -webkit-border-radius: 15px;
 }
 .cs__blogdetails-img {
     border-radius: 15px;
+    -webkit-border-radius: 15px;
     border-left: 6px solid var(--orange);
     width: 100%;
     height: 100%;
@@ -47,6 +51,7 @@
     background: rgba(237, 99, 43, 0.12);
     border-left: 6px solid #ED632B;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .custom-gap-20 {
     gap: 20px;
@@ -64,6 +69,7 @@
     gap: 8px;
     border: 1px solid rgba(34, 34, 34, 0.3);
     border-radius: 10px;
+    -webkit-border-radius: 10px;
     height: 100%;
 }
 .cs__lowcode-inner h3 {
@@ -72,6 +78,7 @@
 .cs__lowcode-banifitlist-wrap p {
     background-color: var(--orange);
     border-radius: 8px;
+    -webkit-border-radius: 8px;
     padding: 15px;
     font-size: 22px;
     line-height: 37px;
@@ -122,6 +129,9 @@
     .custom-gap-30 {
         gap: 30px;
     }
+    .cs__teamup-bgimg {
+        margin-top: -50px;
+    }
 }
 @media (max-width: 767px){
     .cs__details-inner{
@@ -133,6 +143,12 @@
     }
     .cs__lowcodeapp-v1 .cs__lowcodeapp-block{
         padding: 10px 24px;
+    }
+    .cs__teamup-bgimg{
+        margin-top: -5px;
+    }
+    .cs__teamup-sec.cs__teamup-v1{
+        padding-bottom: 0;
     }
 }
 @media (max-width:576.98px){
@@ -149,6 +165,7 @@
     gap: 18px;
     background: #222222;
     border-radius: 15px;
+    -webkit-border-radius: 15px;
     height: 100%;
     justify-content: space-between;
 }
@@ -191,6 +208,7 @@
     background-color: #ffffff;
     border: 6px solid var(--medium-black);
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     left: 0;
     top: 11px;
     transform: scale(1);
@@ -228,6 +246,7 @@
     border-left-style: solid;
     border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
     border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
 }
 .cs__microsoft-wrap .cs__microsoft-inner {
     padding: 10px 30px;
@@ -238,15 +257,18 @@
     border-right-style: solid;
     border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
     border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
 }
 .cs__microsoft-sec img {
     border-radius: 15px;
+    -webkit-border-radius: 15px;
 }
 .cs__conclusion-block {
     padding: 30px;
     background: #FDE8DF;
     border: 4px solid #ED632B;
     border-radius: 15px;
+    -webkit-border-radius: 15px;
 }
 .cs__conclusion-block .cs__img-block {
     background: #FDE8DF;
@@ -254,6 +276,7 @@
     width: 120px;
     height: 120px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
     text-align: center;
     line-height: 114px;
     position: absolute;
@@ -360,6 +383,7 @@
         border-left-style: solid !important;
         border-image: linear-gradient(to bottom, #ed632b, #ffffff) 1;
         border-radius: 0 10px 10px 0;
+        -webkit-border-radius: 0 10px 10px 0;
         border-right: 0;
         text-align: left !important;
     }

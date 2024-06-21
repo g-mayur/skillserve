@@ -139,12 +139,7 @@
 /* Partner : Style Start */
 .cs__partner-block {
     background-color: var(--medium-black);
-    padding: 15px 40px;
-}
-@media (max-width:767.98px){
-    .cs__partner-block {
-        padding: 15px 20px;
-    }
+    padding: 15px 0;
 }
 /* Partner : Style End */
 
@@ -170,6 +165,7 @@
 .cs__contact-info,.cs__contact-form {
     background-color: var(--white);
     border-radius: 20px;
+    -webkit-border-radius: 20px;
     padding: 30px;
 }
 
@@ -187,6 +183,7 @@
     line-height: 44px;
     text-align: center;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
     display: inline-block;
 }
 
@@ -236,6 +233,7 @@
     height: 44px;
     width: 100%;
     border-radius: 4px;
+    -webkit-border-radius: 4px;
     padding: 0 8px;
     color: var(--medium-black);
     text-align: left;
