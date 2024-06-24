@@ -27,6 +27,11 @@
     width: 100%;
 }
 /* Responsive : Style Start */
+@media (min-width: 1950px){
+    .cs__hero-borromsec {
+        bottom: -255px;
+    }
+}
 @media (max-width:1650px){
     .cs__hexa-img img {
         max-width: 95%;
@@ -487,7 +492,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: -7px !important;
+    bottom: 0 !important;
     position: absolute;
     text-align: center;
 }
