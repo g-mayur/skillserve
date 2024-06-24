@@ -102,26 +102,29 @@
 }
 @media (max-width:991.98px){
     .cs__who-wrap {
-        padding: 80px 0 20px;
+        padding: 100px 0 20px;
     }
 }
 @media (max-width:767.98px){
     .cs__partner-block {
         padding: 15px 0;
     }
+    .cs__who-wrap {
+        padding: 70px 0 20px;
+    }
 }
 /* Who We Are : Style End */
 
 /* Our Mission - Vision : Style Start */
-.cs__mv-sec{
-    background-color: var(--orange);
+.cs__mv-sec {
+    background-color: var(--light-pink);
 }
 .cs__mv-bg{
     position: relative;
     height: 100%;
 }
 .cs__mv-bg:before {
-    background-color: var(--light-pink);
+    background-color: var(--orange);
     content: '';
     position: absolute;
     width: 50%;
@@ -129,11 +132,11 @@
     left: auto;
     top: 0;
     z-index: 0;
-    right: 0;
+    right: auto;
 }
 .cs__mv-bg.cs__vision-sec:before {
-    right: auto;
-    left: 0;
+    right: 0;
+    left: auto;
 }
 .cs__content-block {
     z-index: 1;
@@ -169,17 +172,16 @@
     .cs__mv-bg:before {
        content: none;
     }
-    .cs__mv-sec .cs__img-block {
-        background-color: var(--light-pink);
+    .cs__mv-sec .cs__content-block {
+        background-color: var(--orange);
         margin: 0 -40px;
-    }
-    .cs__content-block {
-        padding: 28px 0 40px !important;
+        padding: 28px 40px 40px;
     }
 }
 @media (max-width:767px){
-    .cs__mv-sec .cs__img-block {
+    .cs__mv-sec .cs__content-block{
         margin: 0 -20px;
+        padding: 28px 20px;
     }
     .cs__mv-sec p {
         font-size: 16px;

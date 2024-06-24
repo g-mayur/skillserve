@@ -277,12 +277,12 @@
     <!-- Hero : Block Start -->
     <div class="cs__blogdetails-topsec">
         <div class="container">
-        <div class="cs__blog-tag d-flex align-items-center flex-wrap justify-content-center mb-3">
+        <div class="cs__blog-tag d-flex align-items-center flex-wrap justify-content-lg-center mb-3" data-aos="fade-up">
             <span>Technology</span>
             <span>Artificial Intelligence</span>
         </div>
-        <h2 class="text-center mb-3">How to Develop Enterprise Apps Rapidly With Low-Code Development?</h2>
-        <div class="cs__blog-footer d-flex align-items-center justify-content-center">
+        <h2 class="text-lg-center mb-3" data-aos="fade-up">How to Develop Enterprise Apps Rapidly With Low-Code Development?</h2>
+        <div class="cs__blog-footer d-flex align-items-center justify-content-lg-center" data-aos="fade-up">
             <div class="d-flex align-items-center cs__author">
                 <img src="assets/images/blog-author.png" alt="blog author" width="30" height="30">
                 <p class="mb-0">Raj Naik</p>
@@ -294,14 +294,14 @@
         </div>
     </div>
     <div class="container">
-        <div class="cs__blogdetails-img position-relative">
+        <div class="cs__blogdetails-img position-relative" data-aos="fade-up">
             <img src="assets/images/blogdetails.png" alt="blog author" width="100%" height="100%">
         </div>
         <div class="cs__blog-details mt-4">
             <div class="cs__blog-descblock">
-                <p class="cs__paragraph-text cs__mobile-content mb-4">It is estimated that more than half of all medium and large-sized businesses adopt a low-code platform for developing their strategic applications. There is a desire for companies to be able to more easily adapt to changes in the market, legislation, or customer needs by developing simple, faster enterprise solutions that are easier to integrate, modify, and upgrade.</p>
-                <p class="cs__paragraph-text cs__mobile-content mb-4">As reported by <a href="#" class="cs__blog-link">KPMG</a>, it is found that companies have nearly quadrupled the number of automation investments they make into low-code and no-code platforms. Among the industries calculating the significant growth is BFSI, which is the world’s biggest market for low-code platforms. The trend and need for low-code development platforms will continue to grow this way in upcoming years.</p>
-                <p class="cs__paragraph-text cs__mobile-content mb-4">Well, in this article, we will tell you everything about low-code development and guide you on how to develop enterprise apps rapidly with low-code development. So, let’s get started with the basics of low-code development first.</p>
+                <p class="cs__paragraph-text cs__mobile-content mb-4" data-aos="fade-up">It is estimated that more than half of all medium and large-sized businesses adopt a low-code platform for developing their strategic applications. There is a desire for companies to be able to more easily adapt to changes in the market, legislation, or customer needs by developing simple, faster enterprise solutions that are easier to integrate, modify, and upgrade.</p>
+                <p class="cs__paragraph-text cs__mobile-content mb-4" data-aos="fade-up">As reported by <a href="#" class="cs__blog-link">KPMG</a>, it is found that companies have nearly quadrupled the number of automation investments they make into low-code and no-code platforms. Among the industries calculating the significant growth is BFSI, which is the world’s biggest market for low-code platforms. The trend and need for low-code development platforms will continue to grow this way in upcoming years.</p>
+                <p class="cs__paragraph-text cs__mobile-content mb-4" data-aos="fade-up">Well, in this article, we will tell you everything about low-code development and guide you on how to develop enterprise apps rapidly with low-code development. So, let’s get started with the basics of low-code development first.</p>
             </div>
         </div>
     </div>
@@ -311,7 +311,7 @@
      <section class="cs__development-sec mt-5 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-xs-12 col-lg-5 col-xl-4 col-xxl-4 d-none d-lg-block">
+                <div class="col-sm-12 col-xs-12 col-lg-5 col-xl-4 col-xxl-4 d-none d-lg-block" data-aos="fade-right">
                   <div class="cs__left-block">
                     <ol>
                       <li data-target="#section1" class="text-white">What Is Low-Code Development?</li>
@@ -329,7 +329,7 @@
                   </ol>
                   </div>
                 </div>
-                <div class="col-sm-12 col-xs-12 col-lg-7 col-xl-8 col-xxl-8">
+                <div class="col-sm-12 col-xs-12 col-lg-7 col-xl-8 col-xxl-8" data-aos="fade-left">
                   <div class="cs__right-block">
                     <div id="section1" class="cs__content-section">
                       <h3 class="mt-0 mb-2 d-inline-block text-uppercase fw-bold">WHAT IS LOW-CODE DEVELOPMENT?</h3>
@@ -533,7 +533,7 @@
                   </div>
                   <div id="section12" class="cs__content-section d-inline-block mt-5">
                     <div class="cs__conclusion-block position-relative">
-                      <h3 fw-bold>Conclusion</h3>
+                      <h3 class="fw-bold">Conclusion</h3>
                       <p class="cs__paragraph-text cs__mobile-content">Therefore, low-code technology is a good option to go for your enterprise app development especially when it comes to low cost and maintenance with faster time to market. When businesses opt for the right platform, they can easily develop production-ready apps within hours rather than spending days or months. In the days ahead, low-code platforms will remain in demand due to the trend and growing need.</p>
                       <p class="cs__paragraph-text cs__mobile-content mb-0">With over decades of industry expertise, we, at Crest Infosystems, offer best-in-class low-code development services to build high-performance and scalable applications for businesses of all sizes. If you are planning to build an enterprise low-code application with a low-code development methodology and want some help, don’t be shy to speak to us.</p>
                       <div class="cs__img-block">
@@ -541,8 +541,8 @@
                       </div>
                     </div>
                   </div>
-
                   </div>
+                 
                 </div>
              </div>
         </div>
@@ -684,6 +684,23 @@
 
    <!-- Aos animation JS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  function adjustHeight() {
+    var leftBlock = document.querySelector('.cs__left-block');
+    var rightBlock = document.querySelector('.cs__right-block');
+
+    if (leftBlock && rightBlock) {
+      var leftHeight = leftBlock.offsetHeight;
+      rightBlock.style.height = leftHeight + 'px';
+    }
+  }
+
+  // Adjust the height when the page loads
+  window.onload = adjustHeight;
+
+  // Adjust the height when the window is resized
+  window.onresize = adjustHeight;
+</script>
 
 </body>
 
