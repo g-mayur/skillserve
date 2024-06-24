@@ -115,7 +115,7 @@
 }
 @media (max-width:991.98px){
     .cs__business-sec {
-        padding: 90px 0 30px;
+        padding: 100px 0 30px;
     }
     .cs__topimg-block {
         top: -10px;
@@ -126,7 +126,7 @@
         padding: 15px 20px;
     }
     .cs__business-sec {
-        padding: 40px 0 10px;
+        padding: 70px 0 10px;
     }
 }
 /* For Your Business : Style End */
@@ -167,7 +167,7 @@
     padding: 100px 0 0;
 }
 .cs__consulting-inner > div {
-    margin: 0 0 120px;
+    margin-bottom: 120px;
 }
 .cs__consulting-inner > div:last-child {
     margin-bottom: 0;
@@ -198,7 +198,7 @@
 /* Responsive css start */
 @media (max-width: 991.98px){
     .cs__consulting-inner > div {
-        margin: 0 0 40px;
+        margin-bottom: 40px;
     }
     .cs__consulting-desc {
         margin: 26px 0 0;
@@ -213,9 +213,6 @@
         top: -125px;
         font-size: 150px;
     }
-    .cs__bg-images {
-        background-position: center center !important;
-    }
 }
 @media (max-width:767.98px){
     .cs__consulting-desc p {
@@ -228,12 +225,11 @@
 /* Our DevOps Solutions: Style Start */
 .cs__soluation-sec .cs__title-block {
     background-color: var(--medium-black);
-    padding: 22px 0;
+    padding: 22px 40px;
     margin: 0 0 40px;
 }
 .cs__soluation-sec .cs__title-block h2 {
     margin: 0;
-    padding: 0 20px;
 }
 .cs__soluation-inner {
     padding: 10px 30px;
@@ -335,6 +331,7 @@
     }
     .cs__soluation-sec .cs__title-block {
         margin: 0 0 20px;
+      
     }
 }
 @media (max-width: 767.98px){
@@ -370,6 +367,7 @@
     }
     .cs__soluation-sec .cs__title-block {
         margin: 0 0 30px;
+        padding: 20px;
     }
     .cs__soluation-bottomsec p {
         font-size: 24px;
@@ -618,6 +616,9 @@
     }
 }
 @media (max-width:767.98px){
+    .cs__faq-sec .accordion {
+        padding: 12px 0 0;
+    }
     .cs__faq-sec .accordion-body p {
         font-size: 16px;
         line-height: 26px;

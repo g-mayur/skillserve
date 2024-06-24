@@ -300,9 +300,6 @@
         top: -125px;
         font-size: 150px;
     }
-    .cs__bg-images {
-        background-position: center center !important;
-    }
 }
 @media (max-width:767.98px){
     .cs__consulting-desc p {

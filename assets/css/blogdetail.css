@@ -162,7 +162,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 15px 15px 15px 40px;
-    gap: 18px;
+    gap: 16px;
     background: #222222;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -177,11 +177,7 @@
     line-height: 26px;
 }
 .cs__right-block {
-    height: 100vh;
     overflow-y: scroll;
-}
-.cs__left-block{
-    height: 100vh;
 }
 .cs__right-block::-webkit-scrollbar {
     display: none;
@@ -312,19 +308,19 @@
 .cs__teamup-sec.cs__teamup-dev {
     padding: 60px 0 36px;
 }
+.cs__development-sec {
+    overflow: hidden;
+}
 /* Blog Details Second variation : Style End */
 /* Responsive block : Style Strat */
 @media (max-width: 1650px){
-    .cs__left-block ol {
-        gap: 10px;
-    }
     .cs__left-block ol li{
         font-size: 16px;
     }
 }
 @media (max-width:991.98px){
     .cs__right-block {
-        height: auto;
+        height: 100% !important;
         overflow-y: unset;
     }
     .cs__teamup-sec {
