@@ -13,7 +13,6 @@
     font-weight: 600;
 }
 .cs__hero-sec p {
-    max-width: 100%;
     line-height: 36px;
 }
 .cs__hero-borromsec {
@@ -30,9 +29,6 @@
 @media (max-width:1199.98px){
     .cs__hero-borromsec {
         bottom: -108px;
-    }
-    .cs__hero-sec p {
-        max-width: 100%;
     }
     .cs__hero-wrap {
         margin-bottom: 140px;
@@ -565,13 +561,6 @@
 /* Project Section: Style End */
 
 /* testimonial Section: Style Start */
-.cs__testimonial-sec .container {
-    position: relative;
-}
-.cs__testimonial-sec .cs__paragraph-text {
-    max-width: 92%;
-    margin: 0 auto;
-}
 .cs__testimonial-slider {
     padding: 70px 11px 55px;
 }
@@ -579,7 +568,7 @@
     background-color: var(--light-pink);
     padding: 60px 0;
 }
-.cs__testimonial-inner {box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 0px;border-radius: 20px;padding: 20px 20px 100px;background-color: #ffffff;height: 100%;}
+.cs__testimonial-inner {box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 0px;border-radius: 20px;padding: 20px 30px 100px;background-color: #ffffff;height: 100%;}
 .cs__client-img {
     border: 4px solid #ED632B;
     width: 120px;
@@ -592,7 +581,7 @@
 }
 .cs__client-img img {
     border-radius: 100%;
-    -webkit-border-radius:100%;
+    -webkit-border-radius: 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -604,7 +593,6 @@
     font-size: 18px;
     line-height: 32px;
     margin: 0 auto 36px;
-    max-width: 90%;
 }
 .cs__client-info {
     background-color: var(--orange);
@@ -700,15 +688,6 @@
     .cs__testimonial-slider {
         padding: 70px 25px 45px;
     }
-    .cs__testimonial-inner p {
-        max-width: 100%;
-    }
-    .cs__testimonial-sec .swiper-button-next, .swiper-button-prev {
-        top: 62%;
-    }
-    .cs__testimonial-sec .cs__paragraph-text {
-        max-width: 100%;
-    }
 }
 @media (max-width: 991.98px){
     .cs__testimonial-inner {
@@ -716,9 +695,6 @@
     }
     .cs__testimonial-sec .swiper-button-next, .swiper-button-prev{
         display: none;
-    }
-    .cs__testimonial-sec .cs__paragraph-text{
-        max-width: 100%;
     }
     .cs__testimonial-sec{
         padding: 40px 0;
@@ -798,7 +774,6 @@
     font-size: 18px;
     line-height: 32px;
     font-weight: 500;
-    max-width: 75%;
     margin: 0;
 }
 .cs__contact-info {
@@ -813,7 +788,7 @@
     border-radius: 12px;
 }
 .cs__map-block {
-    height: calc(100% - 245px);
+    height: calc(100% - 214px);
     border-radius: 12px;
     border: 2px solid  #D6D6D6;
     width: 100%;
@@ -876,8 +851,8 @@
 }
 /* Responsive : Style Start */
 @media (max-width: 1399.98px){
-    .cs__contact-info .cs__desc p {
-        max-width: 100%;
+    .cs__map-block {
+        height: calc(100% - 245px);
     }
 }
 @media (max-width:1199.98px){
@@ -934,6 +909,7 @@
 }
 /* Responsive : Style End *?
 /* Contact : Block End */
+
 
 /* Award Block: Style Start */
 .cs__award-wrap .cs__img-block img {

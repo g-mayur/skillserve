@@ -13,7 +13,6 @@
     font-weight: 600;
 }
 .cs__hero-sec p {
-    max-width: 100%;
     line-height: 36px;
 }
 .cs__hero-borromsec {
@@ -30,9 +29,6 @@
 @media (max-width:1199.98px){
     .cs__hero-borromsec {
         bottom: -108px;
-    }
-    .cs__hero-sec p {
-        max-width: 100%;
     }
 }
 @media (max-width:991.98px){
@@ -146,9 +142,6 @@
 .cs__topimg-block img {
     opacity: 0.02;
 }
-.cs__business-sec p {
-    max-width: 93%;
-}
 .cs__business-details{
     overflow: hidden;
 }
@@ -171,9 +164,6 @@
     bottom: auto;
 }
 @media (max-width:991.98px){
-    .cs__business-sec p {
-        max-width: 100%;
-    }
     .cs__business-sec {
         padding: 90px 0 30px;
     }
