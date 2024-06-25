@@ -74,43 +74,34 @@ ol, ul {
     font-size: 18px;
     line-height: 16px;
     font-weight: 600;
-    background-color: var(--medium-black);
+    background-color: var(--orange);
     padding: 15px 30px;
-    transition: all 0.2s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
     border-radius: 100px;
     -webkit-border-radius: 100px;
     text-decoration: unset;
     overflow: hidden;
 }
-.cs__fill-btn:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: var(--orange);
-    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
-}
-.cs__fillwhite-btn:before{
-    background: var(--white);
+.cs__fill-btn:hover{
+    background-color:var(--medium-black) ;
+    color: var(--white) !important;
+    transition: all 0.3s ease-in-out !important;
 }
 .cs__fill-btn:hover img{
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(101%) contrast(103%);
+    transition: all 0.3s ease-in-out !important;
 }
-.cs__fill-bgwhitebtn {
+.cs__fill-bgwhitebtn:hover {
     background-color: var(--white);
+    transition: all 0.3s ease-in-out !important;
 }
 .cs__fill-bgwhitebtn:hover{
     color: var(--medium-black) !important;
-    transition: all 0.2s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
 }
 .cs__fill-bgwhitebtn:hover img{
     filter: brightness(0) saturate(100%) invert(10%) sepia(24%) saturate(63%) hue-rotate(314deg) brightness(98%) contrast(92%);
-    transition: all 0.2s ease-in-out !important;
-}
-.cs__fill-btn:hover:before {
-    transform: translate3d(0, -100%, 0);
+    transition: all 0.3s ease-in-out !important;
 }
 .cs__fill-btn span {
     padding-right: 10px;
@@ -118,13 +109,11 @@ ol, ul {
 }
 .cs__fill-btn img {
     position: relative;
+    transition: all 0.3s ease-in-out !important;
 }
 .cs__fillwhite-btn{
     color:  var(--orange) !important;
-    background-color: var(--medium-black);
-}
-.cs__fillwhite-btn:hover{
-    color: var(--white) !important;
+    background-color: var(--white);
 }
 .cs__subtitle{
     color: var(--orange);
@@ -221,11 +210,6 @@ main {
 }
 /* Responsive: Style End */
 /* Top Button : Style Strat */
-.cs__top-button .cs__fill-btn {
-    background-color: var(--medium-black);
-    border-color: var(--medium-black);
-    font-weight: 400;
-}
 .cs__top-button {
     position: fixed;
     right: -40px;
@@ -245,11 +229,11 @@ main {
     padding-left: 10px;
     padding-right: 0;
 }
-.cs__top-button .cs__fill-btn:before {
+.cs__top-button .cs__fill-btn{
     background-color: var(--medium-black);
 }
-.cs__top-button .cs__fill-btn:hover:before {
-    transform: unset;
+.cs__top-button .cs__fill-btn:hover{
+    background-color: var(--orange);
 }
 @media (max-width:991.98px){
     .cs__top-button .cs__fill-btn span {

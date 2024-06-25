@@ -213,6 +213,12 @@
         top: -125px;
         font-size: 150px;
     }
+    .cs__consulting-inner > div:nth-child(odd)  .cs__bg-images {
+        background-position: 5% 100%;
+    }
+    .cs__consulting-inner > div:nth-child(even)  .cs__bg-images {
+        background-position: 95% 100%;
+    }
 }
 @media (max-width:767.98px){
     .cs__consulting-desc p {
@@ -558,7 +564,7 @@
     padding: 18px 0;
 }
 .cs__faq-sec .accordion-button h6 {
-    padding-right: 40px;
+    padding-right: 12px;
     height: auto;
     color: var(--black);
     font-size: 24px;
@@ -625,7 +631,7 @@
     }
     .cs__faq-sec .accordion-button h6{
         font-size: 20px;
-        line-height: 32px;
+        line-height: 30px;
     }
 }
 
