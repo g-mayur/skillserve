@@ -167,7 +167,6 @@
     border-radius: 15px;
     -webkit-border-radius: 15px;
     height: 100%;
-    justify-content: space-between;
 }
 .cs__left-block ol li {
     list-style: number;
