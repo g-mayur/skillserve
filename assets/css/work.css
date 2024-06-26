@@ -53,7 +53,7 @@
 }
 @media (max-width:991.98px){
     .cs__hero-wrap {
-        margin-bottom: 95px;
+        margin-bottom: 32px;
     }
     .cs__hero-wrap .cs__img-block img {
         max-width: 450px;
@@ -213,7 +213,7 @@
         padding: 12px 22px;
     }
     .cs__profile-sec {
-        padding: 40px 0;
+        padding: 100px 0 40px;
     }
 }
 @media (max-width:767.98px){
@@ -231,7 +231,7 @@
         margin: 12px 0 0;
     }
     .cs__profile-sec {
-        padding: 40px 0;
+        padding: 70px 0 40px;
     }
     .cs__portfolio-txt h4 {
         font-size: 20px;

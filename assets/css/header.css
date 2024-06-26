@@ -338,7 +338,7 @@ header.cs__animated-header.slide-down {
 @media (max-width:991.98px){
     header {
         padding: 6px 0;
-        transform: unset !important;
+        animation: unset !important;
         box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 6%);
     }
     .navbar-nav .nav-link{
