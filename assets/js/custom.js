@@ -57,9 +57,9 @@ $(document).ready(function () {
       el: ".swiper-paginationtest",
       clickable: true,
     },
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
     breakpoints: {
       320: {
         slidesPerView: 1,

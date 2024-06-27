@@ -235,6 +235,20 @@ background: #dddddd;
     text-overflow: ellipsis;
     height: 215px;
 }
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-up {
+    animation: fadeUp 0.5s ease-out;
+}
+
 @media (max-width:1199.98px){
     .cs__blog-wrapper {
         padding: 20px;
