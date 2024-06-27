@@ -403,7 +403,7 @@
     font-size: 24px;
     line-height: 32px;
 }
-.cs__testimonial-inner {box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 0px;border-radius: 20px;padding: 20px 30px 100px;background-color: #ffffff;height: 100%;}
+.cs__testimonial-inner {box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 0px;border-radius: 20px;padding: 20px 30px 78px;background-color: #ffffff;height: 100%;}
 .cs__client-img {
     border: 4px solid #ED632B;
     width: 120px;
@@ -428,7 +428,7 @@
 .cs__testimonial-inner p {
     font-size: 18px;
     line-height: 32px;
-    margin: 0 auto 36px;
+    margin: 0 0 16px;
 }
 .cs__client-info {
     background-color: var(--orange);
@@ -444,7 +444,8 @@
 }
 .cs__client-info h6 {
     font-size: 22px;
-    margin: 0 0 4px;
+    text-align: left;
+    max-width: 50%;
 }
 .cs__client-info p {
     margin-bottom: 0;
@@ -502,6 +503,7 @@
 }
 .cs__client-info span {
     padding-left: 5px;
+    text-align: left;
 }
 /* Responsive: Style Start */
 @media (max-width:1650.98px){
@@ -514,7 +516,7 @@
 }
 @media (max-width:1399.98px){
     .cs__testimonial-inner {
-        padding: 20px 20px 115px;
+        padding: 20px 20px 78px;
     }
 }
 @media (max-width: 1250.98px){
@@ -539,11 +541,23 @@
         padding: 40px 0;
     }
     .cs__testimonial-inner p {
-        margin: 0 auto 12px;
+        margin: 0 0 12px;
     }
     .cs__testimonial-inner H3 {
         font-size: 20px;
         line-height: 25px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .cs__client-info {
+        flex-wrap: wrap;
+        justify-content: center !IMPORTANT;
+    }
+    .cs__client-info h6 {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 4px !important;
+        max-width: 100%;
     }
 }
 @media (max-width: 767.98px){
@@ -558,6 +572,12 @@
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 12px;
+    }
+    .cs__client-info h6 {
+        font-size: 20px;
+    }
+    .cs__testimonial-inner {
+        padding: 20px 10px 75px;
     }
 }
 @media (max-width:360.98px){

@@ -232,6 +232,10 @@ main {
 .cs__top-button .cs__fill-btn{
     background-color: var(--medium-black);
 }
+.cs__top-button  .cs__fill-btn:hover img{
+    transition: unset;
+    filter: unset;
+}
 @media (max-width:991.98px){
     .cs__top-button .cs__fill-btn span {
         display: none;
