@@ -389,6 +389,9 @@
     font-weight: 500;
     margin: 26px 0;
 }
+.cs__aboutcolum-content p{
+    column-count: 2;
+}
 /* Responsive : Style Start */
 @media (max-width: 991.98px){
     .cs__project-sec p {
@@ -397,6 +400,9 @@
     }
     .cs__project-sec{
         margin: 0 0 40px;
+    }
+    .cs__aboutcolum-content p{
+        column-count: 1;
     }
 }
 /* Responisve : Style End */

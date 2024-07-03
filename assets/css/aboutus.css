@@ -72,6 +72,9 @@
 /* Hero Section: Style End */
 
 /* Who We Are : Style Start */
+.cs__aboutcolum-content p{
+column-count: 2;
+}
 .cs__who-sec {
     overflow: hidden;
 }
@@ -103,6 +106,9 @@
 @media (max-width:991.98px){
     .cs__who-wrap {
         padding: 100px 0 20px;
+    }
+    .cs__aboutcolum-content p{
+        column-count: 1;
     }
 }
 @media (max-width:767.98px){
