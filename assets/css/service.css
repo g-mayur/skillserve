@@ -387,6 +387,13 @@
         top: -37px;
         line-height: 100px;
     }
+   
+}
+@media (max-width:360px){
+    .cs__soluation-bottomsec .cs__fill-btn, 
+    .cs__soluation-bottomsec .cs__fillwhite-btn {
+        padding: 15px 12px;
+    }
 }
 /* Responsive css end */
 /* Our DevOps Solutions: Style End */
