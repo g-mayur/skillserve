@@ -620,7 +620,8 @@
     background-image: url(../images/close.svg);
     transition: all 0.2s ease-in-out;
 }
-.cs__faq-sec .accordion-body p {
+.cs__faq-sec .accordion-body p,
+.cs__faq-sec .accordion-body li {
     font-size: 22px;
     line-height: 44px;
 }
@@ -639,7 +640,12 @@
 .cs__faq-sec .accordion-button:not(.collapsed) {
     padding-bottom: 10px !important;
 }
-
+.cs__faq-sec .accordion-body li {
+    list-style: disc;
+}
+.cs__business-details p {
+    column-count: 2;
+}
 /* Responsive css start */
 @media (max-width:991.98px){
     .cs__faq-sec .accordion-button::after {
@@ -651,16 +657,21 @@
     .cs__faq-sec{
         padding: 40px 0;
     }
-    .cs__faq-sec .accordion-body p {
+    .cs__faq-sec .accordion-body p,
+    .cs__faq-sec .accordion-body li {
         font-size: 20px;
         line-height: 40px;
+    }
+    .cs__business-details p {
+        column-count: 1;
     }
 }
 @media (max-width:767.98px){
     .cs__faq-sec .accordion {
         padding: 12px 0 0;
     }
-    .cs__faq-sec .accordion-body p {
+    .cs__faq-sec .accordion-body p,
+    .cs__faq-sec .accordion-body li {
         font-size: 16px;
         line-height: 26px;
     }

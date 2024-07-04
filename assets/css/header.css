@@ -156,6 +156,8 @@ header .tab-content li {
 header .tab-content li a{
     color: var(--black);
     font-weight: 500;
+    position: relative;
+    z-index: 1;
 }
 header .tab-content .cs__eng-list li{
     max-width: 31%;

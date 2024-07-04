@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CREST Skillserve</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstarp5 css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Swiper slider CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom style link-->
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/variable.css">
+    <link rel="stylesheet" href="assets/css/service.css">
+</head>
+
+<body>
+
+  <!-- Header: Block Start -->
+  <header class="cs__animated-header" data-aos="fade-down">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="cs__logo" href="index.html"><img src="assets/images/crestskillserve.svg" alt="crestskillserve" width="180" height="72"></a>
+        <button class="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="line"></span><span class="line"></span><span class="line"></span>
+        </button>
+        <div class="justify-content-center cs__menu-block" id="navbarSupportedContent">
+          <div class="dropdown-menu  d-flex align-items-start  d-lg-block d-none" aria-labelledby="navbarDropdown">
+            <ul class="nav nav-pills flex-column nav-pills col-sm-2" id="pills-tab" role="tablist">
+              <li class="nav-item-title" role="presentation">
+               Services
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-primary fw-semibold active position-relative" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-home" aria-selected="true">design</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-primary fw-semibold position-relative" id="pills-build-tab" data-bs-toggle="pill" data-bs-target="#pills-build" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">build</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-primary fw-semibold position-relative" id="pills-engineer-tab" data-bs-toggle="pill" data-bs-target="#pills-engineer" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">engineer</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link text-primary fw-semibold position-relative" id="pills-scale-tab" data-bs-toggle="pill" data-bs-target="#pills-scale" type="button" role="tab" aria-controls="pills-scale" aria-selected="false">scale</button>
+              </li>
+            </ul>
+            <div class="tab-content col-sm-10" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+               <p>We bring innovation, expertise, and reliability together to offer a comprehensive
+                suite of Information Technology services.</p>
+                <ul class="d-flex flex-wrap">
+                  <li><a href="#">UX/UI Design</a></li>
+                  <li><a href="#">Graphic Designing</a></li>
+                </ul>
+                <div class="cs__service-img">
+                  <img src="assets/images/service-design.png" alt="Service Design" width="360" height="297">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-build" role="tabpanel" aria-labelledby="pills-build-tab">
+                <p>We bring innovation, expertise, and reliability together to offer a comprehensive
+                  suite of Information Technology services.</p>
+                 <div class="cs__tech-list row">
+                  <div class="col-sm-6">
+                    <h6 class="text-uppercase fw-bold">Mobile</h6>
+                    <ul class="d-flex flex-wrap">
+                      <li><a href="#">iOS Development</a></li>
+                      <li><a href="#">Android Development</a></li>
+                      <li><a href="#">Cross-Platform Development</a></li>
+                    </ul>
+                    <div class="cs__service-img">
+                      <img src="assets/images/service-build.png" alt="Service Build" width="300" height="324.5">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <h6 class="text-uppercase fw-bold">Web</h6>
+                    <ul class="d-flex flex-wrap">
+                      <li><a href="#">Backend Development</a></li>
+                      <li><a href="#">Frontend Development</a></li>
+                      <li><a href="#">CMS Development</a></li>
+                      <li><a href="#">e-Commerce Development</a></li>
+                    </ul>
+                  </div>
+                 </div>
+                 <div class="cs__service-img">
+                  <img src="assets/images/service-build.png" alt="Service Build" width="300" height="324.5">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-engineer" role="tabpanel" aria-labelledby="pills-engineer-tab">
+                <p>We bring innovation, expertise, and reliability together to offer a comprehensive
+                  suite of Information Technology services.</p>
+                  <ul class="d-flex justify-content-between flex-wrap cs__eng-list">
+                    <li><a href="#">AR & VR Development</a></li>
+                    <li><a href="#">ERP Development</a></li>
+                    <li><a href="#">Cloud Development</a></li>
+                    <li><a href="#">ML & AI Development</a></li>
+                    <li><a href="#">POS Development</a></li>
+                    <li><a href="#">SAAS Development</a></li>
+                    <li><a href="#">Blockchain Development</a></li>
+                    <li><a href="#">RPA Development</a></li>
+                    <li><a href="#">PAAS Development</a></li>
+                    <li><a href="#">IoT Development</a></li>
+                    <li><a href="#">Omnichannel Development</a></li>
+                    <li><a href="#">FAAS Development</a></li>
+                    <li><a href="#">CRM Development</a></li>
+                    <li><a href="#">BYOD Development</a></li>
+                    <li><a href="#">Software Development</a></li>
+                  </ul>
+                  <div class="cs__service-img">
+                    <img src="assets/images/service-eng.png" alt="Service Engineer" width="300" height="301.55">
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="pills-scale" role="tabpanel" aria-labelledby="pills-scale-tab">
+                <p>We bring innovation, expertise, and reliability together to offer a comprehensive
+                  suite of Information Technology services.</p>
+                  <ul class="cs__scale-list">
+                    <li><a href="#">Big Data Analytics</a></li>
+                    <li><a href="#">Business Intelligence</a></li>
+                    <li><a href="devopsservice.html">DevOps Services</a></li>
+                    <li><a href="#">Software Testing & QA</a></li>
+                    <li><a href="#">Software Integration</a></li>
+                    <li><a href="digitalmarketingservice.html">Digital Marketing</a></li>
+                  </ul>
+                  <div class="cs__service-img">
+                    <img src="assets/images/services-scale.png" alt="Service Build" width="600" height="355.67">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav  mb-2 mb-lg-0 accordion" id="accordionExample">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown accordion-header" id="headingOne">
+              <a class="nav-link dropdown-toggle d-lg-block d-none active" href="devopsservice.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Services</a>
+              <div class="cs__moble-menu d-lg-none">
+                <a class="nav-link dropdown-toggle accordion-button collapsed active" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" href="devopsservice.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                  <div class="accordion-body">
+                      <div class="accordion" id="sub-accordionExample">
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="sub-headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-design" aria-expanded="false" aria-controls="collapseOne">
+                                      Design
+                                  </button>
+                              </h2>
+                              <div id="sub-design" class="accordion-collapse collapse" aria-labelledby="sub-headingOne" data-bs-parent="#sub-accordionExample" style="">
+                                  <div class="accordion-body">
+                                    <ul>
+                                      <li><a href="#">UX/UI Design</a></li>
+                                      <li><a href="#">Graphic Designing</a></li>
+                                    </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                              <h2 class="accordion-header" id="sub-headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapsebuild" aria-expanded="false" aria-controls="sub-collapseTwo">
+                                      Build
+                                  </button>
+                              </h2>
+                              <div id="sub-collapsebuild" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+                                  <div class="accordion-body cs__tech-list">
+                                      <div class="col-sm-6">
+                                        <h6 class="text-uppercase fw-bold">Mobile</h6>
+                                        <ul class="">
+                                          <li><a href="#">iOS Development</a></li>
+                                          <li><a href="#">Android Development</a></li>
+                                          <li><a href="#">Cross-Platform Development</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <h6 class="text-uppercase fw-bold">Web</h6>
+                                        <ul>
+                                          <li><a href="#">Backend Development</a></li>
+                                          <li><a href="#">Frontend Development</a></li>
+                                          <li><a href="#">CMS Development</a></li>
+                                          <li><a href="#">e-Commerce Development</a></li>
+                                        </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="sub-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapseeng" aria-expanded="false" aria-controls="sub-collapseTwo">
+                                    Engineer
+                                </button>
+                            </h2>
+                            <div id="sub-collapseeng" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+                                <div class="accordion-body">
+                                  <ul>
+                                    <li><a href="#">AR &amp; VR Development</a></li>
+                                    <li><a href="#">ERP Development</a></li>
+                                    <li><a href="#">Cloud Development</a></li>
+                                    <li><a href="#">ML &amp; AI Development</a></li>
+                                    <li><a href="#">POS Development</a></li>
+                                    <li><a href="#">SAAS Development</a></li>
+                                    <li><a href="#">Blockchain Development</a></li>
+                                    <li><a href="#">RPA Development</a></li>
+                                    <li><a href="#">PAAS Development</a></li>
+                                    <li><a href="#">IoT Development</a></li>
+                                    <li><a href="#">Omnichannel Development</a></li>
+                                    <li><a href="#">FAAS Development</a></li>
+                                    <li><a href="#">CRM Development</a></li>
+                                    <li><a href="#">BYOD Development</a></li>
+                                    <li><a href="#">Software Development</a></li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="sub-headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sub-collapsescale" aria-expanded="false" aria-controls="sub-collapseTwo">
+                                  Scale
+                              </button>
+                          </h2>
+                          <div id="sub-collapsescale" class="accordion-collapse collapse" aria-labelledby="sub-headingTwo" data-bs-parent="#sub-accordionExample">
+                              <div class="accordion-body">
+                                <ul>
+                                  <li><a href="#">Big Data Analytics</a></li>
+                                  <li><a href="#">Business Intelligence</a></li>
+                                  <li><a href="devopsservice.html">DevOps Services</a></li>
+                                  <li><a href="#">Software Testing &amp; QA</a></li>
+                                  <li><a href="#">Software Integration</a></li>
+                                  <li><a href="digitalmarketingservice.html">Digital Marketing</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" tabindex="-1" aria-disabled="true">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)" tabindex="-1" aria-disabled="true">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cs__header-btn">
+          <a href="contactus.html" class="cs__fill-btn position-relative d-inline-block"><span>Let’s Connect</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header: Block End -->
+
+    <!-- Body: Block Start-->
+    <main>
+
+        <!-- Hero : Block Start -->
+        <section class="cs__hero-wrap position-relative">
+            <div class="cs__hero-sec position-relative">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-12 mb-4 mb-lg-0 cs__slide-text" data-aos="fade-right">
+                            <span class="cs__subtitle fst-italic d-inline-block">Tech-Enabled Digital Solutions</span>
+                            <h1 class="mt-3">Preeminent Digital Marketing Services Your Business Needs</h1>
+                            <p class="cs__paragraph-text mb-4 cs__mobile-content">We are a result-driven digital marketing service to grow your client base with data-driven and targeted strategies designed to suit your unique business goals. We help businesses of all sizes reach their niche markets & audiences and generate more profits, regardless of geographical location or time difference. Whether you’re a startup or a medium-sized business, we can help you reach your target market and offer result-driven digital marketing services that meet your needs.</p>
+                            <a href="contactus.html" class="cs__fill-btn position-relative d-inline-block" data-swiper-parallax="-50"><span>Speak To Us!</span><img src="assets/images/arrow-right.svg" alt="arrow-right" width="24"
+                                    height="24"></a>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 cs__slide-img mb-lg-0 mb-4" data-aos="fade-left">
+                            <div class="cs__img-block">
+                                <img src="assets/images/rightpanel-devops.png" alt="rightpanel-devops" width="100%"
+                                    height="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cs__hero-borromsec">
+                <img src="assets/images/service-bottom.png" alt="crestskillserve" width="100%" height="100%">
+            </div>
+            <div class="cs__hexa-img">
+                <img src="assets/images/hexa-shape.png" alt="hexa" width="100%" height="100%">
+            </div>
+        </section>
+        <!-- Hero : Block End -->
+
+        <!-- For Your Business : Block Start -->
+        <section class="cs__business-sec position-relative">
+            <div class="container">
+                <span class="cs__subtitle text-lg-center d-inline-block" data-aos="fade-up">Tech-Enabled Digital Marketing Services</span>
+                <h2 class="mt-3 text-lg-center" data-aos="fade-up">For Sustainable Growth of Your Business</h2>
+                <div class="row mt-3 cs__business-details">
+                    <div class="col-lg-12 col-xl-12 col-xxl-12 col-sm-12">
+                        <p class="cs__paragraph-text mb-4 mb-lg-0 cs__mobile-content" data-aos="fade-up">Crest Skillserve is a leading digital marketing agency that offers tailored digital marketing solutions to capitalize on your business growth in the fast-paced world. We provide tech-enabled digital marketing solutions that reduce your marketing challenges, streamline your strategy, and drive successful outcomes. With our team of highly skilled digital marketing professionals, you will experience amazing revenue growth in no time. We have a strong team of digital marketing specialists who have experience in creating the best strategies, plans, and tactics to help you drive success. 
+
+                        With our customized digital marketing services, you'll be able to create and execute effective digital marketing campaigns tailored to your business needs. Our data-driven approach helps us develop campaigns that reach your business goals. Are you looking for tailored digital marketing services that make your business grow like a pro? Hire our digital marketing experts today!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cs__topimg-block">
+                <img src="assets/images/halftone-bg.png" alt="halftone" width="100%" height="100%">
+            </div>
+        </section>
+        <!-- For Your Business : Block Start -->
+
+        <!-- DevOps Consulting : Block Start -->
+        <section class="cs__consulting-sec position-relative" id="cs__service-list">
+            <div class="cs__servicebg-img">
+                <img src="assets/images/servicelistbg.png" alt="Services" width="100%" height="100%">
+            </div>
+            <div class="container">
+                <span class="cs__subtitle text-lg-center d-inline-block" data-aos="fade-up">Reliable Digital Marketing Services</span>
+                <h2 class="mt-3 text-lg-center" data-aos="fade-up">That Drive Successful Outcomes</h2>
+                <div class="cs__consulting-inner">
+                    <div class="row align-items-center position-relative">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 cs__bg-images position-relative" data-aos="fade-right">
+                            <div class="cs__img-block position-relative">
+                                <img src="assets/images/consulting-servive-left.png" alt="consulting-servive"
+                                    width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+                            <div class="cs__consulting-desc position-relative">
+                                <h4>Search Engine Optimization (SEO)</h4>
+                                <p class="mb-0 cs__mobile-content">We offer the best Search Engine Optimization (SEO) services to ensure your website or app is visible on the first page of Google. Our SEO experts understand different aspects of SEO, including website audits, keyword research, quality link building, content planning, writing & optimization, speed optimization, mobile-friendliness, etc., to ensure you rank higher in search result pages. We use impeccable SEO techniques and effective planning and strive hard to ensure your business is visible on the first page of Google. Whether you are a small business or large enterprise looking for quality SEO services that increase ranking, drive organic traffic to your website, and generate more leads, look no further than Crest Skillserve. Hire our SEO professionals today!</p>
+                                <span class="cs__service-no">01</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center position-relative">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 cs__bg-images position-relative" data-aos="fade-right">
+                            <div class="cs__img-block position-relative">
+                                <img src="assets/images/consulting-servive-right.png" alt="consulting-servive"
+                                    width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+                            <div class="cs__consulting-desc position-relative">
+                                <h4>Social Media Marketing (SMM)</h4>
+                                <p class="mb-0 cs__mobile-content">Get result-oriented social media marketing services that help you target, reach, and engage prospective clients and customers across social media platforms. Our social media marketing experts create proven strategies to help businesses drive more revenue, leads, and sales by encouraging your target customers to visit your website through engaging social media posts or content. We are skilled, experienced digital marketing professionals who create proven SMM strategies to suit your business goals, resulting in greater user engagement. Hire our SMM experts to boost your online presence on social media platforms.</p>
+                                <span class="cs__service-no">02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center position-relative">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 cs__bg-images position-relative" data-aos="fade-right">
+                            <div class="cs__img-block position-relative">
+                                <img src="assets/images/consulting-servive-left.png" alt="consulting-servive"
+                                    width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+                            <div class="cs__consulting-desc position-relative">
+                                <h4>Search Engine Marketing (SEM)</h4>
+                                <p class="mb-0 cs__mobile-content">Crest Skillserve is a professional search engine marketing (SEM) company that has been helping businesses of all sizes to reach their prospective customers much faster than ever before. We have the right SEM specialists who utilize the best data-driven campaigns to ensure maximum revenue in no time. Our SEM experts are AdWords certified and know what they are doing to grow your business in the digital landscape. We can help you create targeted ad copies, optimize your strategies, and monitor your ROI for every keyword. We follow the latest market trends to promote your products or services to targeted customers that drive high-volume leads and traffic. Hire our SEM professionals today to see how we can take your business to the next level.</p>
+                                <span class="cs__service-no">03</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center position-relative">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 cs__bg-images position-relative" data-aos="fade-right">
+                            <div class="cs__img-block position-relative">
+                                <img src="assets/images/consulting-servive-right.png" alt="consulting-servive"
+                                    width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+                            <div class="cs__consulting-desc position-relative">
+                                <h4>App Store Optimization (ASO)</h4>
+                                <p class="mb-0 cs__mobile-content">We offer result-driven App Store Optimization (ASO) services to ensure your app gets proper traffic and downloads on both Google Play and Apple App Store. Our ASO services are specially designed to drive higher ranking, visibility, and searchability to boost traffic and downloads more effectively. We are experienced ASO specialists with the right skills, knowledge, and expertise to understand each aspect of your ASO optimization, including app icon, app title/subtitle, app description, app image, app content, preview video, etc. We can help optimize all of these factors to ensure your app is more visible to drive users and increase downloads. Whether you are a small startup or a large enterprise looking to promote your app in Play Store and App Store, we are here to help. </p>
+                                <span class="cs__service-no">04</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-center position-relative">
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 cs__bg-images position-relative" data-aos="fade-right">
+                            <div class="cs__img-block position-relative">
+                                <img src="assets/images/consulting-servive-left.png" alt="consulting-servive"
+                                    width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-left">
+                            <div class="cs__consulting-desc position-relative">
+                                <h4>Online Reputation Management</h4>
+                                <p class="mb-0 cs__mobile-content">We are a trusted digital marketing company that offers a complete range of services, including online reputation management to help you enhance your online reputation among your potential customers. We understand that online reviews and reputation can easily make or break your business in the digital landscape. Our digital marketing professionals are here to improve your online review and online reputation, preventing your business from any negative sides. We can help automate your online reputation management practices and get more positive reviews for your business or its products & services using state-of-the-art software, proven techniques, and streamlined planning. </p>
+                                <span class="cs__service-no">05</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- DevOps Consulting : Block End -->
+
+        <!-- Our DevOps Solutions : Block Start -->
+        <section class="cs__soluation-sec">
+            <div class="cs__title-block" data-aos="fade-up">
+                <h2 class="text-lg-center text-white">Our Digital Marketing Solutions</h2>
+            </div>
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 cs__soluation-block position-relative d-inline-block" data-aos="fade-up">
+                    <div class="container">
+                        <div class="cs__soluation-inner position-relative">
+                            <h4 class="mb-lg-0 mb-2">Local SEO</h4>
+                            <p class="cs__mobile-content">No matter what you need, we can provide customized local search engine optimization services to help achieve your business goals. Our local SEO experts help businesses appear on top of local searches, making it easier for customers to find your company when searching for relevant products and services using local searches. At Crest Skillserve, we are a team of dedicated local SEO professionals who create the best local SEO strategies and campaigns to improve local searchability and visibility. To help promote your business in local searches, we create local search optimization, local advertising, and local marketing to make your business thrive in the digital world. Our local digital marketing experts help you get high rankings in Google Maps as well as rankings in search engine result pages, which will drive more traffic, generate leads, and provide continuous business growth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 cs__soluation-block position-relative d-inline-block" data-aos="fade-up">
+                    <div class="container">
+                        <div class="cs__soluation-inner position-relative">
+                            <h4 class="mb-lg-0 mb-2">International SEO</h4>
+                            <p class="cs__mobile-content">We are a reputed digital marketing agency that offers both local and international SEO/digital marketing services to help your business reach target customers from any corner of the world, more efficiently. We provide result-driven international digital marketing and SEO services for organizations of all sizes, allowing them to expand their business in the digital landscape. We are skilled, experienced, and certified marketing professionals with a proven track record of delivering successive results using proven SEO/digital marketing techniques. With our tech-enabled digital marketing solutions, we help you reach customers from any corner of the world, regardless of where they are located. We use effective SEO strategies, best practices, and proven marketing techniques to increase your website's visibility and searchability and grow your online business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cs__soluation-bottomsec text-lg-center" data-aos="fade-up">
+                <div class="container">
+                    <p class="text-white">Take advantage of our tech-enabled digital marketing services to drive huge revenue with successful outcomes.</p>
+                    <a href="contactus.html" class="cs__fill-btn cs__fill-bgwhitebtn position-relative d-inline-block" data-aos="zoom-in"><span>Let’s Connect</span><img
+                            src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Our DevOps Solutions : Block Start -->
+
+      <!-- Testimonial Section: Block Start -->
+       <section class="cs__testimonial-sec">
+        <div class="container position-relative">
+          <span class="cs__subtitle text-lg-center d-inline-block" data-aos="fade-up">Our Happy Clients!</span>
+          <h2 class="mt-3 text-lg-center" data-aos="fade-up">Here is What They Say About Us</h2>
+          <p class="cs__paragraph-text mb-4 text-lg-center cs__mobile-content" data-aos="fade-up">We have earned a great deal of trust and satisfaction from our worldwide clients by delivering quality and cost-efficient software solutions as per the commitment. We are committed to excellence and strive hard to provide the best possible experience to ensure our clients are fully satisfied. Here are some amazing words from our awesome clients telling their experiences about the services and value we offer:</p>
+          <div class="swiper mySwiper cs__testimonial-slider" data-aos="fade-up">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cs__testimonial-inner text-center position-relative">
+                  <div class="cs__client-img">
+                    <img src="assets/images/avtar.svg" alt="client" width="100%" height="100%">
+                  </div>
+                  <img src="assets/images/quote.svg" alt="client" width="100" height="100">
+                  <div class="cs__rating-block">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                  </div>
+                  <h3 class="fw-bold mt-3">Crest is GREAT</h3>
+                  <p class="cs__mobile-content">Crest has been awesome for us! The team has been incredibly responsive and very on top of every issue we have assigned them. We are continuing to work with the team and we plan to continue working with them as long as possible.</p>
+                  <div class="cs__client-info d-flex align-items-center justify-content-between">
+                    <h6 class="text-white mb-0">Collin</h6>
+                    <p class="text-white mb-0 d-flex align-items-center justify-content-center"><img src="assets/images/map.svg" alt="client" width="24" height="24"><span>Mexico</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cs__testimonial-inner text-center position-relative">
+                  <div class="cs__client-img">
+                    <img src="assets/images/duybuiupdated.png" alt="client" width="100%" height="100%">
+                  </div>
+                  <img src="assets/images/quote.svg" alt="client" width="100" height="100">
+                  <div class="cs__rating-block">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                  </div>
+                  <h3 class="fw-bold mt-3">We have been a regular customer</h3>
+                  <p class="cs__mobile-content">We have been a regular customer of Crest, and there's a reason why – they consistently deliver exactly what you need. Their team listens to ideas and works proactively with you to bring them to life.</p>
+                  <div class="cs__client-info d-flex align-items-center justify-content-between">
+                    <h6 class="text-white mb-0">Duy Bui</h6>
+                    <p class="text-white mb-0 d-flex align-items-center justify-content-center"><img src="assets/images/map.svg" alt="client" width="24" height="24"><span>Thailand</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cs__testimonial-inner text-center position-relative">
+                  <div class="cs__client-img">
+                    <img src="assets/images/avtar.svg" alt="client" width="100%" height="100%">
+                  </div>
+                  <img src="assets/images/quote.svg" alt="client" width="100" height="100">
+                  <div class="cs__rating-block">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                  </div>
+                  <h3 class="fw-bold mt-3">Best Company in my opinion</h3>
+                  <p class="cs__mobile-content">I was most impressed with Crest Infosystems responsiveness and ability to deliver a complicated solution on time. Everything has been delivered as expected so far.</p>
+                  <div class="cs__client-info d-flex align-items-center justify-content-between">
+                    <h6 class="text-white mb-0">Iamnt Ant</h6>
+                    <p class="text-white mb-0 d-flex align-items-center justify-content-center"><img src="assets/images/map.svg" alt="client" width="24" height="24"><span>India</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cs__testimonial-inner text-center position-relative">
+                  <div class="cs__client-img">
+                    <img src="assets/images/avtar.svg" alt="client" width="100%" height="100%">
+                  </div>
+                  <img src="assets/images/quote.svg" alt="client" width="100" height="100">
+                  <div class="cs__rating-block">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                  </div>
+                  <h3 class="fw-bold mt-3">I have used Crest multiple times</h3>
+                  <p class="cs__mobile-content">I have used Crest multiple times for mobile, web, and backend development and the entire team has been awesome. My business would not be successful if it weren't for Crest.</p>
+                  <div class="cs__client-info d-flex align-items-center justify-content-between">
+                    <h6 class="text-white mb-0">Rob Almasri</h6>
+                    <p class="text-white mb-0 d-flex align-items-center justify-content-center"><img src="assets/images/map.svg" alt="client" width="24" height="24"><span>United States</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cs__testimonial-inner text-center position-relative">
+                  <div class="cs__client-img">
+                    <img src="assets/images/avtar.svg" alt="client" width="100%" height="100%">
+                  </div>
+                  <img src="assets/images/quote.svg" alt="client" width="100" height="100">
+                  <div class="cs__rating-block">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                    <img src="assets/images/star.svg" alt="client" width="24" height="24">
+                  </div>
+                  <h3 class="fw-bold mt-3">Crest Infosystems has been… a GREAT referral</h3>
+                  <p class="cs__mobile-content">Crest Infosystems has been knowledgeable and a great addition to our project. Anish, Shalish and the rest of the team not only completed our requests but offered very valuable input to our new eCommerce website/membership platform. </p>
+                  <div class="cs__client-info d-flex align-items-center justify-content-between">
+                    <h6 class="text-white mb-0">Bob Johnson</h6>
+                    <p class="text-white mb-0 d-flex align-items-center justify-content-center"><img src="assets/images/map.svg" alt="client" width="24" height="24"><span>United States</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-paginationtest"></div>
+          </div>
+           <!-- Add Arrows -->
+           <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+        </div>
+       </section>
+       <!-- Testimonial Section: Block End -->
+
+        <!-- FAQ Section: Block Start -->
+        <section class="cs__faq-sec">
+            <div class="container">
+                <h2 class="text-lg-center" data-aos="fade-up">Frequently Asked Questions</h2>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item" data-aos="fade-up">
+                  <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFaqOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h6>Why Do You Need Digital Marketing Services?</h6>
+                    </button>
+                </div>
+                  <div id="flush-collapseFaqOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p class="cs__mobile-content">Digital marketing plays a crucial role in helping your business improve brand awareness, reach new audiences, and drive huge revenue to grow your business faster. Digital marketing is the process of creating strategies that align with your business goals and target customers, driving more traffic, successive results, and more to expand your business to target audiences. Businesses interested in creating a strong online presence, reaching a target audience, and achieving desired goals can benefit from digital marketing services.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up">
+                  <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFaqTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h6>Why Choose Crest Skillserve For Digital Marketing Services?</h6>
+                    </button>
+                </div>
+                  <div id="flush-collapseFaqTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p class="cs__mobile-content">Crest Skillserve is a reliable digital marketing agency that believes in delivering individually tailored digital marketing services to both local and international clients. We don’t believe in a one-size-fits-all marketing strategy and create the best strategies based on your specific needs, target audiences, and business goals. With our digital marketing services, you can drive significant growth, increase ranking, boost traffic, and generate more revenue. Hire our digital marketing services to see massive growth in your business.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up">
+                  <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFaqThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h6>Benefits of Choosing Digital Marketing Services For My Business</h6>
+                    </button>
+                </div>
+                  <div id="flush-collapseFaqThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p class="cs__mobile-content">The lack of resources makes it difficult for most solopreneurs and smaller marketing departments to plan and execute a successful digital marketing campaign. Choosing the right digital marketing services can help you employ a comprehensive range of digital marketing techniques, SEO strategies, and best practices to maximize your business growth. Hiring the right digital marketing agency can help your business;</p>
+                        <ul class="mb-3 ps-4">
+                            <li class="cs__mobile-content">Enhance Global Reach</li>
+                            <li class="cs__mobile-content">Improve website ranking</li>
+                            <li class="cs__mobile-content">Increase online visibility</li>
+                            <li class="cs__mobile-content">Generate Greater ROI</li>
+                            <li class="cs__mobile-content">Boost conversion rates</li>
+                            <li class="cs__mobile-content">Optimize for SEO</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" data-aos="fade-up">
+                    <div class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFaqFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h6>Which social media platform is best for my business?</h6>
+                      </button>
+                    </div>
+                    <div id="flush-collapseFaqFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <p class="cs__mobile-content">Facebook, Instagram, and LinkedIn are the most popular social media platforms for businesses to promote their products and services to target customers. Most of the people in your target market have a Facebook account, which is why it's the most popular social media site for companies. It is also possible to turn your customer base into a community through Facebook marketing because Facebook has such a wide appeal. However, the choice ultimately depends on your specific business goals, industry niche, and customer base.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- FAQ Section: Block End -->
+
+    </main>
+    <!-- Body: Block End-->
+
+
+   <!-- Footer: Block Start-->
+   <footer>
+    <div class="container">
+      <div class="row cs__footer-menu">
+        <div class="col-lg-2 col-xl-2 col-xxl-2 col-md-6">
+            <h6 class="text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapsfootermenu1" role="button" aria-expanded="false" aria-controls="collapseExample" data-aos="fade-up">
+              Quick Links<img src="assets/images/white-arrow.svg" alt="white-arrow" width="30" height="30">
+            </h6>
+            <div class="collapse" id="collapsfootermenu1">
+                <ul>
+                  <li data-aos="fade-up"><a href="aboutus.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>About Us</span></a></li>
+                  <li data-aos="fade-up"><a href="blog.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Blog</span></a></li>
+                  <li data-aos="fade-up"><a href="work.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Work</span></a></li>
+                  <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Career</span></a></li>
+                  <li data-aos="fade-up"><a href="contactus.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6">
+          <h6 class="text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapsfootermenu2" role="button" aria-expanded="false" aria-controls="collapseExample" data-aos="fade-up">
+            Services<img src="assets/images/white-arrow.svg" alt="white-arrow" width="30" height="30">
+          </h6>
+          <div class="collapse" id="collapsfootermenu2">
+            <ul>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>UX/UI Design</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Graphic Design</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Big Data Analytics</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Business Intelligence</span></a></li>
+              <li data-aos="fade-up"><a href="devopsservice.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>DevOps Services</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Software Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Software Integration</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Software Testing & QA</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>BYOD Services</span></a></li>
+              <li data-aos="fade-up"><a href="digitalmarketingservice.html" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Digital Marketing</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Omnichannel Development</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-6">
+          <h6 class="text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapsfootermenu3" role="button" aria-expanded="false" aria-controls="collapseExample" data-aos="fade-up">
+            Web & Mobile<img src="assets/images/white-arrow.svg" alt="white-arrow" width="30" height="30">
+          </h6>
+          <div class="collapse" id="collapsfootermenu3">
+            <ul>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Backend Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Front End Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="30"><span>CMS Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Ecommerce Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>iOS Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Android Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Cross-Platform Development</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6">
+          <h6 class="text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapsfootermenu4" role="button" aria-expanded="false" aria-controls="collapseExample" data-aos="fade-up">
+            Emerging TechS<img src="assets/images/white-arrow.svg" alt="white-arrow" width="30" height="30">
+          </h6>
+          <div class="collapse" id="collapsfootermenu4">
+            <ul>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex align-items-center"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>AR & VR Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>ML & AI Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Blockchain Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>IoT Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>CRM Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>ERP Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>POS Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Cloud Development</span></a></li>
+              <li data-aos="fade-up"><a href="javascript:void(0)" class="text-white d-flex"><img src="assets/images/top-arrow.svg" alt="top-arrow" width="35" height="35"><span>Saas / PaaS / FaaS Development</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cs__copyright-sec text-center">
+      <p class="text-white">© All Rights Reserved. <a href="javascript:void(0)" class="cs__link position-relative">Crest Skillserve Pvt. Ltd.</a> 2024</p>
+    </div>
+  </footer>
+  <!-- Footer: Block End-->
+
+    <!-- Top Button : Block Start -->
+    <div class="cs__top-button">
+        <a href="javascript:void(0)" class="cs__fill-btn d-flex align-items-center position-relative"><span>Go to Top</span><img
+                src="assets/images/arrow-right.svg" alt="arrow-right" width="24" height="24"></a>
+    </div>
+    <!-- Top Button : Block End -->
+
+    <!-- social icon : Block Start -->
+    <div class="cs__social-sec">
+        <a href="javascript:void(0)" class="cs__social-block cs__facebook d-flex align-items-center">
+            <p>Facebook</p>
+            <div class="cs__social-icon">
+                <img src="assets/images/facebook.svg" alt="facebook" width="24" height="24">
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="cs__social-block d-flex align-items-center cs__insta">
+            <p>Instagram</p>
+            <div class="cs__social-icon">
+                <img src="assets/images/insta.svg" alt="Instagram" width="24" height="24">
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="cs__social-block d-flex align-items-center cs__skype">
+            <p>Skype</p>
+            <div class="cs__social-icon">
+                <img src="assets/images/skype.svg" alt="Skype" width="24" height="24">
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="cs__social-block d-flex align-items-center cs__linkedin">
+            <p>LinkedIn</p>
+            <div class="cs__social-icon">
+                <img src="assets/images/linkedn.svg" alt="linkedn" width="24" height="24">
+            </div>
+        </a>
+    </div>
+    <!-- social icon : Block End -->
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- custom js link -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Aos animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
+
+
+
