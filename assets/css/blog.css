@@ -93,6 +93,18 @@ background: #dddddd;
 .cs__bloglist-sec .nav-tabs .nav-link {
     transition: all 0.2s ease-in-out;
 }
+
+.cs__bloglist-sec .nav-tabs .nav-link:before {
+    content: '';
+    position: absolute;
+    background-color: var(--orange);
+    height: 4px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: all 0.5s ease;
+}
 .cs__bloglist-sec button {
     font-size: 20px;
     color: var(--black);
@@ -107,14 +119,8 @@ background: #dddddd;
     color: var(--orange);
 }
 .cs__bloglist-sec .nav-tabs .nav-link.active:before {
-    content: '';
-    position: absolute;
-    background-color: var(--orange);
-    height: 4px;
     width: 100%;
-    left: 0;
-    right: 0;
-    bottom: -1px;
+    transition: all 0.5s ease;
 }
 .cs__bloglist-block{
     border-bottom: 1px solid #E5E5E5;
@@ -247,74 +253,4 @@ background: #dddddd;
 }
 .fade-up {
     animation: fadeUp 0.5s ease-out;
-}
-
-@media (max-width:1199.98px){
-    .cs__blog-wrapper {
-        padding: 20px;
-    }
-    .cs__blog-footer {
-        padding: 15px 20px;
-    }
-    .cs__blog-inner .cs__fill-btn {
-        font-size: 18px;
-        padding: 14px 12px;
-    }
-    .cs__blog-footer {
-        gap: 12px;
-    }
-    .cs__author {
-        padding-right: 12px;
-    }
-}
-@media (max-width:991.98px){
-    .cs__blog-desc h6 {
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .cs__blog-desc .cs__paragraph-text {
-        font-size: 16px;
-        line-height: 26px;
-        height: auto;
-    }
-    .cs__blog-footer {
-        padding: 15px 20px 70px;
-    }
-    .cs__blog-wrapper {
-        padding: 20px 20px 0;
-    }
-    .cs__blog-tag span {
-        font-size: 14px;
-        padding: 8px 14px;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    .cs__bloglist-sec button{
-        font-size: 22px;
-    }
-   
-    .cs__bloglist-sec .nav-tabs {
-        gap: 16px;
-    }
-   
-}
-@media (max-width:600.98px){
-    .cs__blog-social{
-        width: 100%;
-    }
-    .cs__bloglist-sec  .tab-content .row > div {
-        width: 100%;
-    }
-    .cs__hero-wrap:before {
-        left: -150px;
-        bottom: -110px;
-    }
-    .cs__hero-wrap:after {
-        right: -170px;
-    }
-    .cs__bloglist-block {
-        border-bottom: 1px solid #E5E5E5;
-        margin-bottom: 10px;
-    }
 }

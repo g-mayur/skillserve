@@ -1,0 +1,747 @@
+/* ==================================== INDEX ==================================== */
+/*  0. General (Buttons, Links, Icons, Paragraph)
+    1. Top Button
+    2. Company Details Section
+    3. Technologies Section
+    4. Testimonial Section
+    5. Contact Section
+    6. Award Section
+    7. Social Section
+*/
+
+/* 0. General (Buttons, Links, Icons, Paragraph) */
+.cs__paragraph-text {
+    color: var(--medium-black);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.cs__tag {
+    background-color: #FDECE6;
+    padding: 5px 18px;
+    color: var(--medium-black);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.cs__fill-btn,
+.cs__fillwhite-btn {
+    color: var(--white) !important;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
+    background-color: var(--orange);
+    padding: 15px 30px;
+    transition: all 0.3s ease-in-out !important;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    text-decoration: unset;
+    overflow: hidden;
+}
+
+.cs__fill-btn:hover {
+    background-color: var(--medium-black);
+    color: var(--white) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fill-btn:hover img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(101%) contrast(103%);
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fill-bgwhitebtn:hover {
+    background-color: var(--white);
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fill-bgwhitebtn:hover {
+    color: var(--medium-black) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fill-bgwhitebtn:hover img {
+    filter: brightness(0) saturate(100%) invert(10%) sepia(24%) saturate(63%) hue-rotate(314deg) brightness(98%) contrast(92%);
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fill-btn span {
+    padding-right: 10px;
+    position: relative;
+}
+
+.cs__fill-btn img {
+    position: relative;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.cs__fillwhite-btn {
+    color: var(--orange) !important;
+    background-color: var(--white);
+}
+
+.cs__subtitle {
+    color: var(--orange);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.cs__fillwhite-btn img {
+    filter: brightness(0) saturate(100%) invert(46%) sepia(71%) saturate(1924%) hue-rotate(344deg) brightness(96%) contrast(93%);
+}
+
+.cs__outlint-btn {
+    color: var(--medium-black);
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid var(--medium-black);
+    border-radius: 100px;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.cs__outlint-btn:hover {
+    background-color: var(--medium-black);
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.cs__link:before {
+    content: '';
+    position: absolute;
+    background-color: var(--orange);
+    width: 100%;
+    height: 1px;
+    bottom: -6px;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.cs__link:hover:before {
+    bottom: -2px;
+    transition: 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.cs__blog-link {
+    color: var(--orange);
+    font-weight: 600;
+    border-bottom: 1px solid var(--orange);
+    transition: all 0.2s ease-in-out;
+}
+
+.cs__blog-link:hover {
+    color: var(--midum-black);
+    border-color: var(--midum-black);
+}
+
+/* 1. Top Button */
+.cs__top-button {
+    position: fixed;
+    right: -40px;
+    bottom: 85px;
+    transform: rotate(270deg);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 99;
+}
+
+.cs__scroll-down.cs__top-button {
+    opacity: 1;
+    bottom: 110px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cs__top-button .cs__fill-btn span {
+    transform: rotate(180deg);
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.cs__top-button .cs__fill-btn {
+    background-color: var(--medium-black);
+}
+
+.cs__top-button .cs__fill-btn:hover img {
+    transition: unset;
+    filter: unset;
+}
+
+/* 2. Company Details Section */
+.cs__details-block h3,
+.cs__details-block span {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 0 16px;
+}
+
+.cs__details-block span {
+    margin: 0;
+    line-height: normal;
+}
+
+.cs__company-details p {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 8px 0 0;
+}
+
+.cs__company-details {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--medium-black);
+    padding: 68px 0;
+}
+
+.cs__company-details:before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 200px 200px 0 0;
+    border-color: #ed632b transparent transparent transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cs__company-details:after {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #ED632B transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cs__company-details .container {
+    z-index: 1;
+}
+
+.cs__details-block .cs__img-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.cs__details-block .cs__img-block {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+}
+
+.cs__details-block {
+    padding-left: 65px;
+}
+
+.cs__counter-block {
+    min-height: 68px;
+    line-height: 68px;
+}
+
+.cs__company-inner>div:first-child .cs__img-block {
+    left: 132px;
+}
+
+.cs__company-inner>div:first-child .cs__details-block {
+    padding-left: 68px;
+}
+
+/* 3. Technologies Section */
+.cs__technologies-block button {
+    font-size: 26px;
+    color: var(--black);
+    padding: 14px 53px;
+}
+
+.cs__technologies-block .nav-tabs .nav-link {
+    transition: all 0.2s ease-in-out;
+}
+
+.cs__technologies-block .nav-tabs {
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.cs__technologies-block .cs__tech-block {
+    padding: 26px 32px;
+}
+
+.cs__technologies-block .tab-pane p {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--black);
+    margin: 8px 0 0;
+}
+
+.cs__technologies-block .nav-tabs .nav-link:before {
+    content: '';
+    position: absolute;
+    background-color: var(--orange);
+    height: 4px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.cs__technologies-block .nav-tabs .nav-link.active:before {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.cs__technologies-block .nav-tabs .nav-link.active {
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.cs__technologies-block .nav-tabs .nav-link:hover {
+    color: var(--orange);
+}
+
+.cs__technologies-block .tab-content {
+    margin: 30px 0 0;
+}
+
+.cs__technologies-block {
+    margin: 40px 0 0;
+}
+
+.cs__technologies-sec {
+    padding: 60px 0;
+}
+
+.cs__tech-block-wrapper,
+.cs__tech-block-wrapper .cs__tech-block {
+    position: relative;
+}
+
+.cs__tech-block-wrapper:after,
+.cs__tech-block-wrapper:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(255, 255, 255, 0) 50%, #fff 100%);
+    background-image: linear-gradient(to top, #fff 0%, rgba(255, 255, 255, 0) 50%, #fff 100%);
+    z-index: 1;
+}
+
+.cs__tech-block-wrapper:before {
+    background-image: -webkit-linear-gradient(left, #fff 0%, rgba(255, 255, 255, 0) 50%, #fff 100%);
+    background-image: linear-gradient(right, #fff 0%, rgba(255, 255, 255, 0) 50%, #fff 100%);
+}
+
+.cs__tech-block-wrapper .cs__tech-block:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-right: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+
+.cs__tech-logowrap {
+    position: relative;
+    z-index: 2;
+}
+
+.cs__tech-logowrap .cs__img-block {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cs__tech-logowrap .cs__img-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 4. Testimonial Section */
+.cs__testimonial-slider {
+    padding: 70px 11px 55px;
+}
+
+.cs__testimonial-sec {
+    background-color: var(--light-pink);
+    padding: 60px 0;
+}
+
+.cs__testimonial-inner H3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.cs__testimonial-inner {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 0px;
+    border-radius: 20px;
+    padding: 20px 30px 78px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.cs__client-img {
+    border: 4px solid #ED632B;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    position: relative;
+    text-align: center;
+    margin: -75px auto 0;
+    background-color: #fadbcf;
+}
+
+.cs__client-img img {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cs__rating-block {
+    margin: 8px 0;
+}
+
+.cs__testimonial-inner p {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 16px;
+}
+
+.cs__client-info {
+    background-color: var(--orange);
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 23px 16px;
+}
+
+.cs__client-info h6 {
+    font-size: 22px;
+    text-align: left;
+    max-width: 50%;
+}
+
+.cs__client-info p {
+    margin-bottom: 0;
+}
+
+.cs__testimonial-sec .swiper-button-next {
+    right: -45px;
+}
+
+.cs__testimonial-sec .swiper-button-prev {
+    left: -45px;
+}
+
+.cs__testimonial-sec .swiper-button-next,
+.cs__testimonial-sec .swiper-button-prev {
+    background-color: var(--medium-black);
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    position: absolute;
+    top: 67%;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.cs__testimonial-sec .swiper-button-next:hover,
+.cs__testimonial-sec .swiper-button-prev:hover {
+    background-color: var(--orange);
+    transition: all 0.2s ease-in-out;
+}
+
+.cs__testimonial-sec .swiper-button-next:after,
+.cs__testimonial-sec .swiper-button-prev:after {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cs__testimonial-sec .swiper-slide {
+    height: auto;
+}
+
+.cs__testimonial-sec .swiper-paginationtest {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0 !important;
+    position: absolute;
+    text-align: center;
+}
+
+.cs__testimonial-sec .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid #F7BEA7;
+    opacity: 1 !important;
+    z-index: 1;
+    position: relative;
+}
+
+.cs__testimonial-sec .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+.cs__client-info span {
+    padding-left: 5px;
+    text-align: left;
+}
+
+/* 5. Contact Section */
+.cs__contact-sec:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cs__contact-sec {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cs__contact-info,
+.cs__contact-form {
+    background-color: var(--white);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding: 30px;
+}
+
+.cs__contact-info h6 {
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+}
+
+.cs__contact-info .cs__img-block {
+    background-color: var(--orange);
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.cs__contact-info .cs__desc {
+    width: calc(100% - 60px);
+    padding: 0 0 0 16px;
+}
+
+.cs__contact-info .cs__desc p {
+    color: var(--medium-black);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.cs__contact-info {
+    height: 100%;
+}
+
+.cs__map-block iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.cs__map-block {
+    height: calc(100% - 214px);
+    border-radius: 12px;
+    border: 2px solid #D6D6D6;
+    width: 100%;
+}
+
+.cs__contact-info .cs__title-wrap {
+    margin: 0 0 24px;
+}
+
+.cs__contact-form h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cs__contact-form label {
+    color: #38414A;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    padding: 0 0 8px;
+    width: 100%;
+}
+
+.cs__contact-form label span {
+    color: #D80027;
+}
+
+.cs__contact-form input,
+.cs__contact-form textarea {
+    border: 1px solid #D6D6D6;
+    height: 44px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 0 8px;
+    color: var(--medium-black);
+    text-align: left;
+}
+
+.cs__contact-form input::placeholder,
+.cs__contact-form textarea::placeholder {
+    color: #D2D2D2;
+}
+
+.cs__contact-form textarea {
+    height: auto;
+    color: #D2D2D2;
+    padding: 8px;
+}
+
+.cs__contact-inner>div:first-child {
+    margin: 0 0 30px;
+}
+
+.cs__contact-form .cs__input-wrap {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.cs__contact-link a {
+    color: var(--orange);
+}
+
+.cs__contact-link {
+    margin: 30px 0 0;
+    font-size: 30px;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+/* 6. Award Section */
+.cs__award-wrap .cs__img-block img {
+    max-width: 100%;
+}
+
+.cs__award-sec {
+    padding: 30px 0;
+}
+
+.cs__award-wrap {
+    padding: 0 24px;
+}
+
+/* 7. Social Section */
+.cs__social-sec {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 7;
+    transform: translateY(-50%) !important;
+}
+
+.cs__social-block {
+    padding: 10px 16px;
+    border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    font-size: 18px;
+    transition: all 1s;
+    justify-content: flex-end;
+    margin: 10px 0 0 -140px;
+    transform: translateX(0px);
+}
+
+.cs__social-block:hover {
+    transform: translateX(132px);
+    transition: all 1s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.cs__social-block p {
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0;
+    font-size: 22px;
+    text-align: right;
+}
+
+.cs__social-icon {
+    background-color: #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 0 0 16px;
+}
+
+.cs__social-block:hover .cs__social-icon img {
+    transition: all 1s;
+}
+
+.cs__social-block:hover .cs__social-icon img {
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.cs__facebook {
+    background-color: #3A559F;
+}
+
+.cs__insta {
+    background-color: #FF3777;
+}
+
+.cs__skype {
+    background-color: #03A9F4;
+}
+
+.cs__linkedin {
+    background-color: #0B69C7;
+}

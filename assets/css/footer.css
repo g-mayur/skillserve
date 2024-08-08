@@ -16,9 +16,9 @@ footer {
     padding: 14px 10px;
 }
 .cs__footer-menu li a {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
-    line-height: 36px;
+    line-height: 32px;
 }
 .cs__footer-menu > div:not(:last-child) {
     border-right: 1px solid rgba(255, 255, 255,0.2);
@@ -27,7 +27,7 @@ footer {
    padding-left: 26px;
 }
 .cs__footer-menu h6 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 20px;
