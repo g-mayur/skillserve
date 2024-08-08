@@ -15,64 +15,12 @@
 .cs__hero-sec p {
     line-height: 36px;
 }
-.cs__hero-borromsec {
+.cs__hero-bottomsec {
     position: absolute;
     bottom: -195px;
     width: 100%;
 }
-/* Responsive : Style Start */
-@media (max-width:1650px){
-    .cs__hexa-img img {
-        max-width: 95%;
-    }
-}
-@media (max-width:1199.98px){
-    .cs__hero-borromsec {
-        bottom: -108px;
-    }
-}
-@media (max-width:991.98px){
-    .cs__hero-wrap .cs__img-block img {
-        max-width: 450px;
-    }
-    .cs__hero-wrap .cs__img-block {
-        text-align: center;
-    }
-    .cs__hero-sec h2{
-        font-size: 32px;
-        line-height: 40px;
-    }
-    .cs__hero-sec .row {
-        flex-direction: column-reverse;
-    }
-    .cs__hexa-img img {
-        max-width: 80%;
-    }
-    .cs__hexa-img {
-        top: auto;
-        bottom: 0;
-    }
-}
-@media (max-width:767.98px){
-    .cs__hexa-img img {
-        max-width: 100%;
-    }
-    .cs__hero-borromsec {
-        bottom: -62px;
-    }
-    .cs__hero-sec {
-        padding: 30px 0 0;
-    }
-    .cs__hero-sec p {
-        line-height: 26px;
-    }
-}
-@media (max-width: 360.98px){
-    .cs__hero-borromsec {
-        bottom: -52px;
-    }
-}
-/* Responsive : Style End */
+
 /* Hero Section: Style End */
 /* Service Block : Style Start */
 .cs__service-block {
@@ -93,32 +41,7 @@
 .cs__service-block h4 {
     color: var(--orange);
 }
-/* responsive : Style Start */
-@media(max-width:1399px){
-    .cs__service-block{
-        padding: 24px;
-    }
-}
-@media (max-width: 1199px){
-    .cs__service-block p{
-        font-size: 18px;
-    }
-    .cs__service-block img {
-        max-width: 40px;
-    }
-    .cs__service-block h4 {
-        font-size: 30px;
-    }
-    .cs__service-block p {
-        margin-top: 0 !important;
-    }
-}
-@media (max-width:767px){
-    .cs__service-block h4 {
-        font-size: 24px;
-    }
-}
-/* responsive : Style End */
+
 /* Service Block : Style End */
 
 /* For Your Business : Style Start */
@@ -163,25 +86,7 @@
     left: auto;
     bottom: auto;
 }
-@media (max-width:991.98px){
-    .cs__business-sec {
-        padding: 90px 0 30px;
-    }
-    .cs__topimg-block {
-        top: -10px;
-    }
-}
-@media (max-width:767.98px){
-    .cs__partner-block {
-        padding: 15px 20px;
-    }
-    .cs__business-sec {
-        padding: 0 0 10px;
-    }
-    .cs__business-sec:before, .cs__business-sec:after {
-        border-width: 0 120px 170px 120px;
-    }
-}
+
 /* For Your Business : Style End */
 /* DevOps Consulting : Style Start */
 .cs__consulting-desc p.cs__titlesub-text {
@@ -276,44 +181,7 @@
     background-image: url(../images/onsulting-servive-bg-right.png);
     background-position: center left;
 }
-/* Responsive css start */
-@media (max-width: 1199px){
-}
-@media (max-width: 991.98px){
-    .cs__consulting-inner .cs__img-block {
-        margin: 0 auto;
-        text-align: center !important;
-    }
-    .cs__consulting-inner > div {
-        margin: 0 0 40px;
-    }
-    .cs__consulting-desc {
-        margin: 26px 0 0;
-    }
-    .cs__consulting-inner {
-        padding: 20px 0;
-    }
-    .cs__consulting-sec {
-        padding: 40px 0 0;
-    }
-    .cs__consulting-desc .cs__service-no {
-        top: -125px;
-        font-size: 150px;
-    }
-}
-@media (max-width:767.98px){
-    .cs__consulting-desc p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .cs__consulting-inner .cs__img-block {
-        height: 350px;
-    }
-    .cs__consulting-desc p:before{
-        top: 5px;
-    }
-}
-/* Responsive css end */
+
 /* DevOps Consulting : Style End */
 /* Soluation Block : Style Start */
 .cs__solution-sec {
@@ -327,21 +195,7 @@
     bottom: 0;
     opacity: 0.15 !important;
 }
-/* responsive : Style start */
-@media (max-width:991px){
-    .cs__solution-sec {
-        padding: 40px 0;
-    }
-}
-@media (max-width: 767px){
-    .cs__solution-bg {
-        bottom: auto;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%) !important;
-    }
-}
-/* responsive : Style End */
+
 /* Soluation Block : Style End */
 /* Result Block : Style Start */
 .cs__result-sec {
@@ -363,19 +217,7 @@
 .cs__result-sec .cs__img-block img {
     max-width: 450px;
 }
-@media (max-width:991.98px){
-    .cs__result-sec {
-        padding: 40px 0;
-    }
-    .cs__result-sec .cs__img-block {
-        text-align: center;
-    }
-}
-@media (max-width:767.98px){
-    .cs__result-sec .cs__img-block:before {
-        content: none;
-    }
-}
+
 /* Result Block : Style End */
 /* Project Section: Style Start */
 .cs__project-sec {
@@ -392,20 +234,7 @@
 .cs__aboutcolum-content p{
     column-count: 2;
 }
-/* Responsive : Style Start */
-@media (max-width: 991.98px){
-    .cs__project-sec p {
-        font-size: 22px;
-        line-height: 36px;
-    }
-    .cs__project-sec{
-        margin: 0 0 40px;
-    }
-    .cs__aboutcolum-content p{
-        column-count: 1;
-    }
-}
-/* Responisve : Style End */
+
 /* Project Section: Style End */
 /* Portfolio Section: Style Start */
 
@@ -476,25 +305,4 @@
 .cs__profile-sec{
     padding: 0 0 48px;
 }
-/* Responsive : Style Start */
-@media (max-width:991.98px){
-    .cs__profile-sec {
-        padding: 0 0 20px;
-    }
-}
-@media (max-width:767.98px){
-    .cs__portfolio-txt h4 {
-        font-size: 20px;
-    }
-    .cs__portfolio-txt{
-        padding: 0 16px;
-    }
-    .cs__protfolio-inner:hover .cs__portfolio-txt {
-        transform: translateY(-16px);
-    }
-    .cs__portfolio-txt img {
-        max-width: 32px;
-    }
-}
-/* Responsive : Style End */
 /* Portfolio Section: Style End */
