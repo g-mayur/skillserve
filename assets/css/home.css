@@ -12,9 +12,6 @@
 .cs__hero-sec h2{
     font-weight: 600;
 }
-.cs__hero-sec p {
-    line-height: 36px;
-}
 .cs__hero-bottomsec {
     position: absolute;
     bottom: -195px;

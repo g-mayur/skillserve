@@ -41,38 +41,24 @@ body::-webkit-scrollbar-thumb {
 h2,
 .h1,
 h1 {
-    font-size: 48px;
     font-weight: 700;
-    line-height: 62px;
     color: var(--medium-black);
 }
 
 .h3,
 h3 {
-    font-size: 36px;
     font-weight: 600;
-    line-height: 42px;
 }
 
 .h4,
 h4 {
-    font-size: 32px;
-    line-height: 56px;
     font-weight: 600;
 }
 
 .h5,
 h5 {
-    font-size: 28px;
     font-weight: 600;
-    line-height: 36px;
 }
-
-.h6,
-h6 {
-    font-size: 26px;
-}
-
 li {
     list-style: none;
 }
