@@ -13,8 +13,8 @@
 .cs__paragraph-text {
     color: var(--medium-black);
     font-weight: 400;
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .cs__tag {
@@ -488,6 +488,7 @@
 
 .cs__testimonial-sec .swiper-slide {
     height: auto;
+    overflow: visible;
 }
 
 .cs__testimonial-sec .swiper-paginationtest {

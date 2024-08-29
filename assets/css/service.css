@@ -17,9 +17,6 @@
 .cs__hero-sec h2{
     font-weight: 600;
 }
-.cs__hero-sec p {
-    line-height: 36px;
-}
 .cs__hero-bottomsec {
     position: absolute;
     bottom: -195px;
@@ -66,13 +63,13 @@
     transform: rotate(179deg);
 }
 .cs__consulting-desc h4 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 40px;
 }
 .cs__consulting-desc p {
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 32px;
 }
 .cs__consulting-desc .cs__service-no {
     position: absolute;
@@ -212,8 +209,8 @@
     margin: 40px 0 0;
 }
 .cs__soluation-bottomsec p {
-    font-size: 36px;
-    line-height: 56px;
+    font-size: 28px;
+    line-height: 40px;
     font-weight: 600;
     margin: 0 0 26px;
 }
@@ -254,8 +251,8 @@
 }
 .cs__faq-sec .accordion-body p,
 .cs__faq-sec .accordion-body li {
-    font-size: 22px;
-    line-height: 44px;
+    font-size: 20px;
+    line-height: 32px;
 }
 .cs__faq-sec .accordion-body {
     padding: 0;

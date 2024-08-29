@@ -12,9 +12,6 @@
 .cs__hero-sec h2{
     font-weight: 600;
 }
-.cs__hero-sec p {
-    line-height: 36px;
-}
 .cs__hero-bottomsec {
     position: absolute;
     bottom: -195px;
@@ -85,10 +82,6 @@ column-count: 2;
     z-index: 1;
     padding: 40px 40px 40px 0;
 }
-.cs__mv-sec p {
-    font-size: 22px;
-    line-height: 38px;
-}
 .cs__mv-sec .cs__img-block img {
     max-width: 400px;
     margin: 0 auto;
@@ -109,10 +102,6 @@ column-count: 2;
 .cs__corevalue-details h4 {
     color: var(--orange);
     margin: 0 0 0 18px;
-}
-.cs__corevalue-details p {
-    font-size: 22px;
-    line-height: 44px;
 }
 .cs__corevalue-details {
     padding: 30px;
@@ -138,8 +127,8 @@ column-count: 2;
     padding: 30px 0;
 }
 .cs__project-sec p {
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 500;
     margin: 26px 0;
 }

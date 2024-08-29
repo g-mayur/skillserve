@@ -99,12 +99,6 @@
     .cs__hero-wrap {
         margin-bottom: 140px;
     }
-
-    .cs__corevalue-details p {
-        font-size: 20px;
-        line-height: 32px;
-    }
-
     .cs__corevalue-details img {
         width: 45px;
         height: 45px;
@@ -657,29 +651,6 @@
         font-size: 16px;
         line-height: 28px;
     }
-
-    .h2,
-    h2,
-    .h1,
-    h1 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .h4,
-    h4,
-    .h3,
-    h3 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    .h5,
-    h5 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
     .cs__fill-btn,
     .cs__fillwhite-btn {
         padding: 15px 20px;
@@ -885,11 +856,6 @@
     .cs__mv-sec .cs__content-block {
         margin: 0 -20px;
         padding: 28px 20px;
-    }
-
-    .cs__mv-sec p {
-        font-size: 16px;
-        line-height: 26px;
     }
 
     .cs__partner-block {
@@ -1174,15 +1140,12 @@
         padding: 5px 16px;
         font-size: 16px;
     }
-
     .cs__testimonial-inner {
         padding: 20px 10px 140px;
     }
-
     .cs__hero-bottomsec {
         bottom: -52px;
     }
-
     .cs__soluation-bottomsec .cs__fill-btn,
     .cs__soluation-bottomsec .cs__fillwhite-btn {
         padding: 15px 12px;
