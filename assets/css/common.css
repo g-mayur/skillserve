@@ -13,8 +13,8 @@
 .cs__paragraph-text {
     color: var(--medium-black);
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .cs__tag {
