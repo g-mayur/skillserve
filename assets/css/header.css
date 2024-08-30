@@ -407,11 +407,11 @@ header.cs__animated-header.slide-down {
     }
     /* accordion css start */
     header .accordion-item button {
-        padding: 4px 0;
+        padding: 12px 0;
         color: var(--medium-black);
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 14px;
         background-color: transparent;
     }
     header .accordion-item {
@@ -433,12 +433,12 @@ header.cs__animated-header.slide-down {
         filter: brightness(0) saturate(100%) invert(42%) sepia(97%) saturate(1233%) hue-rotate(344deg) brightness(96%) contrast(93%);
     }
     header .accordion-body li {
-        padding: 8px 0 8px 18px;
+        padding: 6px 0 6px 18px;
         position: relative;
     }
     header .accordion-body li a {
         color: var(--medium-black);
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
     }
     .cs__tech-list h6 {
@@ -458,7 +458,7 @@ header.cs__animated-header.slide-down {
         border-radius: 100px;
         -webkit-border-radius: 100px;
         left: 0;
-        top: 16px;
+        top: 14px;
     }
     header .accordion-button::after {
         background-image: url(../images/down-arrow.svg) !important;
