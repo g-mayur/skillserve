@@ -78,34 +78,35 @@
     .cs__company-inner>div:first-child .cs__img-block {
         left: 80px;
     }
-
     .cs__contact-info .cs__desc p {
-        font-size: 15px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
-
     .cs__award-wrap {
         padding: 0;
     }
-
     .cs__portfolio-tab .nav-tabs .nav-link {
         padding: 5px 35px;
     }
-
     .cs__hero-sec p {
         max-width: 100%;
     }
-
+    .cs__business-sec.cs__workbusiness-sec {
+        padding: 24px 0 60px;
+    }
     .cs__hero-wrap {
         margin-bottom: 140px;
     }
+    .cs__hero-wrap.cs__workhero-wrap {
+        margin-bottom: 0;
+    }
     .cs__corevalue-details img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .cs__corevalue-details h4 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .cs__corevalue-details .cs__title-wrap {
@@ -323,10 +324,15 @@
         padding: 40px 0;
     }
 
-    .cs__service-block {
+    .cs__service-block { 
         border-right: 1px solid #E4D9D4;
     }
-
+    .cs__workservice-sec .cs__service-block{
+        border-right: 0;
+    }
+   .cs__workhero-wrap .cs__hero-sec {
+        padding: 62px 0 12px;
+    }
     .cs__service-block:nth-child(3),
     .cs__service-block:nth-child(6) {
         border-right: 0;
@@ -387,8 +393,8 @@
     }
 
     .cs__project-sec p {
-        font-size: 22px;
-        line-height: 36px;
+        font-size: 18px;
+        line-height: 30px;
     }
 
     .cs__corevalue-sec {
@@ -520,7 +526,8 @@
     }
 
     .cs__bloglist-sec button {
-        font-size: 22px;
+        padding: 14px 24px;
+        font-size: 20px;
     }
 
     .cs__bloglist-sec .nav-tabs {
@@ -626,6 +633,9 @@
     .cs__reachout-wrap {
         padding: 100px 0 40px;
     }
+    .cs__bloglist-sec {
+        padding: 0px 0 40px;
+    }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -646,7 +656,9 @@
     .container {
         padding: 0 20px;
     }
-
+    .cs__workhero-wrap .cs__hero-sec {
+        padding: 40px 0 0;
+    }
     .cs__mobile-content {
         font-size: 16px;
         line-height: 28px;
@@ -823,7 +835,10 @@
     .cs__service-block:nth-child(odd) {
         border-right: 1px solid #E4D9D4 !important;
     }
-
+    .cs__workservice-sec .cs__service-block:nth-child(odd){
+        border-right: 0 !important;
+    }
+    
     .cs__service-block:nth-last-child(-n+2) {
         border-bottom: 0 !important;
     }
@@ -834,10 +849,6 @@
 
     .cs__hero-sec {
         padding: 30px 0 0;
-    }
-
-    .cs__hero-sec p {
-        line-height: 26px;
     }
 
     .cs__corevalue-wrap>div {
@@ -865,7 +876,9 @@
     .cs__business-sec {
         padding: 70px 0 10px;
     }
-
+    .cs__business-sec.cs__workbusiness-sec {
+        padding: 10px 0;
+    }
     .cs__who-wrap {
         padding: 70px 0 20px;
     }
@@ -894,7 +907,7 @@
 
     .cs__soluation-inner h4,
     .cs__consulting-desc h4 {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 32px;
     }
 
@@ -923,8 +936,8 @@
     }
 
     .cs__soluation-bottomsec p {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 34px;
     }
 
     .cs__soluation-bottomsec {
@@ -948,8 +961,8 @@
     }
 
     .cs__faq-sec .accordion-button h6 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 32px;
     }
 
     .cs__details-inner {
@@ -957,8 +970,8 @@
     }
 
     .cs__lowcode-banifitlist-wrap p {
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
 
     .cs__lowcodeapp-v1 .cs__lowcodeapp-block {
@@ -986,12 +999,6 @@
     .cs__microsoft-inner p {
         font-size: 16px;
         line-height: 26px;
-    }
-
-    .cs__lowcode-inner h3,
-    .cs__microsoft-inner h4 {
-        font-size: 22px;
-        line-height: 30px;
     }
 
     .cs__microsoft-wrap .cs__microsoft-inner {
@@ -1078,12 +1085,14 @@
     .cs__hero-bottomsec {
         bottom: -62px;
     }
-
     .cs__reachout-wrap {
         padding: 70px 0 40px;
     }
+    .cs__subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
-
 @media (max-width:600.98px) {
     .cs__technologies-block .nav-tabs {
         flex-wrap: nowrap;

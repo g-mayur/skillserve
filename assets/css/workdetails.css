@@ -12,9 +12,6 @@
 .cs__hero-sec h2{
     font-weight: 600;
 }
-.cs__hero-sec p {
-    line-height: 36px;
-}
 .cs__hero-bottomsec {
     position: absolute;
     bottom: -195px;
@@ -114,8 +111,6 @@
     line-height: 56px;
 }
 .cs__consulting-desc p {
-    font-size: 22px;
-    line-height: 40px;
     position: relative;
     padding: 0 0 0 30px;
 }
@@ -226,8 +221,8 @@
     margin: 0 0 60px;
 }
 .cs__project-sec p {
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 500;
     margin: 26px 0;
 }
